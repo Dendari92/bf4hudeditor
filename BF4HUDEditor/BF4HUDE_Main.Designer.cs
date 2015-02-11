@@ -31,155 +31,130 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.MiscOpa_textBox = new System.Windows.Forms.TextBox();
+            this.KillLogOpa_textBox = new System.Windows.Forms.TextBox();
+            this.OccuOpa_textBox = new System.Windows.Forms.TextBox();
+            this.StatusOpa_textBox = new System.Windows.Forms.TextBox();
+            this.InvOpa_textBox = new System.Windows.Forms.TextBox();
+            this.HUDSize_textBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.trackBar6 = new System.Windows.Forms.TrackBar();
-            this.trackBar1 = new System.Windows.Forms.TrackBar();
+            this.MiscOpa_trackBar = new System.Windows.Forms.TrackBar();
+            this.HUDSize_trackBar = new System.Windows.Forms.TrackBar();
             this.label6 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.trackBar5 = new System.Windows.Forms.TrackBar();
-            this.trackBar2 = new System.Windows.Forms.TrackBar();
+            this.KillLogOpa_trackBar = new System.Windows.Forms.TrackBar();
+            this.InvOpa_trackBar = new System.Windows.Forms.TrackBar();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.trackBar4 = new System.Windows.Forms.TrackBar();
-            this.trackBar3 = new System.Windows.Forms.TrackBar();
+            this.OccuOpa_trackBar = new System.Windows.Forms.TrackBar();
+            this.StatusOpa_trackBar = new System.Windows.Forms.TrackBar();
             this.label4 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.trackBar8 = new System.Windows.Forms.TrackBar();
-            this.label9 = new System.Windows.Forms.Label();
-            this.trackBar10 = new System.Windows.Forms.TrackBar();
-            this.label11 = new System.Windows.Forms.Label();
-            this.trackBar11 = new System.Windows.Forms.TrackBar();
-            this.trackBar12 = new System.Windows.Forms.TrackBar();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.trackBar7 = new System.Windows.Forms.TrackBar();
-            this.label14 = new System.Windows.Forms.Label();
-            this.trackBar9 = new System.Windows.Forms.TrackBar();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.trackBar13 = new System.Windows.Forms.TrackBar();
-            this.trackBar14 = new System.Windows.Forms.TrackBar();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.trackBar15 = new System.Windows.Forms.TrackBar();
-            this.trackBar16 = new System.Windows.Forms.TrackBar();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.trackBar17 = new System.Windows.Forms.TrackBar();
-            this.trackBar18 = new System.Windows.Forms.TrackBar();
-            this.label19 = new System.Windows.Forms.Label();
-            this.trackBar19 = new System.Windows.Forms.TrackBar();
-            this.label20 = new System.Windows.Forms.Label();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.trackBar20 = new System.Windows.Forms.TrackBar();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.trackBar21 = new System.Windows.Forms.TrackBar();
-            this.trackBar22 = new System.Windows.Forms.TrackBar();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.trackBar23 = new System.Windows.Forms.TrackBar();
-            this.trackBar24 = new System.Windows.Forms.TrackBar();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.trackBar25 = new System.Windows.Forms.TrackBar();
-            this.trackBar26 = new System.Windows.Forms.TrackBar();
-            this.label27 = new System.Windows.Forms.Label();
-            this.trackBar27 = new System.Windows.Forms.TrackBar();
-            this.label28 = new System.Windows.Forms.Label();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.trackBar28 = new System.Windows.Forms.TrackBar();
-            this.label29 = new System.Windows.Forms.Label();
-            this.trackBar29 = new System.Windows.Forms.TrackBar();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.trackBar30 = new System.Windows.Forms.TrackBar();
-            this.trackBar31 = new System.Windows.Forms.TrackBar();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.trackBar32 = new System.Windows.Forms.TrackBar();
-            this.trackBar33 = new System.Windows.Forms.TrackBar();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.trackBar34 = new System.Windows.Forms.TrackBar();
-            this.trackBar35 = new System.Windows.Forms.TrackBar();
-            this.label36 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.textBox26 = new System.Windows.Forms.TextBox();
-            this.textBox27 = new System.Windows.Forms.TextBox();
-            this.textBox28 = new System.Windows.Forms.TextBox();
-            this.textBox29 = new System.Windows.Forms.TextBox();
-            this.textBox30 = new System.Windows.Forms.TextBox();
-            this.textBox31 = new System.Windows.Forms.TextBox();
-            this.textBox32 = new System.Windows.Forms.TextBox();
-            this.textBox33 = new System.Windows.Forms.TextBox();
-            this.textBox34 = new System.Windows.Forms.TextBox();
-            this.textBox35 = new System.Windows.Forms.TextBox();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
             this.label45 = new System.Windows.Forms.Label();
             this.label46 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
+            this.MapIconSize_textBox = new System.Windows.Forms.TextBox();
+            this.MapIconOpa_textBox = new System.Windows.Forms.TextBox();
+            this.MapBackOpa_textBox = new System.Windows.Forms.TextBox();
+            this.MapSize_textBox = new System.Windows.Forms.TextBox();
+            this.MapRotate_checkBox = new System.Windows.Forms.CheckBox();
+            this.IconAutoScale_checkBox = new System.Windows.Forms.CheckBox();
+            this.MapDefaultScale_comboBox = new System.Windows.Forms.ComboBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.MapSize_trackBar = new System.Windows.Forms.TrackBar();
+            this.label9 = new System.Windows.Forms.Label();
+            this.MapBackOpa_trackBar = new System.Windows.Forms.TrackBar();
+            this.label11 = new System.Windows.Forms.Label();
+            this.MapIconSize_trackBar = new System.Windows.Forms.TrackBar();
+            this.MapIconOpa_trackBar = new System.Windows.Forms.TrackBar();
+            this.label12 = new System.Windows.Forms.Label();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label47 = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
-            this.label49 = new System.Windows.Forms.Label();
-            this.label50 = new System.Windows.Forms.Label();
-            this.label51 = new System.Windows.Forms.Label();
-            this.label52 = new System.Windows.Forms.Label();
+            this.HitOpa_textBox = new System.Windows.Forms.TextBox();
+            this.HitSize_textBox = new System.Windows.Forms.TextBox();
+            this.DmgBasedShape_checkBox = new System.Windows.Forms.CheckBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.HitSize_trackBar = new System.Windows.Forms.TrackBar();
+            this.label14 = new System.Windows.Forms.Label();
+            this.HitOpa_trackBar = new System.Windows.Forms.TrackBar();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.label56 = new System.Windows.Forms.Label();
             this.label53 = new System.Windows.Forms.Label();
             this.label54 = new System.Windows.Forms.Label();
-            this.label56 = new System.Windows.Forms.Label();
-            this.label55 = new System.Windows.Forms.Label();
-            this.label57 = new System.Windows.Forms.Label();
-            this.label58 = new System.Windows.Forms.Label();
-            this.label59 = new System.Windows.Forms.Label();
-            this.label60 = new System.Windows.Forms.Label();
-            this.label61 = new System.Windows.Forms.Label();
+            this.label51 = new System.Windows.Forms.Label();
+            this.label52 = new System.Windows.Forms.Label();
+            this.label49 = new System.Windows.Forms.Label();
+            this.label50 = new System.Windows.Forms.Label();
+            this.CommonGadgetOpaZoom_textBox = new System.Windows.Forms.TextBox();
+            this.CommonPickupOpaZoom_textBox = new System.Windows.Forms.TextBox();
+            this.CommonInterOpaZoom_textBox = new System.Windows.Forms.TextBox();
+            this.CommonObjOpaZoom_textBox = new System.Windows.Forms.TextBox();
+            this.CommonIconOpa_textBox = new System.Windows.Forms.TextBox();
+            this.CommonScale_textBox = new System.Windows.Forms.TextBox();
+            this.CommonSize_textBox = new System.Windows.Forms.TextBox();
+            this.CommonGadgetOpaZoom_trackBar = new System.Windows.Forms.TrackBar();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.CommonPickupOpaZoom_trackBar = new System.Windows.Forms.TrackBar();
+            this.CommonSize_trackBar = new System.Windows.Forms.TrackBar();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.CommonInterOpaZoom_trackBar = new System.Windows.Forms.TrackBar();
+            this.CommonScale_trackBar = new System.Windows.Forms.TrackBar();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.CommonObjOpaZoom_trackBar = new System.Windows.Forms.TrackBar();
+            this.CommonIconOpa_trackBar = new System.Windows.Forms.TrackBar();
+            this.label19 = new System.Windows.Forms.Label();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.label62 = new System.Windows.Forms.Label();
             this.label63 = new System.Windows.Forms.Label();
+            this.label60 = new System.Windows.Forms.Label();
+            this.label61 = new System.Windows.Forms.Label();
+            this.label58 = new System.Windows.Forms.Label();
+            this.label59 = new System.Windows.Forms.Label();
+            this.label55 = new System.Windows.Forms.Label();
+            this.label57 = new System.Windows.Forms.Label();
+            this.EnemyInfoOpaZoom_textBox = new System.Windows.Forms.TextBox();
+            this.EnemyInfoOpa_textBox = new System.Windows.Forms.TextBox();
+            this.EnemyHealthOpaZoom_textBox = new System.Windows.Forms.TextBox();
+            this.EnemyHealthOpa_textBox = new System.Windows.Forms.TextBox();
+            this.EnemyIconOpaZoom_textBox = new System.Windows.Forms.TextBox();
+            this.EnemyIconOpa_textBox = new System.Windows.Forms.TextBox();
+            this.EnamyScale_textBox = new System.Windows.Forms.TextBox();
+            this.EnemySize_textBox = new System.Windows.Forms.TextBox();
+            this.FieldUpArmorIcon_checkBox = new System.Windows.Forms.CheckBox();
+            this.EnemyInfoOpaZoom_trackBar = new System.Windows.Forms.TrackBar();
+            this.label28 = new System.Windows.Forms.Label();
+            this.EnemyInfoOpa_trackBar = new System.Windows.Forms.TrackBar();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.EnemyHealthOpaZoom_trackBar = new System.Windows.Forms.TrackBar();
+            this.EnemySize_trackBar = new System.Windows.Forms.TrackBar();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.EnemyHealthOpa_trackBar = new System.Windows.Forms.TrackBar();
+            this.EnamyScale_trackBar = new System.Windows.Forms.TrackBar();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.EnemyIconOpaZoom_trackBar = new System.Windows.Forms.TrackBar();
+            this.EnemyIconOpa_trackBar = new System.Windows.Forms.TrackBar();
+            this.label27 = new System.Windows.Forms.Label();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.label64 = new System.Windows.Forms.Label();
             this.label65 = new System.Windows.Forms.Label();
             this.label66 = new System.Windows.Forms.Label();
@@ -188,54 +163,91 @@
             this.label69 = new System.Windows.Forms.Label();
             this.label70 = new System.Windows.Forms.Label();
             this.label71 = new System.Windows.Forms.Label();
+            this.FriendInfoOpaZoom_textBox = new System.Windows.Forms.TextBox();
+            this.FriendInfoOpa_textBox = new System.Windows.Forms.TextBox();
+            this.FriendHealthOpaZoom_textBox = new System.Windows.Forms.TextBox();
+            this.FriendHealthOpa_textBox = new System.Windows.Forms.TextBox();
+            this.FriendIconOpaZoom_textBox = new System.Windows.Forms.TextBox();
+            this.FriendIconOpa_textBox = new System.Windows.Forms.TextBox();
+            this.FriendScale_textBox = new System.Windows.Forms.TextBox();
+            this.FriendSize_textBox = new System.Windows.Forms.TextBox();
+            this.FriendInfoOpaZoom_trackBar = new System.Windows.Forms.TrackBar();
+            this.label29 = new System.Windows.Forms.Label();
+            this.FriendInfoOpa_trackBar = new System.Windows.Forms.TrackBar();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.FriendHealthOpaZoom_trackBar = new System.Windows.Forms.TrackBar();
+            this.FriendSize_trackBar = new System.Windows.Forms.TrackBar();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.FriendHealthOpa_trackBar = new System.Windows.Forms.TrackBar();
+            this.FriendScale_trackBar = new System.Windows.Forms.TrackBar();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.FriendIconOpaZoom_trackBar = new System.Windows.Forms.TrackBar();
+            this.FriendIconOpa_trackBar = new System.Windows.Forms.TrackBar();
+            this.label36 = new System.Windows.Forms.Label();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.SaveGeneral_button = new System.Windows.Forms.Button();
+            this.DefaultGeneral_button = new System.Windows.Forms.Button();
+            this.DefaultMap_button = new System.Windows.Forms.Button();
+            this.SaveMap_button = new System.Windows.Forms.Button();
+            this.DefaultHit_button = new System.Windows.Forms.Button();
+            this.SaveHit_button = new System.Windows.Forms.Button();
+            this.DefaultCommon_button = new System.Windows.Forms.Button();
+            this.SaveCommon_button = new System.Windows.Forms.Button();
+            this.DefaultEnemy_button = new System.Windows.Forms.Button();
+            this.SaveEnemy_button = new System.Windows.Forms.Button();
+            this.DefaultFriend_button = new System.Windows.Forms.Button();
+            this.SaveFriend_button = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MiscOpa_trackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HUDSize_trackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.KillLogOpa_trackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.InvOpa_trackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.OccuOpa_trackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.StatusOpa_trackBar)).BeginInit();
             this.tabPage2.SuspendLayout();
-            this.tabPage3.SuspendLayout();
-            this.tabPage4.SuspendLayout();
-            this.tabPage5.SuspendLayout();
-            this.tabPage6.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MapSize_trackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MapBackOpa_trackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MapIconSize_trackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MapIconOpa_trackBar)).BeginInit();
+            this.tabPage3.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HitSize_trackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HitOpa_trackBar)).BeginInit();
+            this.tabPage4.SuspendLayout();
             this.groupBox4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CommonGadgetOpaZoom_trackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CommonPickupOpaZoom_trackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CommonSize_trackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CommonInterOpaZoom_trackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CommonScale_trackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CommonObjOpaZoom_trackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CommonIconOpa_trackBar)).BeginInit();
+            this.tabPage5.SuspendLayout();
             this.groupBox5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar25)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar26)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar27)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EnemyInfoOpaZoom_trackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EnemyInfoOpa_trackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EnemyHealthOpaZoom_trackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EnemySize_trackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EnemyHealthOpa_trackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EnamyScale_trackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EnemyIconOpaZoom_trackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EnemyIconOpa_trackBar)).BeginInit();
+            this.tabPage6.SuspendLayout();
             this.groupBox6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar28)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar29)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar30)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar31)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar32)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar33)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar34)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar35)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FriendInfoOpaZoom_trackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FriendInfoOpa_trackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FriendHealthOpaZoom_trackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FriendSize_trackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FriendHealthOpa_trackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FriendScale_trackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FriendIconOpaZoom_trackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FriendIconOpa_trackBar)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -266,29 +278,31 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.DefaultGeneral_button);
+            this.groupBox1.Controls.Add(this.SaveGeneral_button);
             this.groupBox1.Controls.Add(this.label42);
             this.groupBox1.Controls.Add(this.label41);
             this.groupBox1.Controls.Add(this.label40);
             this.groupBox1.Controls.Add(this.label39);
             this.groupBox1.Controls.Add(this.label38);
             this.groupBox1.Controls.Add(this.label37);
-            this.groupBox1.Controls.Add(this.textBox6);
-            this.groupBox1.Controls.Add(this.textBox5);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.MiscOpa_textBox);
+            this.groupBox1.Controls.Add(this.KillLogOpa_textBox);
+            this.groupBox1.Controls.Add(this.OccuOpa_textBox);
+            this.groupBox1.Controls.Add(this.StatusOpa_textBox);
+            this.groupBox1.Controls.Add(this.InvOpa_textBox);
+            this.groupBox1.Controls.Add(this.HUDSize_textBox);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.trackBar6);
-            this.groupBox1.Controls.Add(this.trackBar1);
+            this.groupBox1.Controls.Add(this.MiscOpa_trackBar);
+            this.groupBox1.Controls.Add(this.HUDSize_trackBar);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.trackBar5);
-            this.groupBox1.Controls.Add(this.trackBar2);
+            this.groupBox1.Controls.Add(this.KillLogOpa_trackBar);
+            this.groupBox1.Controls.Add(this.InvOpa_trackBar);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.trackBar4);
-            this.groupBox1.Controls.Add(this.trackBar3);
+            this.groupBox1.Controls.Add(this.OccuOpa_trackBar);
+            this.groupBox1.Controls.Add(this.StatusOpa_trackBar);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Location = new System.Drawing.Point(6, 6);
             this.groupBox1.Name = "groupBox1";
@@ -297,6 +311,120 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "General Settings";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Location = new System.Drawing.Point(260, 288);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(15, 13);
+            this.label42.TabIndex = 23;
+            this.label42.Text = "%";
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Location = new System.Drawing.Point(260, 237);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(15, 13);
+            this.label41.TabIndex = 22;
+            this.label41.Text = "%";
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Location = new System.Drawing.Point(260, 186);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(15, 13);
+            this.label40.TabIndex = 21;
+            this.label40.Text = "%";
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Location = new System.Drawing.Point(260, 135);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(15, 13);
+            this.label39.TabIndex = 20;
+            this.label39.Text = "%";
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Location = new System.Drawing.Point(260, 84);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(15, 13);
+            this.label38.TabIndex = 19;
+            this.label38.Text = "%";
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Location = new System.Drawing.Point(260, 33);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(15, 13);
+            this.label37.TabIndex = 18;
+            this.label37.Text = "%";
+            // 
+            // MiscOpa_textBox
+            // 
+            this.MiscOpa_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.MiscOpa_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.MiscOpa_textBox.Location = new System.Drawing.Point(235, 288);
+            this.MiscOpa_textBox.Name = "MiscOpa_textBox";
+            this.MiscOpa_textBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.MiscOpa_textBox.Size = new System.Drawing.Size(25, 13);
+            this.MiscOpa_textBox.TabIndex = 17;
+            // 
+            // KillLogOpa_textBox
+            // 
+            this.KillLogOpa_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.KillLogOpa_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.KillLogOpa_textBox.Location = new System.Drawing.Point(235, 237);
+            this.KillLogOpa_textBox.Name = "KillLogOpa_textBox";
+            this.KillLogOpa_textBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.KillLogOpa_textBox.Size = new System.Drawing.Size(25, 13);
+            this.KillLogOpa_textBox.TabIndex = 16;
+            // 
+            // OccuOpa_textBox
+            // 
+            this.OccuOpa_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.OccuOpa_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.OccuOpa_textBox.Location = new System.Drawing.Point(235, 186);
+            this.OccuOpa_textBox.Name = "OccuOpa_textBox";
+            this.OccuOpa_textBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.OccuOpa_textBox.Size = new System.Drawing.Size(25, 13);
+            this.OccuOpa_textBox.TabIndex = 15;
+            // 
+            // StatusOpa_textBox
+            // 
+            this.StatusOpa_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.StatusOpa_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.StatusOpa_textBox.Location = new System.Drawing.Point(235, 135);
+            this.StatusOpa_textBox.Name = "StatusOpa_textBox";
+            this.StatusOpa_textBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.StatusOpa_textBox.Size = new System.Drawing.Size(25, 13);
+            this.StatusOpa_textBox.TabIndex = 14;
+            // 
+            // InvOpa_textBox
+            // 
+            this.InvOpa_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.InvOpa_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.InvOpa_textBox.Location = new System.Drawing.Point(235, 84);
+            this.InvOpa_textBox.Name = "InvOpa_textBox";
+            this.InvOpa_textBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.InvOpa_textBox.Size = new System.Drawing.Size(25, 13);
+            this.InvOpa_textBox.TabIndex = 13;
+            // 
+            // HUDSize_textBox
+            // 
+            this.HUDSize_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.HUDSize_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.HUDSize_textBox.Location = new System.Drawing.Point(235, 33);
+            this.HUDSize_textBox.Name = "HUDSize_textBox";
+            this.HUDSize_textBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.HUDSize_textBox.Size = new System.Drawing.Size(25, 13);
+            this.HUDSize_textBox.TabIndex = 12;
             // 
             // label1
             // 
@@ -307,27 +435,27 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Hi-Res HUD Size";
             // 
-            // trackBar6
+            // MiscOpa_trackBar
             // 
-            this.trackBar6.LargeChange = 10;
-            this.trackBar6.Location = new System.Drawing.Point(125, 274);
-            this.trackBar6.Maximum = 100;
-            this.trackBar6.Name = "trackBar6";
-            this.trackBar6.Size = new System.Drawing.Size(104, 45);
-            this.trackBar6.TabIndex = 11;
-            this.trackBar6.TickFrequency = 10;
-            this.trackBar6.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.MiscOpa_trackBar.LargeChange = 10;
+            this.MiscOpa_trackBar.Location = new System.Drawing.Point(125, 274);
+            this.MiscOpa_trackBar.Maximum = 100;
+            this.MiscOpa_trackBar.Name = "MiscOpa_trackBar";
+            this.MiscOpa_trackBar.Size = new System.Drawing.Size(104, 45);
+            this.MiscOpa_trackBar.TabIndex = 11;
+            this.MiscOpa_trackBar.TickFrequency = 10;
+            this.MiscOpa_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
             // 
-            // trackBar1
+            // HUDSize_trackBar
             // 
-            this.trackBar1.LargeChange = 10;
-            this.trackBar1.Location = new System.Drawing.Point(125, 19);
-            this.trackBar1.Maximum = 100;
-            this.trackBar1.Name = "trackBar1";
-            this.trackBar1.Size = new System.Drawing.Size(104, 45);
-            this.trackBar1.TabIndex = 1;
-            this.trackBar1.TickFrequency = 10;
-            this.trackBar1.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.HUDSize_trackBar.LargeChange = 10;
+            this.HUDSize_trackBar.Location = new System.Drawing.Point(125, 19);
+            this.HUDSize_trackBar.Maximum = 100;
+            this.HUDSize_trackBar.Name = "HUDSize_trackBar";
+            this.HUDSize_trackBar.Size = new System.Drawing.Size(104, 45);
+            this.HUDSize_trackBar.TabIndex = 1;
+            this.HUDSize_trackBar.TickFrequency = 10;
+            this.HUDSize_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
             // 
             // label6
             // 
@@ -347,27 +475,27 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Inventory Opacity";
             // 
-            // trackBar5
+            // KillLogOpa_trackBar
             // 
-            this.trackBar5.LargeChange = 10;
-            this.trackBar5.Location = new System.Drawing.Point(125, 223);
-            this.trackBar5.Maximum = 100;
-            this.trackBar5.Name = "trackBar5";
-            this.trackBar5.Size = new System.Drawing.Size(104, 45);
-            this.trackBar5.TabIndex = 9;
-            this.trackBar5.TickFrequency = 10;
-            this.trackBar5.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.KillLogOpa_trackBar.LargeChange = 10;
+            this.KillLogOpa_trackBar.Location = new System.Drawing.Point(125, 223);
+            this.KillLogOpa_trackBar.Maximum = 100;
+            this.KillLogOpa_trackBar.Name = "KillLogOpa_trackBar";
+            this.KillLogOpa_trackBar.Size = new System.Drawing.Size(104, 45);
+            this.KillLogOpa_trackBar.TabIndex = 9;
+            this.KillLogOpa_trackBar.TickFrequency = 10;
+            this.KillLogOpa_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
             // 
-            // trackBar2
+            // InvOpa_trackBar
             // 
-            this.trackBar2.LargeChange = 10;
-            this.trackBar2.Location = new System.Drawing.Point(125, 70);
-            this.trackBar2.Maximum = 100;
-            this.trackBar2.Name = "trackBar2";
-            this.trackBar2.Size = new System.Drawing.Size(104, 45);
-            this.trackBar2.TabIndex = 3;
-            this.trackBar2.TickFrequency = 10;
-            this.trackBar2.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.InvOpa_trackBar.LargeChange = 10;
+            this.InvOpa_trackBar.Location = new System.Drawing.Point(125, 70);
+            this.InvOpa_trackBar.Maximum = 100;
+            this.InvOpa_trackBar.Name = "InvOpa_trackBar";
+            this.InvOpa_trackBar.Size = new System.Drawing.Size(104, 45);
+            this.InvOpa_trackBar.TabIndex = 3;
+            this.InvOpa_trackBar.TickFrequency = 10;
+            this.InvOpa_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
             // 
             // label5
             // 
@@ -387,27 +515,27 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Status Opacity";
             // 
-            // trackBar4
+            // OccuOpa_trackBar
             // 
-            this.trackBar4.LargeChange = 10;
-            this.trackBar4.Location = new System.Drawing.Point(125, 172);
-            this.trackBar4.Maximum = 100;
-            this.trackBar4.Name = "trackBar4";
-            this.trackBar4.Size = new System.Drawing.Size(104, 45);
-            this.trackBar4.TabIndex = 7;
-            this.trackBar4.TickFrequency = 10;
-            this.trackBar4.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.OccuOpa_trackBar.LargeChange = 10;
+            this.OccuOpa_trackBar.Location = new System.Drawing.Point(125, 172);
+            this.OccuOpa_trackBar.Maximum = 100;
+            this.OccuOpa_trackBar.Name = "OccuOpa_trackBar";
+            this.OccuOpa_trackBar.Size = new System.Drawing.Size(104, 45);
+            this.OccuOpa_trackBar.TabIndex = 7;
+            this.OccuOpa_trackBar.TickFrequency = 10;
+            this.OccuOpa_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
             // 
-            // trackBar3
+            // StatusOpa_trackBar
             // 
-            this.trackBar3.LargeChange = 10;
-            this.trackBar3.Location = new System.Drawing.Point(125, 121);
-            this.trackBar3.Maximum = 100;
-            this.trackBar3.Name = "trackBar3";
-            this.trackBar3.Size = new System.Drawing.Size(104, 45);
-            this.trackBar3.TabIndex = 5;
-            this.trackBar3.TickFrequency = 10;
-            this.trackBar3.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.StatusOpa_trackBar.LargeChange = 10;
+            this.StatusOpa_trackBar.Location = new System.Drawing.Point(125, 121);
+            this.StatusOpa_trackBar.Maximum = 100;
+            this.StatusOpa_trackBar.Name = "StatusOpa_trackBar";
+            this.StatusOpa_trackBar.Size = new System.Drawing.Size(104, 45);
+            this.StatusOpa_trackBar.TabIndex = 5;
+            this.StatusOpa_trackBar.TickFrequency = 10;
+            this.StatusOpa_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
             // 
             // label4
             // 
@@ -430,6 +558,239 @@
             this.tabPage2.Text = "Minimap";
             this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
             // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.DefaultMap_button);
+            this.groupBox2.Controls.Add(this.SaveMap_button);
+            this.groupBox2.Controls.Add(this.label45);
+            this.groupBox2.Controls.Add(this.label46);
+            this.groupBox2.Controls.Add(this.label43);
+            this.groupBox2.Controls.Add(this.label44);
+            this.groupBox2.Controls.Add(this.MapIconSize_textBox);
+            this.groupBox2.Controls.Add(this.MapIconOpa_textBox);
+            this.groupBox2.Controls.Add(this.MapBackOpa_textBox);
+            this.groupBox2.Controls.Add(this.MapSize_textBox);
+            this.groupBox2.Controls.Add(this.MapRotate_checkBox);
+            this.groupBox2.Controls.Add(this.IconAutoScale_checkBox);
+            this.groupBox2.Controls.Add(this.MapDefaultScale_comboBox);
+            this.groupBox2.Controls.Add(this.label8);
+            this.groupBox2.Controls.Add(this.label7);
+            this.groupBox2.Controls.Add(this.MapSize_trackBar);
+            this.groupBox2.Controls.Add(this.label9);
+            this.groupBox2.Controls.Add(this.MapBackOpa_trackBar);
+            this.groupBox2.Controls.Add(this.label11);
+            this.groupBox2.Controls.Add(this.MapIconSize_trackBar);
+            this.groupBox2.Controls.Add(this.MapIconOpa_trackBar);
+            this.groupBox2.Controls.Add(this.label12);
+            this.groupBox2.Location = new System.Drawing.Point(6, 6);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(294, 456);
+            this.groupBox2.TabIndex = 14;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Minimap Settings";
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Location = new System.Drawing.Point(263, 186);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(15, 13);
+            this.label45.TabIndex = 25;
+            this.label45.Text = "%";
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Location = new System.Drawing.Point(263, 135);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(15, 13);
+            this.label46.TabIndex = 24;
+            this.label46.Text = "%";
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Location = new System.Drawing.Point(263, 84);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(15, 13);
+            this.label43.TabIndex = 23;
+            this.label43.Text = "%";
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.Location = new System.Drawing.Point(263, 33);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(15, 13);
+            this.label44.TabIndex = 22;
+            this.label44.Text = "%";
+            // 
+            // MapIconSize_textBox
+            // 
+            this.MapIconSize_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.MapIconSize_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.MapIconSize_textBox.Location = new System.Drawing.Point(238, 186);
+            this.MapIconSize_textBox.Name = "MapIconSize_textBox";
+            this.MapIconSize_textBox.Size = new System.Drawing.Size(25, 13);
+            this.MapIconSize_textBox.TabIndex = 21;
+            // 
+            // MapIconOpa_textBox
+            // 
+            this.MapIconOpa_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.MapIconOpa_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.MapIconOpa_textBox.Location = new System.Drawing.Point(238, 135);
+            this.MapIconOpa_textBox.Name = "MapIconOpa_textBox";
+            this.MapIconOpa_textBox.Size = new System.Drawing.Size(25, 13);
+            this.MapIconOpa_textBox.TabIndex = 20;
+            // 
+            // MapBackOpa_textBox
+            // 
+            this.MapBackOpa_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.MapBackOpa_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.MapBackOpa_textBox.Location = new System.Drawing.Point(238, 84);
+            this.MapBackOpa_textBox.Name = "MapBackOpa_textBox";
+            this.MapBackOpa_textBox.Size = new System.Drawing.Size(25, 13);
+            this.MapBackOpa_textBox.TabIndex = 19;
+            // 
+            // MapSize_textBox
+            // 
+            this.MapSize_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.MapSize_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.MapSize_textBox.Location = new System.Drawing.Point(238, 33);
+            this.MapSize_textBox.Name = "MapSize_textBox";
+            this.MapSize_textBox.Size = new System.Drawing.Size(25, 13);
+            this.MapSize_textBox.TabIndex = 18;
+            // 
+            // MapRotate_checkBox
+            // 
+            this.MapRotate_checkBox.AutoSize = true;
+            this.MapRotate_checkBox.Location = new System.Drawing.Point(122, 250);
+            this.MapRotate_checkBox.Name = "MapRotate_checkBox";
+            this.MapRotate_checkBox.Size = new System.Drawing.Size(100, 17);
+            this.MapRotate_checkBox.TabIndex = 17;
+            this.MapRotate_checkBox.Text = "Minimap Rotate";
+            this.MapRotate_checkBox.UseVisualStyleBackColor = true;
+            // 
+            // IconAutoScale_checkBox
+            // 
+            this.IconAutoScale_checkBox.AutoSize = true;
+            this.IconAutoScale_checkBox.Location = new System.Drawing.Point(9, 250);
+            this.IconAutoScale_checkBox.Name = "IconAutoScale_checkBox";
+            this.IconAutoScale_checkBox.Size = new System.Drawing.Size(107, 17);
+            this.IconAutoScale_checkBox.TabIndex = 16;
+            this.IconAutoScale_checkBox.Text = "Icons Auto Scale";
+            this.IconAutoScale_checkBox.UseVisualStyleBackColor = true;
+            // 
+            // MapDefaultScale_comboBox
+            // 
+            this.MapDefaultScale_comboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.MapDefaultScale_comboBox.FormattingEnabled = true;
+            this.MapDefaultScale_comboBox.Items.AddRange(new object[] {
+            "Auto",
+            "50m",
+            "100m",
+            "150m"});
+            this.MapDefaultScale_comboBox.Location = new System.Drawing.Point(125, 223);
+            this.MapDefaultScale_comboBox.Name = "MapDefaultScale_comboBox";
+            this.MapDefaultScale_comboBox.Size = new System.Drawing.Size(104, 21);
+            this.MapDefaultScale_comboBox.TabIndex = 9;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(6, 226);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(113, 13);
+            this.label8.TabIndex = 8;
+            this.label8.Text = "Minimap Default Scale";
+            this.label8.Click += new System.EventHandler(this.label8_Click_1);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(6, 33);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(69, 13);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "Minimap Size";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
+            // 
+            // MapSize_trackBar
+            // 
+            this.MapSize_trackBar.LargeChange = 10;
+            this.MapSize_trackBar.Location = new System.Drawing.Point(128, 19);
+            this.MapSize_trackBar.Maximum = 200;
+            this.MapSize_trackBar.Minimum = 70;
+            this.MapSize_trackBar.Name = "MapSize_trackBar";
+            this.MapSize_trackBar.Size = new System.Drawing.Size(104, 45);
+            this.MapSize_trackBar.TabIndex = 1;
+            this.MapSize_trackBar.TickFrequency = 13;
+            this.MapSize_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.MapSize_trackBar.Value = 70;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(6, 84);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(104, 13);
+            this.label9.TabIndex = 2;
+            this.label9.Text = "Background Opacity";
+            // 
+            // MapBackOpa_trackBar
+            // 
+            this.MapBackOpa_trackBar.LargeChange = 10;
+            this.MapBackOpa_trackBar.Location = new System.Drawing.Point(128, 70);
+            this.MapBackOpa_trackBar.Maximum = 100;
+            this.MapBackOpa_trackBar.Name = "MapBackOpa_trackBar";
+            this.MapBackOpa_trackBar.Size = new System.Drawing.Size(104, 45);
+            this.MapBackOpa_trackBar.TabIndex = 3;
+            this.MapBackOpa_trackBar.TickFrequency = 10;
+            this.MapBackOpa_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(6, 135);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(72, 13);
+            this.label11.TabIndex = 4;
+            this.label11.Text = "Icons Opacity";
+            // 
+            // MapIconSize_trackBar
+            // 
+            this.MapIconSize_trackBar.LargeChange = 10;
+            this.MapIconSize_trackBar.Location = new System.Drawing.Point(128, 172);
+            this.MapIconSize_trackBar.Maximum = 150;
+            this.MapIconSize_trackBar.Minimum = 50;
+            this.MapIconSize_trackBar.Name = "MapIconSize_trackBar";
+            this.MapIconSize_trackBar.Size = new System.Drawing.Size(104, 45);
+            this.MapIconSize_trackBar.TabIndex = 7;
+            this.MapIconSize_trackBar.TickFrequency = 10;
+            this.MapIconSize_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.MapIconSize_trackBar.Value = 50;
+            this.MapIconSize_trackBar.Scroll += new System.EventHandler(this.trackBar11_Scroll);
+            // 
+            // MapIconOpa_trackBar
+            // 
+            this.MapIconOpa_trackBar.LargeChange = 10;
+            this.MapIconOpa_trackBar.Location = new System.Drawing.Point(128, 121);
+            this.MapIconOpa_trackBar.Maximum = 100;
+            this.MapIconOpa_trackBar.Name = "MapIconOpa_trackBar";
+            this.MapIconOpa_trackBar.Size = new System.Drawing.Size(104, 45);
+            this.MapIconOpa_trackBar.TabIndex = 5;
+            this.MapIconOpa_trackBar.TickFrequency = 10;
+            this.MapIconOpa_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(6, 186);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(56, 13);
+            this.label12.TabIndex = 6;
+            this.label12.Text = "Icons Size";
+            // 
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.Transparent;
@@ -441,6 +802,116 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Hit Indicator";
             this.tabPage3.Click += new System.EventHandler(this.tabPage3_Click);
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.DefaultHit_button);
+            this.groupBox3.Controls.Add(this.SaveHit_button);
+            this.groupBox3.Controls.Add(this.label47);
+            this.groupBox3.Controls.Add(this.label48);
+            this.groupBox3.Controls.Add(this.HitOpa_textBox);
+            this.groupBox3.Controls.Add(this.HitSize_textBox);
+            this.groupBox3.Controls.Add(this.DmgBasedShape_checkBox);
+            this.groupBox3.Controls.Add(this.label13);
+            this.groupBox3.Controls.Add(this.HitSize_trackBar);
+            this.groupBox3.Controls.Add(this.label14);
+            this.groupBox3.Controls.Add(this.HitOpa_trackBar);
+            this.groupBox3.Location = new System.Drawing.Point(6, 6);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(294, 456);
+            this.groupBox3.TabIndex = 15;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Hit Indicator Settings";
+            this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.Location = new System.Drawing.Point(190, 84);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(15, 13);
+            this.label47.TabIndex = 25;
+            this.label47.Text = "%";
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.Location = new System.Drawing.Point(190, 33);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(15, 13);
+            this.label48.TabIndex = 24;
+            this.label48.Text = "%";
+            // 
+            // HitOpa_textBox
+            // 
+            this.HitOpa_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.HitOpa_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.HitOpa_textBox.Location = new System.Drawing.Point(165, 84);
+            this.HitOpa_textBox.Name = "HitOpa_textBox";
+            this.HitOpa_textBox.Size = new System.Drawing.Size(25, 13);
+            this.HitOpa_textBox.TabIndex = 19;
+            // 
+            // HitSize_textBox
+            // 
+            this.HitSize_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.HitSize_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.HitSize_textBox.Location = new System.Drawing.Point(165, 33);
+            this.HitSize_textBox.Name = "HitSize_textBox";
+            this.HitSize_textBox.Size = new System.Drawing.Size(25, 13);
+            this.HitSize_textBox.TabIndex = 18;
+            // 
+            // DmgBasedShape_checkBox
+            // 
+            this.DmgBasedShape_checkBox.AutoSize = true;
+            this.DmgBasedShape_checkBox.Location = new System.Drawing.Point(9, 121);
+            this.DmgBasedShape_checkBox.Name = "DmgBasedShape_checkBox";
+            this.DmgBasedShape_checkBox.Size = new System.Drawing.Size(133, 17);
+            this.DmgBasedShape_checkBox.TabIndex = 16;
+            this.DmgBasedShape_checkBox.Text = "Damage Based Shape";
+            this.DmgBasedShape_checkBox.UseVisualStyleBackColor = true;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(6, 33);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(27, 13);
+            this.label13.TabIndex = 0;
+            this.label13.Text = "Size";
+            // 
+            // HitSize_trackBar
+            // 
+            this.HitSize_trackBar.LargeChange = 10;
+            this.HitSize_trackBar.Location = new System.Drawing.Point(55, 19);
+            this.HitSize_trackBar.Maximum = 150;
+            this.HitSize_trackBar.Minimum = 50;
+            this.HitSize_trackBar.Name = "HitSize_trackBar";
+            this.HitSize_trackBar.Size = new System.Drawing.Size(104, 45);
+            this.HitSize_trackBar.TabIndex = 1;
+            this.HitSize_trackBar.TickFrequency = 10;
+            this.HitSize_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.HitSize_trackBar.Value = 50;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(6, 84);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(43, 13);
+            this.label14.TabIndex = 2;
+            this.label14.Text = "Opacity";
+            // 
+            // HitOpa_trackBar
+            // 
+            this.HitOpa_trackBar.LargeChange = 10;
+            this.HitOpa_trackBar.Location = new System.Drawing.Point(55, 70);
+            this.HitOpa_trackBar.Maximum = 100;
+            this.HitOpa_trackBar.Name = "HitOpa_trackBar";
+            this.HitOpa_trackBar.Size = new System.Drawing.Size(104, 45);
+            this.HitOpa_trackBar.TabIndex = 3;
+            this.HitOpa_trackBar.TickFrequency = 10;
+            this.HitOpa_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.HitOpa_trackBar.Scroll += new System.EventHandler(this.trackBar9_Scroll_1);
             // 
             // tabPage4
             // 
@@ -454,269 +925,10 @@
             this.tabPage4.Text = "Common";
             this.tabPage4.Click += new System.EventHandler(this.tabPage4_Click);
             // 
-            // tabPage5
-            // 
-            this.tabPage5.BackColor = System.Drawing.Color.Transparent;
-            this.tabPage5.Controls.Add(this.groupBox5);
-            this.tabPage5.Location = new System.Drawing.Point(4, 22);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(306, 468);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Enemy";
-            // 
-            // tabPage6
-            // 
-            this.tabPage6.BackColor = System.Drawing.Color.Transparent;
-            this.tabPage6.Controls.Add(this.groupBox6);
-            this.tabPage6.Location = new System.Drawing.Point(4, 22);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(306, 468);
-            this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "Friend";
-            // 
-            // statusStrip1
-            // 
-            this.statusStrip1.Location = new System.Drawing.Point(0, 495);
-            this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(312, 22);
-            this.statusStrip1.TabIndex = 1;
-            this.statusStrip1.Text = "statusStrip1";
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.label45);
-            this.groupBox2.Controls.Add(this.label46);
-            this.groupBox2.Controls.Add(this.label43);
-            this.groupBox2.Controls.Add(this.label44);
-            this.groupBox2.Controls.Add(this.textBox16);
-            this.groupBox2.Controls.Add(this.textBox17);
-            this.groupBox2.Controls.Add(this.textBox18);
-            this.groupBox2.Controls.Add(this.textBox19);
-            this.groupBox2.Controls.Add(this.checkBox2);
-            this.groupBox2.Controls.Add(this.checkBox1);
-            this.groupBox2.Controls.Add(this.comboBox1);
-            this.groupBox2.Controls.Add(this.label8);
-            this.groupBox2.Controls.Add(this.label7);
-            this.groupBox2.Controls.Add(this.trackBar8);
-            this.groupBox2.Controls.Add(this.label9);
-            this.groupBox2.Controls.Add(this.trackBar10);
-            this.groupBox2.Controls.Add(this.label11);
-            this.groupBox2.Controls.Add(this.trackBar11);
-            this.groupBox2.Controls.Add(this.trackBar12);
-            this.groupBox2.Controls.Add(this.label12);
-            this.groupBox2.Location = new System.Drawing.Point(6, 6);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(294, 456);
-            this.groupBox2.TabIndex = 14;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Minimap Settings";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(6, 33);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(69, 13);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "Minimap Size";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
-            // 
-            // trackBar8
-            // 
-            this.trackBar8.LargeChange = 10;
-            this.trackBar8.Location = new System.Drawing.Point(128, 19);
-            this.trackBar8.Maximum = 200;
-            this.trackBar8.Minimum = 70;
-            this.trackBar8.Name = "trackBar8";
-            this.trackBar8.Size = new System.Drawing.Size(104, 45);
-            this.trackBar8.TabIndex = 1;
-            this.trackBar8.TickFrequency = 13;
-            this.trackBar8.TickStyle = System.Windows.Forms.TickStyle.Both;
-            this.trackBar8.Value = 70;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(6, 84);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(104, 13);
-            this.label9.TabIndex = 2;
-            this.label9.Text = "Background Opacity";
-            // 
-            // trackBar10
-            // 
-            this.trackBar10.LargeChange = 10;
-            this.trackBar10.Location = new System.Drawing.Point(128, 70);
-            this.trackBar10.Maximum = 100;
-            this.trackBar10.Name = "trackBar10";
-            this.trackBar10.Size = new System.Drawing.Size(104, 45);
-            this.trackBar10.TabIndex = 3;
-            this.trackBar10.TickFrequency = 10;
-            this.trackBar10.TickStyle = System.Windows.Forms.TickStyle.Both;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(6, 135);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(72, 13);
-            this.label11.TabIndex = 4;
-            this.label11.Text = "Icons Opacity";
-            // 
-            // trackBar11
-            // 
-            this.trackBar11.LargeChange = 10;
-            this.trackBar11.Location = new System.Drawing.Point(128, 172);
-            this.trackBar11.Maximum = 150;
-            this.trackBar11.Minimum = 50;
-            this.trackBar11.Name = "trackBar11";
-            this.trackBar11.Size = new System.Drawing.Size(104, 45);
-            this.trackBar11.TabIndex = 7;
-            this.trackBar11.TickFrequency = 10;
-            this.trackBar11.TickStyle = System.Windows.Forms.TickStyle.Both;
-            this.trackBar11.Value = 50;
-            this.trackBar11.Scroll += new System.EventHandler(this.trackBar11_Scroll);
-            // 
-            // trackBar12
-            // 
-            this.trackBar12.LargeChange = 10;
-            this.trackBar12.Location = new System.Drawing.Point(128, 121);
-            this.trackBar12.Maximum = 100;
-            this.trackBar12.Name = "trackBar12";
-            this.trackBar12.Size = new System.Drawing.Size(104, 45);
-            this.trackBar12.TabIndex = 5;
-            this.trackBar12.TickFrequency = 10;
-            this.trackBar12.TickStyle = System.Windows.Forms.TickStyle.Both;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(6, 186);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(56, 13);
-            this.label12.TabIndex = 6;
-            this.label12.Text = "Icons Size";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(6, 226);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(116, 13);
-            this.label8.TabIndex = 8;
-            this.label8.Text = "Minimap  Default Scale";
-            this.label8.Click += new System.EventHandler(this.label8_Click_1);
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Auto",
-            "50m",
-            "100m",
-            "150m"});
-            this.comboBox1.Location = new System.Drawing.Point(128, 223);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(104, 21);
-            this.comboBox1.TabIndex = 9;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(9, 250);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(107, 17);
-            this.checkBox1.TabIndex = 16;
-            this.checkBox1.Text = "Icons Auto Scale";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(122, 250);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(100, 17);
-            this.checkBox2.TabIndex = 17;
-            this.checkBox2.Text = "Minimap Rotate";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.label47);
-            this.groupBox3.Controls.Add(this.label48);
-            this.groupBox3.Controls.Add(this.textBox22);
-            this.groupBox3.Controls.Add(this.textBox23);
-            this.groupBox3.Controls.Add(this.checkBox4);
-            this.groupBox3.Controls.Add(this.label13);
-            this.groupBox3.Controls.Add(this.trackBar7);
-            this.groupBox3.Controls.Add(this.label14);
-            this.groupBox3.Controls.Add(this.trackBar9);
-            this.groupBox3.Location = new System.Drawing.Point(6, 6);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(294, 456);
-            this.groupBox3.TabIndex = 15;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Hit Indicator Settings";
-            this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(9, 121);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(133, 17);
-            this.checkBox4.TabIndex = 16;
-            this.checkBox4.Text = "Damage Based Shape";
-            this.checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(6, 33);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(27, 13);
-            this.label13.TabIndex = 0;
-            this.label13.Text = "Size";
-            // 
-            // trackBar7
-            // 
-            this.trackBar7.LargeChange = 10;
-            this.trackBar7.Location = new System.Drawing.Point(55, 19);
-            this.trackBar7.Maximum = 150;
-            this.trackBar7.Minimum = 50;
-            this.trackBar7.Name = "trackBar7";
-            this.trackBar7.Size = new System.Drawing.Size(104, 45);
-            this.trackBar7.TabIndex = 1;
-            this.trackBar7.TickFrequency = 10;
-            this.trackBar7.TickStyle = System.Windows.Forms.TickStyle.Both;
-            this.trackBar7.Value = 50;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(6, 84);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(43, 13);
-            this.label14.TabIndex = 2;
-            this.label14.Text = "Opacity";
-            // 
-            // trackBar9
-            // 
-            this.trackBar9.LargeChange = 10;
-            this.trackBar9.Location = new System.Drawing.Point(55, 70);
-            this.trackBar9.Maximum = 100;
-            this.trackBar9.Name = "trackBar9";
-            this.trackBar9.Size = new System.Drawing.Size(104, 45);
-            this.trackBar9.TabIndex = 3;
-            this.trackBar9.TickFrequency = 10;
-            this.trackBar9.TickStyle = System.Windows.Forms.TickStyle.Both;
-            this.trackBar9.Scroll += new System.EventHandler(this.trackBar9_Scroll_1);
-            // 
             // groupBox4
             // 
+            this.groupBox4.Controls.Add(this.DefaultCommon_button);
+            this.groupBox4.Controls.Add(this.SaveCommon_button);
             this.groupBox4.Controls.Add(this.label56);
             this.groupBox4.Controls.Add(this.label53);
             this.groupBox4.Controls.Add(this.label54);
@@ -724,26 +936,26 @@
             this.groupBox4.Controls.Add(this.label52);
             this.groupBox4.Controls.Add(this.label49);
             this.groupBox4.Controls.Add(this.label50);
-            this.groupBox4.Controls.Add(this.textBox13);
-            this.groupBox4.Controls.Add(this.textBox7);
-            this.groupBox4.Controls.Add(this.textBox8);
-            this.groupBox4.Controls.Add(this.textBox9);
-            this.groupBox4.Controls.Add(this.textBox10);
-            this.groupBox4.Controls.Add(this.textBox11);
-            this.groupBox4.Controls.Add(this.textBox12);
-            this.groupBox4.Controls.Add(this.trackBar19);
+            this.groupBox4.Controls.Add(this.CommonGadgetOpaZoom_textBox);
+            this.groupBox4.Controls.Add(this.CommonPickupOpaZoom_textBox);
+            this.groupBox4.Controls.Add(this.CommonInterOpaZoom_textBox);
+            this.groupBox4.Controls.Add(this.CommonObjOpaZoom_textBox);
+            this.groupBox4.Controls.Add(this.CommonIconOpa_textBox);
+            this.groupBox4.Controls.Add(this.CommonScale_textBox);
+            this.groupBox4.Controls.Add(this.CommonSize_textBox);
+            this.groupBox4.Controls.Add(this.CommonGadgetOpaZoom_trackBar);
             this.groupBox4.Controls.Add(this.label20);
             this.groupBox4.Controls.Add(this.label10);
-            this.groupBox4.Controls.Add(this.trackBar13);
-            this.groupBox4.Controls.Add(this.trackBar14);
+            this.groupBox4.Controls.Add(this.CommonPickupOpaZoom_trackBar);
+            this.groupBox4.Controls.Add(this.CommonSize_trackBar);
             this.groupBox4.Controls.Add(this.label15);
             this.groupBox4.Controls.Add(this.label16);
-            this.groupBox4.Controls.Add(this.trackBar15);
-            this.groupBox4.Controls.Add(this.trackBar16);
+            this.groupBox4.Controls.Add(this.CommonInterOpaZoom_trackBar);
+            this.groupBox4.Controls.Add(this.CommonScale_trackBar);
             this.groupBox4.Controls.Add(this.label17);
             this.groupBox4.Controls.Add(this.label18);
-            this.groupBox4.Controls.Add(this.trackBar17);
-            this.groupBox4.Controls.Add(this.trackBar18);
+            this.groupBox4.Controls.Add(this.CommonObjOpaZoom_trackBar);
+            this.groupBox4.Controls.Add(this.CommonIconOpa_trackBar);
             this.groupBox4.Controls.Add(this.label19);
             this.groupBox4.Location = new System.Drawing.Point(6, 6);
             this.groupBox4.Name = "groupBox4";
@@ -751,6 +963,152 @@
             this.groupBox4.TabIndex = 14;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Common HUD World Icons Settings";
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.Location = new System.Drawing.Point(273, 339);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(15, 13);
+            this.label56.TabIndex = 31;
+            this.label56.Text = "%";
+            // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.Location = new System.Drawing.Point(273, 288);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(15, 13);
+            this.label53.TabIndex = 30;
+            this.label53.Text = "%";
+            // 
+            // label54
+            // 
+            this.label54.AutoSize = true;
+            this.label54.Location = new System.Drawing.Point(273, 237);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(15, 13);
+            this.label54.TabIndex = 29;
+            this.label54.Text = "%";
+            // 
+            // label51
+            // 
+            this.label51.AutoSize = true;
+            this.label51.Location = new System.Drawing.Point(273, 186);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(15, 13);
+            this.label51.TabIndex = 28;
+            this.label51.Text = "%";
+            // 
+            // label52
+            // 
+            this.label52.AutoSize = true;
+            this.label52.Location = new System.Drawing.Point(273, 135);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(15, 13);
+            this.label52.TabIndex = 27;
+            this.label52.Text = "%";
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.Location = new System.Drawing.Point(273, 84);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(15, 13);
+            this.label49.TabIndex = 26;
+            this.label49.Text = "%";
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.Location = new System.Drawing.Point(273, 33);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(15, 13);
+            this.label50.TabIndex = 25;
+            this.label50.Text = "%";
+            // 
+            // CommonGadgetOpaZoom_textBox
+            // 
+            this.CommonGadgetOpaZoom_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.CommonGadgetOpaZoom_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CommonGadgetOpaZoom_textBox.Location = new System.Drawing.Point(248, 339);
+            this.CommonGadgetOpaZoom_textBox.Name = "CommonGadgetOpaZoom_textBox";
+            this.CommonGadgetOpaZoom_textBox.Size = new System.Drawing.Size(25, 13);
+            this.CommonGadgetOpaZoom_textBox.TabIndex = 24;
+            // 
+            // CommonPickupOpaZoom_textBox
+            // 
+            this.CommonPickupOpaZoom_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.CommonPickupOpaZoom_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CommonPickupOpaZoom_textBox.Location = new System.Drawing.Point(248, 288);
+            this.CommonPickupOpaZoom_textBox.Name = "CommonPickupOpaZoom_textBox";
+            this.CommonPickupOpaZoom_textBox.Size = new System.Drawing.Size(25, 13);
+            this.CommonPickupOpaZoom_textBox.TabIndex = 23;
+            // 
+            // CommonInterOpaZoom_textBox
+            // 
+            this.CommonInterOpaZoom_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.CommonInterOpaZoom_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CommonInterOpaZoom_textBox.Location = new System.Drawing.Point(248, 237);
+            this.CommonInterOpaZoom_textBox.Name = "CommonInterOpaZoom_textBox";
+            this.CommonInterOpaZoom_textBox.Size = new System.Drawing.Size(25, 13);
+            this.CommonInterOpaZoom_textBox.TabIndex = 22;
+            // 
+            // CommonObjOpaZoom_textBox
+            // 
+            this.CommonObjOpaZoom_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.CommonObjOpaZoom_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CommonObjOpaZoom_textBox.Location = new System.Drawing.Point(248, 186);
+            this.CommonObjOpaZoom_textBox.Name = "CommonObjOpaZoom_textBox";
+            this.CommonObjOpaZoom_textBox.Size = new System.Drawing.Size(25, 13);
+            this.CommonObjOpaZoom_textBox.TabIndex = 21;
+            // 
+            // CommonIconOpa_textBox
+            // 
+            this.CommonIconOpa_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.CommonIconOpa_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CommonIconOpa_textBox.Location = new System.Drawing.Point(248, 135);
+            this.CommonIconOpa_textBox.Name = "CommonIconOpa_textBox";
+            this.CommonIconOpa_textBox.Size = new System.Drawing.Size(25, 13);
+            this.CommonIconOpa_textBox.TabIndex = 20;
+            // 
+            // CommonScale_textBox
+            // 
+            this.CommonScale_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.CommonScale_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CommonScale_textBox.Location = new System.Drawing.Point(248, 84);
+            this.CommonScale_textBox.Name = "CommonScale_textBox";
+            this.CommonScale_textBox.Size = new System.Drawing.Size(25, 13);
+            this.CommonScale_textBox.TabIndex = 19;
+            // 
+            // CommonSize_textBox
+            // 
+            this.CommonSize_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.CommonSize_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CommonSize_textBox.Location = new System.Drawing.Point(248, 33);
+            this.CommonSize_textBox.Name = "CommonSize_textBox";
+            this.CommonSize_textBox.Size = new System.Drawing.Size(25, 13);
+            this.CommonSize_textBox.TabIndex = 18;
+            // 
+            // CommonGadgetOpaZoom_trackBar
+            // 
+            this.CommonGadgetOpaZoom_trackBar.LargeChange = 10;
+            this.CommonGadgetOpaZoom_trackBar.Location = new System.Drawing.Point(138, 326);
+            this.CommonGadgetOpaZoom_trackBar.Maximum = 100;
+            this.CommonGadgetOpaZoom_trackBar.Name = "CommonGadgetOpaZoom_trackBar";
+            this.CommonGadgetOpaZoom_trackBar.Size = new System.Drawing.Size(104, 45);
+            this.CommonGadgetOpaZoom_trackBar.TabIndex = 13;
+            this.CommonGadgetOpaZoom_trackBar.TickFrequency = 10;
+            this.CommonGadgetOpaZoom_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(6, 339);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(116, 13);
+            this.label20.TabIndex = 12;
+            this.label20.Text = "Gadgets Opacity Zoom";
             // 
             // label10
             // 
@@ -761,30 +1119,30 @@
             this.label10.TabIndex = 0;
             this.label10.Text = "Size";
             // 
-            // trackBar13
+            // CommonPickupOpaZoom_trackBar
             // 
-            this.trackBar13.LargeChange = 10;
-            this.trackBar13.Location = new System.Drawing.Point(138, 275);
-            this.trackBar13.Maximum = 100;
-            this.trackBar13.Name = "trackBar13";
-            this.trackBar13.Size = new System.Drawing.Size(104, 45);
-            this.trackBar13.TabIndex = 11;
-            this.trackBar13.TickFrequency = 10;
-            this.trackBar13.TickStyle = System.Windows.Forms.TickStyle.Both;
-            this.trackBar13.Scroll += new System.EventHandler(this.trackBar13_Scroll);
+            this.CommonPickupOpaZoom_trackBar.LargeChange = 10;
+            this.CommonPickupOpaZoom_trackBar.Location = new System.Drawing.Point(138, 275);
+            this.CommonPickupOpaZoom_trackBar.Maximum = 100;
+            this.CommonPickupOpaZoom_trackBar.Name = "CommonPickupOpaZoom_trackBar";
+            this.CommonPickupOpaZoom_trackBar.Size = new System.Drawing.Size(104, 45);
+            this.CommonPickupOpaZoom_trackBar.TabIndex = 11;
+            this.CommonPickupOpaZoom_trackBar.TickFrequency = 10;
+            this.CommonPickupOpaZoom_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.CommonPickupOpaZoom_trackBar.Scroll += new System.EventHandler(this.trackBar13_Scroll);
             // 
-            // trackBar14
+            // CommonSize_trackBar
             // 
-            this.trackBar14.LargeChange = 10;
-            this.trackBar14.Location = new System.Drawing.Point(138, 20);
-            this.trackBar14.Maximum = 140;
-            this.trackBar14.Minimum = 60;
-            this.trackBar14.Name = "trackBar14";
-            this.trackBar14.Size = new System.Drawing.Size(104, 45);
-            this.trackBar14.TabIndex = 1;
-            this.trackBar14.TickFrequency = 8;
-            this.trackBar14.TickStyle = System.Windows.Forms.TickStyle.Both;
-            this.trackBar14.Value = 60;
+            this.CommonSize_trackBar.LargeChange = 10;
+            this.CommonSize_trackBar.Location = new System.Drawing.Point(138, 20);
+            this.CommonSize_trackBar.Maximum = 140;
+            this.CommonSize_trackBar.Minimum = 60;
+            this.CommonSize_trackBar.Name = "CommonSize_trackBar";
+            this.CommonSize_trackBar.Size = new System.Drawing.Size(104, 45);
+            this.CommonSize_trackBar.TabIndex = 1;
+            this.CommonSize_trackBar.TickFrequency = 8;
+            this.CommonSize_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.CommonSize_trackBar.Value = 60;
             // 
             // label15
             // 
@@ -805,27 +1163,27 @@
             this.label16.Text = "Scale With Distance";
             this.label16.Click += new System.EventHandler(this.label16_Click);
             // 
-            // trackBar15
+            // CommonInterOpaZoom_trackBar
             // 
-            this.trackBar15.LargeChange = 10;
-            this.trackBar15.Location = new System.Drawing.Point(138, 224);
-            this.trackBar15.Maximum = 100;
-            this.trackBar15.Name = "trackBar15";
-            this.trackBar15.Size = new System.Drawing.Size(104, 45);
-            this.trackBar15.TabIndex = 9;
-            this.trackBar15.TickFrequency = 10;
-            this.trackBar15.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.CommonInterOpaZoom_trackBar.LargeChange = 10;
+            this.CommonInterOpaZoom_trackBar.Location = new System.Drawing.Point(138, 224);
+            this.CommonInterOpaZoom_trackBar.Maximum = 100;
+            this.CommonInterOpaZoom_trackBar.Name = "CommonInterOpaZoom_trackBar";
+            this.CommonInterOpaZoom_trackBar.Size = new System.Drawing.Size(104, 45);
+            this.CommonInterOpaZoom_trackBar.TabIndex = 9;
+            this.CommonInterOpaZoom_trackBar.TickFrequency = 10;
+            this.CommonInterOpaZoom_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
             // 
-            // trackBar16
+            // CommonScale_trackBar
             // 
-            this.trackBar16.LargeChange = 10;
-            this.trackBar16.Location = new System.Drawing.Point(138, 71);
-            this.trackBar16.Maximum = 100;
-            this.trackBar16.Name = "trackBar16";
-            this.trackBar16.Size = new System.Drawing.Size(104, 45);
-            this.trackBar16.TabIndex = 3;
-            this.trackBar16.TickFrequency = 10;
-            this.trackBar16.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.CommonScale_trackBar.LargeChange = 10;
+            this.CommonScale_trackBar.Location = new System.Drawing.Point(138, 71);
+            this.CommonScale_trackBar.Maximum = 100;
+            this.CommonScale_trackBar.Name = "CommonScale_trackBar";
+            this.CommonScale_trackBar.Size = new System.Drawing.Size(104, 45);
+            this.CommonScale_trackBar.TabIndex = 3;
+            this.CommonScale_trackBar.TickFrequency = 10;
+            this.CommonScale_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
             // 
             // label17
             // 
@@ -846,27 +1204,27 @@
             this.label18.Text = "Icons Opacity";
             this.label18.Click += new System.EventHandler(this.label18_Click);
             // 
-            // trackBar17
+            // CommonObjOpaZoom_trackBar
             // 
-            this.trackBar17.LargeChange = 10;
-            this.trackBar17.Location = new System.Drawing.Point(138, 173);
-            this.trackBar17.Maximum = 100;
-            this.trackBar17.Name = "trackBar17";
-            this.trackBar17.Size = new System.Drawing.Size(104, 45);
-            this.trackBar17.TabIndex = 7;
-            this.trackBar17.TickFrequency = 10;
-            this.trackBar17.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.CommonObjOpaZoom_trackBar.LargeChange = 10;
+            this.CommonObjOpaZoom_trackBar.Location = new System.Drawing.Point(138, 173);
+            this.CommonObjOpaZoom_trackBar.Maximum = 100;
+            this.CommonObjOpaZoom_trackBar.Name = "CommonObjOpaZoom_trackBar";
+            this.CommonObjOpaZoom_trackBar.Size = new System.Drawing.Size(104, 45);
+            this.CommonObjOpaZoom_trackBar.TabIndex = 7;
+            this.CommonObjOpaZoom_trackBar.TickFrequency = 10;
+            this.CommonObjOpaZoom_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
             // 
-            // trackBar18
+            // CommonIconOpa_trackBar
             // 
-            this.trackBar18.LargeChange = 10;
-            this.trackBar18.Location = new System.Drawing.Point(138, 122);
-            this.trackBar18.Maximum = 100;
-            this.trackBar18.Name = "trackBar18";
-            this.trackBar18.Size = new System.Drawing.Size(104, 45);
-            this.trackBar18.TabIndex = 5;
-            this.trackBar18.TickFrequency = 10;
-            this.trackBar18.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.CommonIconOpa_trackBar.LargeChange = 10;
+            this.CommonIconOpa_trackBar.Location = new System.Drawing.Point(138, 122);
+            this.CommonIconOpa_trackBar.Maximum = 100;
+            this.CommonIconOpa_trackBar.Name = "CommonIconOpa_trackBar";
+            this.CommonIconOpa_trackBar.Size = new System.Drawing.Size(104, 45);
+            this.CommonIconOpa_trackBar.TabIndex = 5;
+            this.CommonIconOpa_trackBar.TickFrequency = 10;
+            this.CommonIconOpa_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
             // 
             // label19
             // 
@@ -877,28 +1235,21 @@
             this.label19.TabIndex = 6;
             this.label19.Text = "Objective Opacity Zoom";
             // 
-            // trackBar19
+            // tabPage5
             // 
-            this.trackBar19.LargeChange = 10;
-            this.trackBar19.Location = new System.Drawing.Point(138, 326);
-            this.trackBar19.Maximum = 100;
-            this.trackBar19.Name = "trackBar19";
-            this.trackBar19.Size = new System.Drawing.Size(104, 45);
-            this.trackBar19.TabIndex = 13;
-            this.trackBar19.TickFrequency = 10;
-            this.trackBar19.TickStyle = System.Windows.Forms.TickStyle.Both;
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(6, 339);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(116, 13);
-            this.label20.TabIndex = 12;
-            this.label20.Text = "Gadgets Opacity Zoom";
+            this.tabPage5.BackColor = System.Drawing.Color.Transparent;
+            this.tabPage5.Controls.Add(this.groupBox5);
+            this.tabPage5.Location = new System.Drawing.Point(4, 22);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(306, 468);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "Enemy";
             // 
             // groupBox5
             // 
+            this.groupBox5.Controls.Add(this.DefaultEnemy_button);
+            this.groupBox5.Controls.Add(this.SaveEnemy_button);
             this.groupBox5.Controls.Add(this.label62);
             this.groupBox5.Controls.Add(this.label63);
             this.groupBox5.Controls.Add(this.label60);
@@ -907,30 +1258,30 @@
             this.groupBox5.Controls.Add(this.label59);
             this.groupBox5.Controls.Add(this.label55);
             this.groupBox5.Controls.Add(this.label57);
-            this.groupBox5.Controls.Add(this.textBox27);
-            this.groupBox5.Controls.Add(this.textBox14);
-            this.groupBox5.Controls.Add(this.textBox15);
-            this.groupBox5.Controls.Add(this.textBox20);
-            this.groupBox5.Controls.Add(this.textBox21);
-            this.groupBox5.Controls.Add(this.textBox24);
-            this.groupBox5.Controls.Add(this.textBox25);
-            this.groupBox5.Controls.Add(this.textBox26);
-            this.groupBox5.Controls.Add(this.checkBox3);
-            this.groupBox5.Controls.Add(this.trackBar27);
+            this.groupBox5.Controls.Add(this.EnemyInfoOpaZoom_textBox);
+            this.groupBox5.Controls.Add(this.EnemyInfoOpa_textBox);
+            this.groupBox5.Controls.Add(this.EnemyHealthOpaZoom_textBox);
+            this.groupBox5.Controls.Add(this.EnemyHealthOpa_textBox);
+            this.groupBox5.Controls.Add(this.EnemyIconOpaZoom_textBox);
+            this.groupBox5.Controls.Add(this.EnemyIconOpa_textBox);
+            this.groupBox5.Controls.Add(this.EnamyScale_textBox);
+            this.groupBox5.Controls.Add(this.EnemySize_textBox);
+            this.groupBox5.Controls.Add(this.FieldUpArmorIcon_checkBox);
+            this.groupBox5.Controls.Add(this.EnemyInfoOpaZoom_trackBar);
             this.groupBox5.Controls.Add(this.label28);
-            this.groupBox5.Controls.Add(this.trackBar20);
+            this.groupBox5.Controls.Add(this.EnemyInfoOpa_trackBar);
             this.groupBox5.Controls.Add(this.label21);
             this.groupBox5.Controls.Add(this.label22);
-            this.groupBox5.Controls.Add(this.trackBar21);
-            this.groupBox5.Controls.Add(this.trackBar22);
+            this.groupBox5.Controls.Add(this.EnemyHealthOpaZoom_trackBar);
+            this.groupBox5.Controls.Add(this.EnemySize_trackBar);
             this.groupBox5.Controls.Add(this.label23);
             this.groupBox5.Controls.Add(this.label24);
-            this.groupBox5.Controls.Add(this.trackBar23);
-            this.groupBox5.Controls.Add(this.trackBar24);
+            this.groupBox5.Controls.Add(this.EnemyHealthOpa_trackBar);
+            this.groupBox5.Controls.Add(this.EnamyScale_trackBar);
             this.groupBox5.Controls.Add(this.label25);
             this.groupBox5.Controls.Add(this.label26);
-            this.groupBox5.Controls.Add(this.trackBar25);
-            this.groupBox5.Controls.Add(this.trackBar26);
+            this.groupBox5.Controls.Add(this.EnemyIconOpaZoom_trackBar);
+            this.groupBox5.Controls.Add(this.EnemyIconOpa_trackBar);
             this.groupBox5.Controls.Add(this.label27);
             this.groupBox5.Location = new System.Drawing.Point(6, 6);
             this.groupBox5.Name = "groupBox5";
@@ -940,16 +1291,190 @@
             this.groupBox5.Text = "Enemy HUD World Icons Settings";
             this.groupBox5.Enter += new System.EventHandler(this.groupBox5_Enter);
             // 
-            // trackBar20
+            // label62
             // 
-            this.trackBar20.LargeChange = 10;
-            this.trackBar20.Location = new System.Drawing.Point(119, 325);
-            this.trackBar20.Maximum = 100;
-            this.trackBar20.Name = "trackBar20";
-            this.trackBar20.Size = new System.Drawing.Size(104, 45);
-            this.trackBar20.TabIndex = 13;
-            this.trackBar20.TickFrequency = 10;
-            this.trackBar20.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.label62.AutoSize = true;
+            this.label62.Location = new System.Drawing.Point(254, 390);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(15, 13);
+            this.label62.TabIndex = 40;
+            this.label62.Text = "%";
+            // 
+            // label63
+            // 
+            this.label63.AutoSize = true;
+            this.label63.Location = new System.Drawing.Point(254, 339);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(15, 13);
+            this.label63.TabIndex = 39;
+            this.label63.Text = "%";
+            // 
+            // label60
+            // 
+            this.label60.AutoSize = true;
+            this.label60.Location = new System.Drawing.Point(254, 288);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(15, 13);
+            this.label60.TabIndex = 38;
+            this.label60.Text = "%";
+            // 
+            // label61
+            // 
+            this.label61.AutoSize = true;
+            this.label61.Location = new System.Drawing.Point(254, 237);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(15, 13);
+            this.label61.TabIndex = 37;
+            this.label61.Text = "%";
+            // 
+            // label58
+            // 
+            this.label58.AutoSize = true;
+            this.label58.Location = new System.Drawing.Point(254, 186);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(15, 13);
+            this.label58.TabIndex = 36;
+            this.label58.Text = "%";
+            // 
+            // label59
+            // 
+            this.label59.AutoSize = true;
+            this.label59.Location = new System.Drawing.Point(254, 135);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(15, 13);
+            this.label59.TabIndex = 35;
+            this.label59.Text = "%";
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.Location = new System.Drawing.Point(254, 84);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(15, 13);
+            this.label55.TabIndex = 34;
+            this.label55.Text = "%";
+            // 
+            // label57
+            // 
+            this.label57.AutoSize = true;
+            this.label57.Location = new System.Drawing.Point(254, 33);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(15, 13);
+            this.label57.TabIndex = 33;
+            this.label57.Text = "%";
+            // 
+            // EnemyInfoOpaZoom_textBox
+            // 
+            this.EnemyInfoOpaZoom_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.EnemyInfoOpaZoom_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.EnemyInfoOpaZoom_textBox.Location = new System.Drawing.Point(229, 390);
+            this.EnemyInfoOpaZoom_textBox.Name = "EnemyInfoOpaZoom_textBox";
+            this.EnemyInfoOpaZoom_textBox.Size = new System.Drawing.Size(25, 13);
+            this.EnemyInfoOpaZoom_textBox.TabIndex = 32;
+            // 
+            // EnemyInfoOpa_textBox
+            // 
+            this.EnemyInfoOpa_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.EnemyInfoOpa_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.EnemyInfoOpa_textBox.Location = new System.Drawing.Point(229, 339);
+            this.EnemyInfoOpa_textBox.Name = "EnemyInfoOpa_textBox";
+            this.EnemyInfoOpa_textBox.Size = new System.Drawing.Size(25, 13);
+            this.EnemyInfoOpa_textBox.TabIndex = 31;
+            // 
+            // EnemyHealthOpaZoom_textBox
+            // 
+            this.EnemyHealthOpaZoom_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.EnemyHealthOpaZoom_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.EnemyHealthOpaZoom_textBox.Location = new System.Drawing.Point(229, 288);
+            this.EnemyHealthOpaZoom_textBox.Name = "EnemyHealthOpaZoom_textBox";
+            this.EnemyHealthOpaZoom_textBox.Size = new System.Drawing.Size(25, 13);
+            this.EnemyHealthOpaZoom_textBox.TabIndex = 30;
+            // 
+            // EnemyHealthOpa_textBox
+            // 
+            this.EnemyHealthOpa_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.EnemyHealthOpa_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.EnemyHealthOpa_textBox.Location = new System.Drawing.Point(229, 237);
+            this.EnemyHealthOpa_textBox.Name = "EnemyHealthOpa_textBox";
+            this.EnemyHealthOpa_textBox.Size = new System.Drawing.Size(25, 13);
+            this.EnemyHealthOpa_textBox.TabIndex = 29;
+            // 
+            // EnemyIconOpaZoom_textBox
+            // 
+            this.EnemyIconOpaZoom_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.EnemyIconOpaZoom_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.EnemyIconOpaZoom_textBox.Location = new System.Drawing.Point(229, 186);
+            this.EnemyIconOpaZoom_textBox.Name = "EnemyIconOpaZoom_textBox";
+            this.EnemyIconOpaZoom_textBox.Size = new System.Drawing.Size(25, 13);
+            this.EnemyIconOpaZoom_textBox.TabIndex = 28;
+            // 
+            // EnemyIconOpa_textBox
+            // 
+            this.EnemyIconOpa_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.EnemyIconOpa_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.EnemyIconOpa_textBox.Location = new System.Drawing.Point(229, 135);
+            this.EnemyIconOpa_textBox.Name = "EnemyIconOpa_textBox";
+            this.EnemyIconOpa_textBox.Size = new System.Drawing.Size(25, 13);
+            this.EnemyIconOpa_textBox.TabIndex = 27;
+            // 
+            // EnamyScale_textBox
+            // 
+            this.EnamyScale_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.EnamyScale_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.EnamyScale_textBox.Location = new System.Drawing.Point(229, 84);
+            this.EnamyScale_textBox.Name = "EnamyScale_textBox";
+            this.EnamyScale_textBox.Size = new System.Drawing.Size(25, 13);
+            this.EnamyScale_textBox.TabIndex = 26;
+            // 
+            // EnemySize_textBox
+            // 
+            this.EnemySize_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.EnemySize_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.EnemySize_textBox.Location = new System.Drawing.Point(229, 33);
+            this.EnemySize_textBox.Name = "EnemySize_textBox";
+            this.EnemySize_textBox.Size = new System.Drawing.Size(25, 13);
+            this.EnemySize_textBox.TabIndex = 25;
+            // 
+            // FieldUpArmorIcon_checkBox
+            // 
+            this.FieldUpArmorIcon_checkBox.AutoSize = true;
+            this.FieldUpArmorIcon_checkBox.Location = new System.Drawing.Point(9, 427);
+            this.FieldUpArmorIcon_checkBox.Name = "FieldUpArmorIcon_checkBox";
+            this.FieldUpArmorIcon_checkBox.Size = new System.Drawing.Size(146, 17);
+            this.FieldUpArmorIcon_checkBox.TabIndex = 16;
+            this.FieldUpArmorIcon_checkBox.Text = "Field Upgrade Armor Icon";
+            this.FieldUpArmorIcon_checkBox.UseVisualStyleBackColor = true;
+            // 
+            // EnemyInfoOpaZoom_trackBar
+            // 
+            this.EnemyInfoOpaZoom_trackBar.LargeChange = 10;
+            this.EnemyInfoOpaZoom_trackBar.Location = new System.Drawing.Point(119, 376);
+            this.EnemyInfoOpaZoom_trackBar.Maximum = 100;
+            this.EnemyInfoOpaZoom_trackBar.Name = "EnemyInfoOpaZoom_trackBar";
+            this.EnemyInfoOpaZoom_trackBar.Size = new System.Drawing.Size(104, 45);
+            this.EnemyInfoOpaZoom_trackBar.TabIndex = 15;
+            this.EnemyInfoOpaZoom_trackBar.TickFrequency = 10;
+            this.EnemyInfoOpaZoom_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(6, 390);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(94, 13);
+            this.label28.TabIndex = 14;
+            this.label28.Text = "Info Opacity Zoom";
+            // 
+            // EnemyInfoOpa_trackBar
+            // 
+            this.EnemyInfoOpa_trackBar.LargeChange = 10;
+            this.EnemyInfoOpa_trackBar.Location = new System.Drawing.Point(119, 325);
+            this.EnemyInfoOpa_trackBar.Maximum = 100;
+            this.EnemyInfoOpa_trackBar.Name = "EnemyInfoOpa_trackBar";
+            this.EnemyInfoOpa_trackBar.Size = new System.Drawing.Size(104, 45);
+            this.EnemyInfoOpa_trackBar.TabIndex = 13;
+            this.EnemyInfoOpa_trackBar.TickFrequency = 10;
+            this.EnemyInfoOpa_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
             // 
             // label21
             // 
@@ -969,29 +1494,29 @@
             this.label22.TabIndex = 0;
             this.label22.Text = "Size";
             // 
-            // trackBar21
+            // EnemyHealthOpaZoom_trackBar
             // 
-            this.trackBar21.LargeChange = 10;
-            this.trackBar21.Location = new System.Drawing.Point(119, 274);
-            this.trackBar21.Maximum = 100;
-            this.trackBar21.Name = "trackBar21";
-            this.trackBar21.Size = new System.Drawing.Size(104, 45);
-            this.trackBar21.TabIndex = 11;
-            this.trackBar21.TickFrequency = 10;
-            this.trackBar21.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.EnemyHealthOpaZoom_trackBar.LargeChange = 10;
+            this.EnemyHealthOpaZoom_trackBar.Location = new System.Drawing.Point(119, 274);
+            this.EnemyHealthOpaZoom_trackBar.Maximum = 100;
+            this.EnemyHealthOpaZoom_trackBar.Name = "EnemyHealthOpaZoom_trackBar";
+            this.EnemyHealthOpaZoom_trackBar.Size = new System.Drawing.Size(104, 45);
+            this.EnemyHealthOpaZoom_trackBar.TabIndex = 11;
+            this.EnemyHealthOpaZoom_trackBar.TickFrequency = 10;
+            this.EnemyHealthOpaZoom_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
             // 
-            // trackBar22
+            // EnemySize_trackBar
             // 
-            this.trackBar22.LargeChange = 10;
-            this.trackBar22.Location = new System.Drawing.Point(119, 19);
-            this.trackBar22.Maximum = 140;
-            this.trackBar22.Minimum = 60;
-            this.trackBar22.Name = "trackBar22";
-            this.trackBar22.Size = new System.Drawing.Size(104, 45);
-            this.trackBar22.TabIndex = 1;
-            this.trackBar22.TickFrequency = 8;
-            this.trackBar22.TickStyle = System.Windows.Forms.TickStyle.Both;
-            this.trackBar22.Value = 60;
+            this.EnemySize_trackBar.LargeChange = 10;
+            this.EnemySize_trackBar.Location = new System.Drawing.Point(119, 19);
+            this.EnemySize_trackBar.Maximum = 140;
+            this.EnemySize_trackBar.Minimum = 60;
+            this.EnemySize_trackBar.Name = "EnemySize_trackBar";
+            this.EnemySize_trackBar.Size = new System.Drawing.Size(104, 45);
+            this.EnemySize_trackBar.TabIndex = 1;
+            this.EnemySize_trackBar.TickFrequency = 8;
+            this.EnemySize_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.EnemySize_trackBar.Value = 60;
             // 
             // label23
             // 
@@ -1012,27 +1537,27 @@
             this.label24.TabIndex = 2;
             this.label24.Text = "Scale With Distance";
             // 
-            // trackBar23
+            // EnemyHealthOpa_trackBar
             // 
-            this.trackBar23.LargeChange = 10;
-            this.trackBar23.Location = new System.Drawing.Point(119, 223);
-            this.trackBar23.Maximum = 100;
-            this.trackBar23.Name = "trackBar23";
-            this.trackBar23.Size = new System.Drawing.Size(104, 45);
-            this.trackBar23.TabIndex = 9;
-            this.trackBar23.TickFrequency = 10;
-            this.trackBar23.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.EnemyHealthOpa_trackBar.LargeChange = 10;
+            this.EnemyHealthOpa_trackBar.Location = new System.Drawing.Point(119, 223);
+            this.EnemyHealthOpa_trackBar.Maximum = 100;
+            this.EnemyHealthOpa_trackBar.Name = "EnemyHealthOpa_trackBar";
+            this.EnemyHealthOpa_trackBar.Size = new System.Drawing.Size(104, 45);
+            this.EnemyHealthOpa_trackBar.TabIndex = 9;
+            this.EnemyHealthOpa_trackBar.TickFrequency = 10;
+            this.EnemyHealthOpa_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
             // 
-            // trackBar24
+            // EnamyScale_trackBar
             // 
-            this.trackBar24.LargeChange = 10;
-            this.trackBar24.Location = new System.Drawing.Point(119, 70);
-            this.trackBar24.Maximum = 100;
-            this.trackBar24.Name = "trackBar24";
-            this.trackBar24.Size = new System.Drawing.Size(104, 45);
-            this.trackBar24.TabIndex = 3;
-            this.trackBar24.TickFrequency = 10;
-            this.trackBar24.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.EnamyScale_trackBar.LargeChange = 10;
+            this.EnamyScale_trackBar.Location = new System.Drawing.Point(119, 70);
+            this.EnamyScale_trackBar.Maximum = 100;
+            this.EnamyScale_trackBar.Name = "EnamyScale_trackBar";
+            this.EnamyScale_trackBar.Size = new System.Drawing.Size(104, 45);
+            this.EnamyScale_trackBar.TabIndex = 3;
+            this.EnamyScale_trackBar.TickFrequency = 10;
+            this.EnamyScale_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
             // 
             // label25
             // 
@@ -1053,27 +1578,27 @@
             this.label26.TabIndex = 4;
             this.label26.Text = "Icons Opacity";
             // 
-            // trackBar25
+            // EnemyIconOpaZoom_trackBar
             // 
-            this.trackBar25.LargeChange = 10;
-            this.trackBar25.Location = new System.Drawing.Point(119, 172);
-            this.trackBar25.Maximum = 100;
-            this.trackBar25.Name = "trackBar25";
-            this.trackBar25.Size = new System.Drawing.Size(104, 45);
-            this.trackBar25.TabIndex = 7;
-            this.trackBar25.TickFrequency = 10;
-            this.trackBar25.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.EnemyIconOpaZoom_trackBar.LargeChange = 10;
+            this.EnemyIconOpaZoom_trackBar.Location = new System.Drawing.Point(119, 172);
+            this.EnemyIconOpaZoom_trackBar.Maximum = 100;
+            this.EnemyIconOpaZoom_trackBar.Name = "EnemyIconOpaZoom_trackBar";
+            this.EnemyIconOpaZoom_trackBar.Size = new System.Drawing.Size(104, 45);
+            this.EnemyIconOpaZoom_trackBar.TabIndex = 7;
+            this.EnemyIconOpaZoom_trackBar.TickFrequency = 10;
+            this.EnemyIconOpaZoom_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
             // 
-            // trackBar26
+            // EnemyIconOpa_trackBar
             // 
-            this.trackBar26.LargeChange = 10;
-            this.trackBar26.Location = new System.Drawing.Point(119, 121);
-            this.trackBar26.Maximum = 100;
-            this.trackBar26.Name = "trackBar26";
-            this.trackBar26.Size = new System.Drawing.Size(104, 45);
-            this.trackBar26.TabIndex = 5;
-            this.trackBar26.TickFrequency = 10;
-            this.trackBar26.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.EnemyIconOpa_trackBar.LargeChange = 10;
+            this.EnemyIconOpa_trackBar.Location = new System.Drawing.Point(119, 121);
+            this.EnemyIconOpa_trackBar.Maximum = 100;
+            this.EnemyIconOpa_trackBar.Name = "EnemyIconOpa_trackBar";
+            this.EnemyIconOpa_trackBar.Size = new System.Drawing.Size(104, 45);
+            this.EnemyIconOpa_trackBar.TabIndex = 5;
+            this.EnemyIconOpa_trackBar.TickFrequency = 10;
+            this.EnemyIconOpa_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
             // 
             // label27
             // 
@@ -1084,38 +1609,21 @@
             this.label27.TabIndex = 6;
             this.label27.Text = "Icons Opacity Zoom";
             // 
-            // trackBar27
+            // tabPage6
             // 
-            this.trackBar27.LargeChange = 10;
-            this.trackBar27.Location = new System.Drawing.Point(119, 376);
-            this.trackBar27.Maximum = 100;
-            this.trackBar27.Name = "trackBar27";
-            this.trackBar27.Size = new System.Drawing.Size(104, 45);
-            this.trackBar27.TabIndex = 15;
-            this.trackBar27.TickFrequency = 10;
-            this.trackBar27.TickStyle = System.Windows.Forms.TickStyle.Both;
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(6, 390);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(94, 13);
-            this.label28.TabIndex = 14;
-            this.label28.Text = "Info Opacity Zoom";
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(9, 427);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(146, 17);
-            this.checkBox3.TabIndex = 16;
-            this.checkBox3.Text = "Field Upgrade Armor Icon";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.tabPage6.BackColor = System.Drawing.Color.Transparent;
+            this.tabPage6.Controls.Add(this.groupBox6);
+            this.tabPage6.Location = new System.Drawing.Point(4, 22);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage6.Size = new System.Drawing.Size(306, 468);
+            this.tabPage6.TabIndex = 5;
+            this.tabPage6.Text = "Friend";
             // 
             // groupBox6
             // 
+            this.groupBox6.Controls.Add(this.DefaultFriend_button);
+            this.groupBox6.Controls.Add(this.SaveFriend_button);
             this.groupBox6.Controls.Add(this.label64);
             this.groupBox6.Controls.Add(this.label65);
             this.groupBox6.Controls.Add(this.label66);
@@ -1124,29 +1632,29 @@
             this.groupBox6.Controls.Add(this.label69);
             this.groupBox6.Controls.Add(this.label70);
             this.groupBox6.Controls.Add(this.label71);
-            this.groupBox6.Controls.Add(this.textBox28);
-            this.groupBox6.Controls.Add(this.textBox29);
-            this.groupBox6.Controls.Add(this.textBox30);
-            this.groupBox6.Controls.Add(this.textBox31);
-            this.groupBox6.Controls.Add(this.textBox32);
-            this.groupBox6.Controls.Add(this.textBox33);
-            this.groupBox6.Controls.Add(this.textBox34);
-            this.groupBox6.Controls.Add(this.textBox35);
-            this.groupBox6.Controls.Add(this.trackBar28);
+            this.groupBox6.Controls.Add(this.FriendInfoOpaZoom_textBox);
+            this.groupBox6.Controls.Add(this.FriendInfoOpa_textBox);
+            this.groupBox6.Controls.Add(this.FriendHealthOpaZoom_textBox);
+            this.groupBox6.Controls.Add(this.FriendHealthOpa_textBox);
+            this.groupBox6.Controls.Add(this.FriendIconOpaZoom_textBox);
+            this.groupBox6.Controls.Add(this.FriendIconOpa_textBox);
+            this.groupBox6.Controls.Add(this.FriendScale_textBox);
+            this.groupBox6.Controls.Add(this.FriendSize_textBox);
+            this.groupBox6.Controls.Add(this.FriendInfoOpaZoom_trackBar);
             this.groupBox6.Controls.Add(this.label29);
-            this.groupBox6.Controls.Add(this.trackBar29);
+            this.groupBox6.Controls.Add(this.FriendInfoOpa_trackBar);
             this.groupBox6.Controls.Add(this.label30);
             this.groupBox6.Controls.Add(this.label31);
-            this.groupBox6.Controls.Add(this.trackBar30);
-            this.groupBox6.Controls.Add(this.trackBar31);
+            this.groupBox6.Controls.Add(this.FriendHealthOpaZoom_trackBar);
+            this.groupBox6.Controls.Add(this.FriendSize_trackBar);
             this.groupBox6.Controls.Add(this.label32);
             this.groupBox6.Controls.Add(this.label33);
-            this.groupBox6.Controls.Add(this.trackBar32);
-            this.groupBox6.Controls.Add(this.trackBar33);
+            this.groupBox6.Controls.Add(this.FriendHealthOpa_trackBar);
+            this.groupBox6.Controls.Add(this.FriendScale_trackBar);
             this.groupBox6.Controls.Add(this.label34);
             this.groupBox6.Controls.Add(this.label35);
-            this.groupBox6.Controls.Add(this.trackBar34);
-            this.groupBox6.Controls.Add(this.trackBar35);
+            this.groupBox6.Controls.Add(this.FriendIconOpaZoom_trackBar);
+            this.groupBox6.Controls.Add(this.FriendIconOpa_trackBar);
             this.groupBox6.Controls.Add(this.label36);
             this.groupBox6.Location = new System.Drawing.Point(6, 6);
             this.groupBox6.Name = "groupBox6";
@@ -1154,732 +1662,6 @@
             this.groupBox6.TabIndex = 16;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Friend HUD World Icons Settings";
-            // 
-            // trackBar28
-            // 
-            this.trackBar28.LargeChange = 10;
-            this.trackBar28.Location = new System.Drawing.Point(158, 377);
-            this.trackBar28.Maximum = 100;
-            this.trackBar28.Name = "trackBar28";
-            this.trackBar28.Size = new System.Drawing.Size(90, 45);
-            this.trackBar28.TabIndex = 15;
-            this.trackBar28.TickFrequency = 10;
-            this.trackBar28.TickStyle = System.Windows.Forms.TickStyle.Both;
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(6, 390);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(94, 13);
-            this.label29.TabIndex = 14;
-            this.label29.Text = "Info Opacity Zoom";
-            // 
-            // trackBar29
-            // 
-            this.trackBar29.LargeChange = 10;
-            this.trackBar29.Location = new System.Drawing.Point(158, 326);
-            this.trackBar29.Maximum = 100;
-            this.trackBar29.Name = "trackBar29";
-            this.trackBar29.Size = new System.Drawing.Size(90, 45);
-            this.trackBar29.TabIndex = 13;
-            this.trackBar29.TickFrequency = 10;
-            this.trackBar29.TickStyle = System.Windows.Forms.TickStyle.Both;
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(6, 339);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(64, 13);
-            this.label30.TabIndex = 12;
-            this.label30.Text = "Info Opacity";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(6, 33);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(27, 13);
-            this.label31.TabIndex = 0;
-            this.label31.Text = "Size";
-            // 
-            // trackBar30
-            // 
-            this.trackBar30.LargeChange = 10;
-            this.trackBar30.Location = new System.Drawing.Point(158, 275);
-            this.trackBar30.Maximum = 100;
-            this.trackBar30.Name = "trackBar30";
-            this.trackBar30.Size = new System.Drawing.Size(90, 45);
-            this.trackBar30.TabIndex = 11;
-            this.trackBar30.TickFrequency = 10;
-            this.trackBar30.TickStyle = System.Windows.Forms.TickStyle.Both;
-            // 
-            // trackBar31
-            // 
-            this.trackBar31.LargeChange = 10;
-            this.trackBar31.Location = new System.Drawing.Point(158, 20);
-            this.trackBar31.Maximum = 140;
-            this.trackBar31.Minimum = 60;
-            this.trackBar31.Name = "trackBar31";
-            this.trackBar31.Size = new System.Drawing.Size(90, 45);
-            this.trackBar31.TabIndex = 1;
-            this.trackBar31.TickFrequency = 8;
-            this.trackBar31.TickStyle = System.Windows.Forms.TickStyle.Both;
-            this.trackBar31.Value = 60;
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(6, 288);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(146, 13);
-            this.label32.TabIndex = 10;
-            this.label32.Text = "Health/Revive Opacity Zoom";
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(6, 84);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(104, 13);
-            this.label33.TabIndex = 2;
-            this.label33.Text = "Scale With Distance";
-            // 
-            // trackBar32
-            // 
-            this.trackBar32.LargeChange = 10;
-            this.trackBar32.Location = new System.Drawing.Point(158, 224);
-            this.trackBar32.Maximum = 100;
-            this.trackBar32.Name = "trackBar32";
-            this.trackBar32.Size = new System.Drawing.Size(90, 45);
-            this.trackBar32.TabIndex = 9;
-            this.trackBar32.TickFrequency = 10;
-            this.trackBar32.TickStyle = System.Windows.Forms.TickStyle.Both;
-            // 
-            // trackBar33
-            // 
-            this.trackBar33.LargeChange = 10;
-            this.trackBar33.Location = new System.Drawing.Point(158, 71);
-            this.trackBar33.Maximum = 100;
-            this.trackBar33.Name = "trackBar33";
-            this.trackBar33.Size = new System.Drawing.Size(90, 45);
-            this.trackBar33.TabIndex = 3;
-            this.trackBar33.TickFrequency = 10;
-            this.trackBar33.TickStyle = System.Windows.Forms.TickStyle.Both;
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(6, 237);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(116, 13);
-            this.label34.TabIndex = 8;
-            this.label34.Text = "Health/Revive Opacity";
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(6, 135);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(72, 13);
-            this.label35.TabIndex = 4;
-            this.label35.Text = "Icons Opacity";
-            // 
-            // trackBar34
-            // 
-            this.trackBar34.LargeChange = 10;
-            this.trackBar34.Location = new System.Drawing.Point(158, 173);
-            this.trackBar34.Maximum = 100;
-            this.trackBar34.Name = "trackBar34";
-            this.trackBar34.Size = new System.Drawing.Size(90, 45);
-            this.trackBar34.TabIndex = 7;
-            this.trackBar34.TickFrequency = 10;
-            this.trackBar34.TickStyle = System.Windows.Forms.TickStyle.Both;
-            // 
-            // trackBar35
-            // 
-            this.trackBar35.LargeChange = 10;
-            this.trackBar35.Location = new System.Drawing.Point(158, 122);
-            this.trackBar35.Maximum = 100;
-            this.trackBar35.Name = "trackBar35";
-            this.trackBar35.Size = new System.Drawing.Size(90, 45);
-            this.trackBar35.TabIndex = 5;
-            this.trackBar35.TickFrequency = 10;
-            this.trackBar35.TickStyle = System.Windows.Forms.TickStyle.Both;
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(6, 186);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(102, 13);
-            this.label36.TabIndex = 6;
-            this.label36.Text = "Icons Opacity Zoom";
-            // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Location = new System.Drawing.Point(235, 33);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox1.Size = new System.Drawing.Size(25, 13);
-            this.textBox1.TabIndex = 12;
-            // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Location = new System.Drawing.Point(235, 84);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox2.Size = new System.Drawing.Size(25, 13);
-            this.textBox2.TabIndex = 13;
-            // 
-            // textBox3
-            // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Location = new System.Drawing.Point(235, 135);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox3.Size = new System.Drawing.Size(25, 13);
-            this.textBox3.TabIndex = 14;
-            // 
-            // textBox4
-            // 
-            this.textBox4.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Location = new System.Drawing.Point(235, 186);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox4.Size = new System.Drawing.Size(25, 13);
-            this.textBox4.TabIndex = 15;
-            // 
-            // textBox5
-            // 
-            this.textBox5.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox5.Location = new System.Drawing.Point(235, 237);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox5.Size = new System.Drawing.Size(25, 13);
-            this.textBox5.TabIndex = 16;
-            // 
-            // textBox6
-            // 
-            this.textBox6.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox6.Location = new System.Drawing.Point(235, 288);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox6.Size = new System.Drawing.Size(25, 13);
-            this.textBox6.TabIndex = 17;
-            // 
-            // textBox7
-            // 
-            this.textBox7.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox7.Location = new System.Drawing.Point(248, 288);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(25, 13);
-            this.textBox7.TabIndex = 23;
-            // 
-            // textBox8
-            // 
-            this.textBox8.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox8.Location = new System.Drawing.Point(248, 237);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(25, 13);
-            this.textBox8.TabIndex = 22;
-            // 
-            // textBox9
-            // 
-            this.textBox9.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox9.Location = new System.Drawing.Point(248, 186);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(25, 13);
-            this.textBox9.TabIndex = 21;
-            // 
-            // textBox10
-            // 
-            this.textBox10.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox10.Location = new System.Drawing.Point(248, 135);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(25, 13);
-            this.textBox10.TabIndex = 20;
-            // 
-            // textBox11
-            // 
-            this.textBox11.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox11.Location = new System.Drawing.Point(248, 84);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(25, 13);
-            this.textBox11.TabIndex = 19;
-            // 
-            // textBox12
-            // 
-            this.textBox12.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox12.Location = new System.Drawing.Point(248, 33);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(25, 13);
-            this.textBox12.TabIndex = 18;
-            // 
-            // textBox13
-            // 
-            this.textBox13.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox13.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox13.Location = new System.Drawing.Point(248, 339);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(25, 13);
-            this.textBox13.TabIndex = 24;
-            // 
-            // textBox16
-            // 
-            this.textBox16.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox16.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox16.Location = new System.Drawing.Point(238, 186);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(25, 13);
-            this.textBox16.TabIndex = 21;
-            // 
-            // textBox17
-            // 
-            this.textBox17.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox17.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox17.Location = new System.Drawing.Point(238, 135);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(25, 13);
-            this.textBox17.TabIndex = 20;
-            // 
-            // textBox18
-            // 
-            this.textBox18.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox18.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox18.Location = new System.Drawing.Point(238, 84);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(25, 13);
-            this.textBox18.TabIndex = 19;
-            // 
-            // textBox19
-            // 
-            this.textBox19.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox19.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox19.Location = new System.Drawing.Point(238, 33);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(25, 13);
-            this.textBox19.TabIndex = 18;
-            // 
-            // textBox22
-            // 
-            this.textBox22.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox22.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox22.Location = new System.Drawing.Point(165, 84);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(25, 13);
-            this.textBox22.TabIndex = 19;
-            // 
-            // textBox23
-            // 
-            this.textBox23.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox23.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox23.Location = new System.Drawing.Point(165, 33);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(25, 13);
-            this.textBox23.TabIndex = 18;
-            // 
-            // textBox14
-            // 
-            this.textBox14.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox14.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox14.Location = new System.Drawing.Point(229, 339);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(25, 13);
-            this.textBox14.TabIndex = 31;
-            // 
-            // textBox15
-            // 
-            this.textBox15.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox15.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox15.Location = new System.Drawing.Point(229, 288);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(25, 13);
-            this.textBox15.TabIndex = 30;
-            // 
-            // textBox20
-            // 
-            this.textBox20.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox20.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox20.Location = new System.Drawing.Point(229, 237);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(25, 13);
-            this.textBox20.TabIndex = 29;
-            // 
-            // textBox21
-            // 
-            this.textBox21.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox21.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox21.Location = new System.Drawing.Point(229, 186);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(25, 13);
-            this.textBox21.TabIndex = 28;
-            // 
-            // textBox24
-            // 
-            this.textBox24.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox24.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox24.Location = new System.Drawing.Point(229, 135);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(25, 13);
-            this.textBox24.TabIndex = 27;
-            // 
-            // textBox25
-            // 
-            this.textBox25.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox25.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox25.Location = new System.Drawing.Point(229, 84);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(25, 13);
-            this.textBox25.TabIndex = 26;
-            // 
-            // textBox26
-            // 
-            this.textBox26.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox26.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox26.Location = new System.Drawing.Point(229, 33);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(25, 13);
-            this.textBox26.TabIndex = 25;
-            // 
-            // textBox27
-            // 
-            this.textBox27.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox27.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox27.Location = new System.Drawing.Point(229, 390);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.Size = new System.Drawing.Size(25, 13);
-            this.textBox27.TabIndex = 32;
-            // 
-            // textBox28
-            // 
-            this.textBox28.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox28.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox28.Location = new System.Drawing.Point(254, 390);
-            this.textBox28.Name = "textBox28";
-            this.textBox28.Size = new System.Drawing.Size(25, 13);
-            this.textBox28.TabIndex = 40;
-            // 
-            // textBox29
-            // 
-            this.textBox29.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox29.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox29.Location = new System.Drawing.Point(254, 339);
-            this.textBox29.Name = "textBox29";
-            this.textBox29.Size = new System.Drawing.Size(25, 13);
-            this.textBox29.TabIndex = 39;
-            // 
-            // textBox30
-            // 
-            this.textBox30.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox30.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox30.Location = new System.Drawing.Point(254, 288);
-            this.textBox30.Name = "textBox30";
-            this.textBox30.Size = new System.Drawing.Size(25, 13);
-            this.textBox30.TabIndex = 38;
-            // 
-            // textBox31
-            // 
-            this.textBox31.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox31.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox31.Location = new System.Drawing.Point(254, 237);
-            this.textBox31.Name = "textBox31";
-            this.textBox31.Size = new System.Drawing.Size(25, 13);
-            this.textBox31.TabIndex = 37;
-            // 
-            // textBox32
-            // 
-            this.textBox32.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox32.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox32.Location = new System.Drawing.Point(254, 186);
-            this.textBox32.Name = "textBox32";
-            this.textBox32.Size = new System.Drawing.Size(25, 13);
-            this.textBox32.TabIndex = 36;
-            // 
-            // textBox33
-            // 
-            this.textBox33.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox33.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox33.Location = new System.Drawing.Point(254, 135);
-            this.textBox33.Name = "textBox33";
-            this.textBox33.Size = new System.Drawing.Size(25, 13);
-            this.textBox33.TabIndex = 35;
-            // 
-            // textBox34
-            // 
-            this.textBox34.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox34.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox34.Location = new System.Drawing.Point(254, 84);
-            this.textBox34.Name = "textBox34";
-            this.textBox34.Size = new System.Drawing.Size(25, 13);
-            this.textBox34.TabIndex = 34;
-            // 
-            // textBox35
-            // 
-            this.textBox35.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox35.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox35.Location = new System.Drawing.Point(254, 33);
-            this.textBox35.Name = "textBox35";
-            this.textBox35.Size = new System.Drawing.Size(25, 13);
-            this.textBox35.TabIndex = 33;
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(260, 33);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(15, 13);
-            this.label37.TabIndex = 18;
-            this.label37.Text = "%";
-            // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(260, 84);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(15, 13);
-            this.label38.TabIndex = 19;
-            this.label38.Text = "%";
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(260, 135);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(15, 13);
-            this.label39.TabIndex = 20;
-            this.label39.Text = "%";
-            // 
-            // label40
-            // 
-            this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(260, 186);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(15, 13);
-            this.label40.TabIndex = 21;
-            this.label40.Text = "%";
-            // 
-            // label41
-            // 
-            this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(260, 237);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(15, 13);
-            this.label41.TabIndex = 22;
-            this.label41.Text = "%";
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(260, 288);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(15, 13);
-            this.label42.TabIndex = 23;
-            this.label42.Text = "%";
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(263, 84);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(15, 13);
-            this.label43.TabIndex = 23;
-            this.label43.Text = "%";
-            // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(263, 33);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(15, 13);
-            this.label44.TabIndex = 22;
-            this.label44.Text = "%";
-            // 
-            // label45
-            // 
-            this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(263, 186);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(15, 13);
-            this.label45.TabIndex = 25;
-            this.label45.Text = "%";
-            // 
-            // label46
-            // 
-            this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(263, 135);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(15, 13);
-            this.label46.TabIndex = 24;
-            this.label46.Text = "%";
-            // 
-            // label47
-            // 
-            this.label47.AutoSize = true;
-            this.label47.Location = new System.Drawing.Point(190, 84);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(15, 13);
-            this.label47.TabIndex = 25;
-            this.label47.Text = "%";
-            // 
-            // label48
-            // 
-            this.label48.AutoSize = true;
-            this.label48.Location = new System.Drawing.Point(190, 33);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(15, 13);
-            this.label48.TabIndex = 24;
-            this.label48.Text = "%";
-            // 
-            // label49
-            // 
-            this.label49.AutoSize = true;
-            this.label49.Location = new System.Drawing.Point(273, 84);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(15, 13);
-            this.label49.TabIndex = 26;
-            this.label49.Text = "%";
-            // 
-            // label50
-            // 
-            this.label50.AutoSize = true;
-            this.label50.Location = new System.Drawing.Point(273, 33);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(15, 13);
-            this.label50.TabIndex = 25;
-            this.label50.Text = "%";
-            // 
-            // label51
-            // 
-            this.label51.AutoSize = true;
-            this.label51.Location = new System.Drawing.Point(273, 186);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(15, 13);
-            this.label51.TabIndex = 28;
-            this.label51.Text = "%";
-            // 
-            // label52
-            // 
-            this.label52.AutoSize = true;
-            this.label52.Location = new System.Drawing.Point(273, 135);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(15, 13);
-            this.label52.TabIndex = 27;
-            this.label52.Text = "%";
-            // 
-            // label53
-            // 
-            this.label53.AutoSize = true;
-            this.label53.Location = new System.Drawing.Point(273, 288);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(15, 13);
-            this.label53.TabIndex = 30;
-            this.label53.Text = "%";
-            // 
-            // label54
-            // 
-            this.label54.AutoSize = true;
-            this.label54.Location = new System.Drawing.Point(273, 237);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(15, 13);
-            this.label54.TabIndex = 29;
-            this.label54.Text = "%";
-            // 
-            // label56
-            // 
-            this.label56.AutoSize = true;
-            this.label56.Location = new System.Drawing.Point(273, 339);
-            this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(15, 13);
-            this.label56.TabIndex = 31;
-            this.label56.Text = "%";
-            // 
-            // label55
-            // 
-            this.label55.AutoSize = true;
-            this.label55.Location = new System.Drawing.Point(254, 84);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(15, 13);
-            this.label55.TabIndex = 34;
-            this.label55.Text = "%";
-            // 
-            // label57
-            // 
-            this.label57.AutoSize = true;
-            this.label57.Location = new System.Drawing.Point(254, 33);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(15, 13);
-            this.label57.TabIndex = 33;
-            this.label57.Text = "%";
-            // 
-            // label58
-            // 
-            this.label58.AutoSize = true;
-            this.label58.Location = new System.Drawing.Point(254, 186);
-            this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(15, 13);
-            this.label58.TabIndex = 36;
-            this.label58.Text = "%";
-            // 
-            // label59
-            // 
-            this.label59.AutoSize = true;
-            this.label59.Location = new System.Drawing.Point(254, 135);
-            this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(15, 13);
-            this.label59.TabIndex = 35;
-            this.label59.Text = "%";
-            // 
-            // label60
-            // 
-            this.label60.AutoSize = true;
-            this.label60.Location = new System.Drawing.Point(254, 288);
-            this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(15, 13);
-            this.label60.TabIndex = 38;
-            this.label60.Text = "%";
-            // 
-            // label61
-            // 
-            this.label61.AutoSize = true;
-            this.label61.Location = new System.Drawing.Point(254, 237);
-            this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(15, 13);
-            this.label61.TabIndex = 37;
-            this.label61.Text = "%";
-            // 
-            // label62
-            // 
-            this.label62.AutoSize = true;
-            this.label62.Location = new System.Drawing.Point(254, 390);
-            this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(15, 13);
-            this.label62.TabIndex = 40;
-            this.label62.Text = "%";
-            // 
-            // label63
-            // 
-            this.label63.AutoSize = true;
-            this.label63.Location = new System.Drawing.Point(254, 339);
-            this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(15, 13);
-            this.label63.TabIndex = 39;
-            this.label63.Text = "%";
             // 
             // label64
             // 
@@ -1953,6 +1735,356 @@
             this.label71.TabIndex = 41;
             this.label71.Text = "%";
             // 
+            // FriendInfoOpaZoom_textBox
+            // 
+            this.FriendInfoOpaZoom_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.FriendInfoOpaZoom_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.FriendInfoOpaZoom_textBox.Location = new System.Drawing.Point(254, 390);
+            this.FriendInfoOpaZoom_textBox.Name = "FriendInfoOpaZoom_textBox";
+            this.FriendInfoOpaZoom_textBox.Size = new System.Drawing.Size(25, 13);
+            this.FriendInfoOpaZoom_textBox.TabIndex = 40;
+            // 
+            // FriendInfoOpa_textBox
+            // 
+            this.FriendInfoOpa_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.FriendInfoOpa_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.FriendInfoOpa_textBox.Location = new System.Drawing.Point(254, 339);
+            this.FriendInfoOpa_textBox.Name = "FriendInfoOpa_textBox";
+            this.FriendInfoOpa_textBox.Size = new System.Drawing.Size(25, 13);
+            this.FriendInfoOpa_textBox.TabIndex = 39;
+            // 
+            // FriendHealthOpaZoom_textBox
+            // 
+            this.FriendHealthOpaZoom_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.FriendHealthOpaZoom_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.FriendHealthOpaZoom_textBox.Location = new System.Drawing.Point(254, 288);
+            this.FriendHealthOpaZoom_textBox.Name = "FriendHealthOpaZoom_textBox";
+            this.FriendHealthOpaZoom_textBox.Size = new System.Drawing.Size(25, 13);
+            this.FriendHealthOpaZoom_textBox.TabIndex = 38;
+            // 
+            // FriendHealthOpa_textBox
+            // 
+            this.FriendHealthOpa_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.FriendHealthOpa_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.FriendHealthOpa_textBox.Location = new System.Drawing.Point(254, 237);
+            this.FriendHealthOpa_textBox.Name = "FriendHealthOpa_textBox";
+            this.FriendHealthOpa_textBox.Size = new System.Drawing.Size(25, 13);
+            this.FriendHealthOpa_textBox.TabIndex = 37;
+            // 
+            // FriendIconOpaZoom_textBox
+            // 
+            this.FriendIconOpaZoom_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.FriendIconOpaZoom_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.FriendIconOpaZoom_textBox.Location = new System.Drawing.Point(254, 186);
+            this.FriendIconOpaZoom_textBox.Name = "FriendIconOpaZoom_textBox";
+            this.FriendIconOpaZoom_textBox.Size = new System.Drawing.Size(25, 13);
+            this.FriendIconOpaZoom_textBox.TabIndex = 36;
+            // 
+            // FriendIconOpa_textBox
+            // 
+            this.FriendIconOpa_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.FriendIconOpa_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.FriendIconOpa_textBox.Location = new System.Drawing.Point(254, 135);
+            this.FriendIconOpa_textBox.Name = "FriendIconOpa_textBox";
+            this.FriendIconOpa_textBox.Size = new System.Drawing.Size(25, 13);
+            this.FriendIconOpa_textBox.TabIndex = 35;
+            // 
+            // FriendScale_textBox
+            // 
+            this.FriendScale_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.FriendScale_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.FriendScale_textBox.Location = new System.Drawing.Point(254, 84);
+            this.FriendScale_textBox.Name = "FriendScale_textBox";
+            this.FriendScale_textBox.Size = new System.Drawing.Size(25, 13);
+            this.FriendScale_textBox.TabIndex = 34;
+            // 
+            // FriendSize_textBox
+            // 
+            this.FriendSize_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.FriendSize_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.FriendSize_textBox.Location = new System.Drawing.Point(254, 33);
+            this.FriendSize_textBox.Name = "FriendSize_textBox";
+            this.FriendSize_textBox.Size = new System.Drawing.Size(25, 13);
+            this.FriendSize_textBox.TabIndex = 33;
+            // 
+            // FriendInfoOpaZoom_trackBar
+            // 
+            this.FriendInfoOpaZoom_trackBar.LargeChange = 10;
+            this.FriendInfoOpaZoom_trackBar.Location = new System.Drawing.Point(158, 377);
+            this.FriendInfoOpaZoom_trackBar.Maximum = 100;
+            this.FriendInfoOpaZoom_trackBar.Name = "FriendInfoOpaZoom_trackBar";
+            this.FriendInfoOpaZoom_trackBar.Size = new System.Drawing.Size(90, 45);
+            this.FriendInfoOpaZoom_trackBar.TabIndex = 15;
+            this.FriendInfoOpaZoom_trackBar.TickFrequency = 10;
+            this.FriendInfoOpaZoom_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(6, 390);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(94, 13);
+            this.label29.TabIndex = 14;
+            this.label29.Text = "Info Opacity Zoom";
+            // 
+            // FriendInfoOpa_trackBar
+            // 
+            this.FriendInfoOpa_trackBar.LargeChange = 10;
+            this.FriendInfoOpa_trackBar.Location = new System.Drawing.Point(158, 326);
+            this.FriendInfoOpa_trackBar.Maximum = 100;
+            this.FriendInfoOpa_trackBar.Name = "FriendInfoOpa_trackBar";
+            this.FriendInfoOpa_trackBar.Size = new System.Drawing.Size(90, 45);
+            this.FriendInfoOpa_trackBar.TabIndex = 13;
+            this.FriendInfoOpa_trackBar.TickFrequency = 10;
+            this.FriendInfoOpa_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(6, 339);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(64, 13);
+            this.label30.TabIndex = 12;
+            this.label30.Text = "Info Opacity";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(6, 33);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(27, 13);
+            this.label31.TabIndex = 0;
+            this.label31.Text = "Size";
+            // 
+            // FriendHealthOpaZoom_trackBar
+            // 
+            this.FriendHealthOpaZoom_trackBar.LargeChange = 10;
+            this.FriendHealthOpaZoom_trackBar.Location = new System.Drawing.Point(158, 275);
+            this.FriendHealthOpaZoom_trackBar.Maximum = 100;
+            this.FriendHealthOpaZoom_trackBar.Name = "FriendHealthOpaZoom_trackBar";
+            this.FriendHealthOpaZoom_trackBar.Size = new System.Drawing.Size(90, 45);
+            this.FriendHealthOpaZoom_trackBar.TabIndex = 11;
+            this.FriendHealthOpaZoom_trackBar.TickFrequency = 10;
+            this.FriendHealthOpaZoom_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            // 
+            // FriendSize_trackBar
+            // 
+            this.FriendSize_trackBar.LargeChange = 10;
+            this.FriendSize_trackBar.Location = new System.Drawing.Point(158, 20);
+            this.FriendSize_trackBar.Maximum = 140;
+            this.FriendSize_trackBar.Minimum = 60;
+            this.FriendSize_trackBar.Name = "FriendSize_trackBar";
+            this.FriendSize_trackBar.Size = new System.Drawing.Size(90, 45);
+            this.FriendSize_trackBar.TabIndex = 1;
+            this.FriendSize_trackBar.TickFrequency = 8;
+            this.FriendSize_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.FriendSize_trackBar.Value = 60;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(6, 288);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(146, 13);
+            this.label32.TabIndex = 10;
+            this.label32.Text = "Health/Revive Opacity Zoom";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(6, 84);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(104, 13);
+            this.label33.TabIndex = 2;
+            this.label33.Text = "Scale With Distance";
+            // 
+            // FriendHealthOpa_trackBar
+            // 
+            this.FriendHealthOpa_trackBar.LargeChange = 10;
+            this.FriendHealthOpa_trackBar.Location = new System.Drawing.Point(158, 224);
+            this.FriendHealthOpa_trackBar.Maximum = 100;
+            this.FriendHealthOpa_trackBar.Name = "FriendHealthOpa_trackBar";
+            this.FriendHealthOpa_trackBar.Size = new System.Drawing.Size(90, 45);
+            this.FriendHealthOpa_trackBar.TabIndex = 9;
+            this.FriendHealthOpa_trackBar.TickFrequency = 10;
+            this.FriendHealthOpa_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            // 
+            // FriendScale_trackBar
+            // 
+            this.FriendScale_trackBar.LargeChange = 10;
+            this.FriendScale_trackBar.Location = new System.Drawing.Point(158, 71);
+            this.FriendScale_trackBar.Maximum = 100;
+            this.FriendScale_trackBar.Name = "FriendScale_trackBar";
+            this.FriendScale_trackBar.Size = new System.Drawing.Size(90, 45);
+            this.FriendScale_trackBar.TabIndex = 3;
+            this.FriendScale_trackBar.TickFrequency = 10;
+            this.FriendScale_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(6, 237);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(116, 13);
+            this.label34.TabIndex = 8;
+            this.label34.Text = "Health/Revive Opacity";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(6, 135);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(72, 13);
+            this.label35.TabIndex = 4;
+            this.label35.Text = "Icons Opacity";
+            // 
+            // FriendIconOpaZoom_trackBar
+            // 
+            this.FriendIconOpaZoom_trackBar.LargeChange = 10;
+            this.FriendIconOpaZoom_trackBar.Location = new System.Drawing.Point(158, 173);
+            this.FriendIconOpaZoom_trackBar.Maximum = 100;
+            this.FriendIconOpaZoom_trackBar.Name = "FriendIconOpaZoom_trackBar";
+            this.FriendIconOpaZoom_trackBar.Size = new System.Drawing.Size(90, 45);
+            this.FriendIconOpaZoom_trackBar.TabIndex = 7;
+            this.FriendIconOpaZoom_trackBar.TickFrequency = 10;
+            this.FriendIconOpaZoom_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            // 
+            // FriendIconOpa_trackBar
+            // 
+            this.FriendIconOpa_trackBar.LargeChange = 10;
+            this.FriendIconOpa_trackBar.Location = new System.Drawing.Point(158, 122);
+            this.FriendIconOpa_trackBar.Maximum = 100;
+            this.FriendIconOpa_trackBar.Name = "FriendIconOpa_trackBar";
+            this.FriendIconOpa_trackBar.Size = new System.Drawing.Size(90, 45);
+            this.FriendIconOpa_trackBar.TabIndex = 5;
+            this.FriendIconOpa_trackBar.TickFrequency = 10;
+            this.FriendIconOpa_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(6, 186);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(102, 13);
+            this.label36.TabIndex = 6;
+            this.label36.Text = "Icons Opacity Zoom";
+            // 
+            // statusStrip1
+            // 
+            this.statusStrip1.Location = new System.Drawing.Point(0, 495);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(312, 22);
+            this.statusStrip1.TabIndex = 1;
+            this.statusStrip1.Text = "statusStrip1";
+            // 
+            // SaveGeneral_button
+            // 
+            this.SaveGeneral_button.Location = new System.Drawing.Point(238, 427);
+            this.SaveGeneral_button.Name = "SaveGeneral_button";
+            this.SaveGeneral_button.Size = new System.Drawing.Size(50, 23);
+            this.SaveGeneral_button.TabIndex = 24;
+            this.SaveGeneral_button.Text = "Save";
+            this.SaveGeneral_button.UseVisualStyleBackColor = true;
+            // 
+            // DefaultGeneral_button
+            // 
+            this.DefaultGeneral_button.Location = new System.Drawing.Point(182, 427);
+            this.DefaultGeneral_button.Name = "DefaultGeneral_button";
+            this.DefaultGeneral_button.Size = new System.Drawing.Size(50, 23);
+            this.DefaultGeneral_button.TabIndex = 25;
+            this.DefaultGeneral_button.Text = "Default";
+            this.DefaultGeneral_button.UseVisualStyleBackColor = true;
+            // 
+            // DefaultMap_button
+            // 
+            this.DefaultMap_button.Location = new System.Drawing.Point(182, 427);
+            this.DefaultMap_button.Name = "DefaultMap_button";
+            this.DefaultMap_button.Size = new System.Drawing.Size(50, 23);
+            this.DefaultMap_button.TabIndex = 27;
+            this.DefaultMap_button.Text = "Default";
+            this.DefaultMap_button.UseVisualStyleBackColor = true;
+            // 
+            // SaveMap_button
+            // 
+            this.SaveMap_button.Location = new System.Drawing.Point(238, 427);
+            this.SaveMap_button.Name = "SaveMap_button";
+            this.SaveMap_button.Size = new System.Drawing.Size(50, 23);
+            this.SaveMap_button.TabIndex = 26;
+            this.SaveMap_button.Text = "Save";
+            this.SaveMap_button.UseVisualStyleBackColor = true;
+            // 
+            // DefaultHit_button
+            // 
+            this.DefaultHit_button.Location = new System.Drawing.Point(182, 427);
+            this.DefaultHit_button.Name = "DefaultHit_button";
+            this.DefaultHit_button.Size = new System.Drawing.Size(50, 23);
+            this.DefaultHit_button.TabIndex = 27;
+            this.DefaultHit_button.Text = "Default";
+            this.DefaultHit_button.UseVisualStyleBackColor = true;
+            // 
+            // SaveHit_button
+            // 
+            this.SaveHit_button.Location = new System.Drawing.Point(238, 427);
+            this.SaveHit_button.Name = "SaveHit_button";
+            this.SaveHit_button.Size = new System.Drawing.Size(50, 23);
+            this.SaveHit_button.TabIndex = 26;
+            this.SaveHit_button.Text = "Save";
+            this.SaveHit_button.UseVisualStyleBackColor = true;
+            // 
+            // DefaultCommon_button
+            // 
+            this.DefaultCommon_button.Location = new System.Drawing.Point(182, 427);
+            this.DefaultCommon_button.Name = "DefaultCommon_button";
+            this.DefaultCommon_button.Size = new System.Drawing.Size(50, 23);
+            this.DefaultCommon_button.TabIndex = 33;
+            this.DefaultCommon_button.Text = "Default";
+            this.DefaultCommon_button.UseVisualStyleBackColor = true;
+            // 
+            // SaveCommon_button
+            // 
+            this.SaveCommon_button.Location = new System.Drawing.Point(238, 427);
+            this.SaveCommon_button.Name = "SaveCommon_button";
+            this.SaveCommon_button.Size = new System.Drawing.Size(50, 23);
+            this.SaveCommon_button.TabIndex = 32;
+            this.SaveCommon_button.Text = "Save";
+            this.SaveCommon_button.UseVisualStyleBackColor = true;
+            // 
+            // DefaultEnemy_button
+            // 
+            this.DefaultEnemy_button.Location = new System.Drawing.Point(182, 427);
+            this.DefaultEnemy_button.Name = "DefaultEnemy_button";
+            this.DefaultEnemy_button.Size = new System.Drawing.Size(50, 23);
+            this.DefaultEnemy_button.TabIndex = 42;
+            this.DefaultEnemy_button.Text = "Default";
+            this.DefaultEnemy_button.UseVisualStyleBackColor = true;
+            // 
+            // SaveEnemy_button
+            // 
+            this.SaveEnemy_button.Location = new System.Drawing.Point(238, 427);
+            this.SaveEnemy_button.Name = "SaveEnemy_button";
+            this.SaveEnemy_button.Size = new System.Drawing.Size(50, 23);
+            this.SaveEnemy_button.TabIndex = 41;
+            this.SaveEnemy_button.Text = "Save";
+            this.SaveEnemy_button.UseVisualStyleBackColor = true;
+            // 
+            // DefaultFriend_button
+            // 
+            this.DefaultFriend_button.Location = new System.Drawing.Point(182, 427);
+            this.DefaultFriend_button.Name = "DefaultFriend_button";
+            this.DefaultFriend_button.Size = new System.Drawing.Size(50, 23);
+            this.DefaultFriend_button.TabIndex = 50;
+            this.DefaultFriend_button.Text = "Default";
+            this.DefaultFriend_button.UseVisualStyleBackColor = true;
+            // 
+            // SaveFriend_button
+            // 
+            this.SaveFriend_button.Location = new System.Drawing.Point(238, 427);
+            this.SaveFriend_button.Name = "SaveFriend_button";
+            this.SaveFriend_button.Size = new System.Drawing.Size(50, 23);
+            this.SaveFriend_button.TabIndex = 49;
+            this.SaveFriend_button.Text = "Save";
+            this.SaveFriend_button.UseVisualStyleBackColor = true;
+            // 
             // BF4HUDE_Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1960,6 +2092,10 @@
             this.ClientSize = new System.Drawing.Size(312, 517);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.tabControl1);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(328, 556);
+            this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(328, 556);
             this.Name = "BF4HUDE_Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BF4HUDE Main";
@@ -1968,56 +2104,56 @@
             this.tabPage1.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MiscOpa_trackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HUDSize_trackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.KillLogOpa_trackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.InvOpa_trackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.OccuOpa_trackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.StatusOpa_trackBar)).EndInit();
             this.tabPage2.ResumeLayout(false);
-            this.tabPage3.ResumeLayout(false);
-            this.tabPage4.ResumeLayout(false);
-            this.tabPage5.ResumeLayout(false);
-            this.tabPage6.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MapSize_trackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MapBackOpa_trackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MapIconSize_trackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MapIconOpa_trackBar)).EndInit();
+            this.tabPage3.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HitSize_trackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HitOpa_trackBar)).EndInit();
+            this.tabPage4.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CommonGadgetOpaZoom_trackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CommonPickupOpaZoom_trackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CommonSize_trackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CommonInterOpaZoom_trackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CommonScale_trackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CommonObjOpaZoom_trackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CommonIconOpa_trackBar)).EndInit();
+            this.tabPage5.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar25)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar26)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar27)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EnemyInfoOpaZoom_trackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EnemyInfoOpa_trackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EnemyHealthOpaZoom_trackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EnemySize_trackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EnemyHealthOpa_trackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EnamyScale_trackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EnemyIconOpaZoom_trackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EnemyIconOpa_trackBar)).EndInit();
+            this.tabPage6.ResumeLayout(false);
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar28)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar29)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar30)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar31)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar32)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar33)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar34)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar35)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FriendInfoOpaZoom_trackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FriendInfoOpa_trackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FriendHealthOpaZoom_trackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FriendSize_trackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FriendHealthOpa_trackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FriendScale_trackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FriendIconOpaZoom_trackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FriendIconOpa_trackBar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2029,16 +2165,16 @@
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TrackBar trackBar6;
-        private System.Windows.Forms.TrackBar trackBar1;
+        private System.Windows.Forms.TrackBar MiscOpa_trackBar;
+        private System.Windows.Forms.TrackBar HUDSize_trackBar;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TrackBar trackBar5;
-        private System.Windows.Forms.TrackBar trackBar2;
+        private System.Windows.Forms.TrackBar KillLogOpa_trackBar;
+        private System.Windows.Forms.TrackBar InvOpa_trackBar;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TrackBar trackBar4;
-        private System.Windows.Forms.TrackBar trackBar3;
+        private System.Windows.Forms.TrackBar OccuOpa_trackBar;
+        private System.Windows.Forms.TrackBar StatusOpa_trackBar;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.StatusStrip statusStrip1;
@@ -2048,108 +2184,108 @@
         private System.Windows.Forms.TabPage tabPage6;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TrackBar trackBar8;
+        private System.Windows.Forms.TrackBar MapSize_trackBar;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TrackBar trackBar10;
+        private System.Windows.Forms.TrackBar MapBackOpa_trackBar;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TrackBar trackBar11;
-        private System.Windows.Forms.TrackBar trackBar12;
+        private System.Windows.Forms.TrackBar MapIconSize_trackBar;
+        private System.Windows.Forms.TrackBar MapIconOpa_trackBar;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.CheckBox MapRotate_checkBox;
+        private System.Windows.Forms.CheckBox IconAutoScale_checkBox;
+        private System.Windows.Forms.ComboBox MapDefaultScale_comboBox;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.CheckBox DmgBasedShape_checkBox;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TrackBar trackBar7;
+        private System.Windows.Forms.TrackBar HitSize_trackBar;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TrackBar trackBar9;
+        private System.Windows.Forms.TrackBar HitOpa_trackBar;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TrackBar trackBar13;
-        private System.Windows.Forms.TrackBar trackBar14;
+        private System.Windows.Forms.TrackBar CommonPickupOpaZoom_trackBar;
+        private System.Windows.Forms.TrackBar CommonSize_trackBar;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TrackBar trackBar15;
-        private System.Windows.Forms.TrackBar trackBar16;
+        private System.Windows.Forms.TrackBar CommonInterOpaZoom_trackBar;
+        private System.Windows.Forms.TrackBar CommonScale_trackBar;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TrackBar trackBar17;
-        private System.Windows.Forms.TrackBar trackBar18;
+        private System.Windows.Forms.TrackBar CommonObjOpaZoom_trackBar;
+        private System.Windows.Forms.TrackBar CommonIconOpa_trackBar;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.TrackBar trackBar19;
+        private System.Windows.Forms.TrackBar CommonGadgetOpaZoom_trackBar;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.TrackBar trackBar20;
+        private System.Windows.Forms.TrackBar EnemyInfoOpa_trackBar;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.TrackBar trackBar21;
-        private System.Windows.Forms.TrackBar trackBar22;
+        private System.Windows.Forms.TrackBar EnemyHealthOpaZoom_trackBar;
+        private System.Windows.Forms.TrackBar EnemySize_trackBar;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.TrackBar trackBar23;
-        private System.Windows.Forms.TrackBar trackBar24;
+        private System.Windows.Forms.TrackBar EnemyHealthOpa_trackBar;
+        private System.Windows.Forms.TrackBar EnamyScale_trackBar;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.TrackBar trackBar25;
-        private System.Windows.Forms.TrackBar trackBar26;
+        private System.Windows.Forms.TrackBar EnemyIconOpaZoom_trackBar;
+        private System.Windows.Forms.TrackBar EnemyIconOpa_trackBar;
         private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.TrackBar trackBar27;
+        private System.Windows.Forms.CheckBox FieldUpArmorIcon_checkBox;
+        private System.Windows.Forms.TrackBar EnemyInfoOpaZoom_trackBar;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.TrackBar trackBar28;
+        private System.Windows.Forms.TrackBar FriendInfoOpaZoom_trackBar;
         private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.TrackBar trackBar29;
+        private System.Windows.Forms.TrackBar FriendInfoOpa_trackBar;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.TrackBar trackBar30;
-        private System.Windows.Forms.TrackBar trackBar31;
+        private System.Windows.Forms.TrackBar FriendHealthOpaZoom_trackBar;
+        private System.Windows.Forms.TrackBar FriendSize_trackBar;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.TrackBar trackBar32;
-        private System.Windows.Forms.TrackBar trackBar33;
+        private System.Windows.Forms.TrackBar FriendHealthOpa_trackBar;
+        private System.Windows.Forms.TrackBar FriendScale_trackBar;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.TrackBar trackBar34;
-        private System.Windows.Forms.TrackBar trackBar35;
+        private System.Windows.Forms.TrackBar FriendIconOpaZoom_trackBar;
+        private System.Windows.Forms.TrackBar FriendIconOpa_trackBar;
         private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox22;
-        private System.Windows.Forms.TextBox textBox23;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox27;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox20;
-        private System.Windows.Forms.TextBox textBox21;
-        private System.Windows.Forms.TextBox textBox24;
-        private System.Windows.Forms.TextBox textBox25;
-        private System.Windows.Forms.TextBox textBox26;
-        private System.Windows.Forms.TextBox textBox28;
-        private System.Windows.Forms.TextBox textBox29;
-        private System.Windows.Forms.TextBox textBox30;
-        private System.Windows.Forms.TextBox textBox31;
-        private System.Windows.Forms.TextBox textBox32;
-        private System.Windows.Forms.TextBox textBox33;
-        private System.Windows.Forms.TextBox textBox34;
-        private System.Windows.Forms.TextBox textBox35;
+        private System.Windows.Forms.TextBox HUDSize_textBox;
+        private System.Windows.Forms.TextBox MiscOpa_textBox;
+        private System.Windows.Forms.TextBox KillLogOpa_textBox;
+        private System.Windows.Forms.TextBox OccuOpa_textBox;
+        private System.Windows.Forms.TextBox StatusOpa_textBox;
+        private System.Windows.Forms.TextBox InvOpa_textBox;
+        private System.Windows.Forms.TextBox MapIconSize_textBox;
+        private System.Windows.Forms.TextBox MapIconOpa_textBox;
+        private System.Windows.Forms.TextBox MapBackOpa_textBox;
+        private System.Windows.Forms.TextBox MapSize_textBox;
+        private System.Windows.Forms.TextBox HitOpa_textBox;
+        private System.Windows.Forms.TextBox HitSize_textBox;
+        private System.Windows.Forms.TextBox CommonGadgetOpaZoom_textBox;
+        private System.Windows.Forms.TextBox CommonPickupOpaZoom_textBox;
+        private System.Windows.Forms.TextBox CommonInterOpaZoom_textBox;
+        private System.Windows.Forms.TextBox CommonObjOpaZoom_textBox;
+        private System.Windows.Forms.TextBox CommonIconOpa_textBox;
+        private System.Windows.Forms.TextBox CommonScale_textBox;
+        private System.Windows.Forms.TextBox CommonSize_textBox;
+        private System.Windows.Forms.TextBox EnemyInfoOpaZoom_textBox;
+        private System.Windows.Forms.TextBox EnemyInfoOpa_textBox;
+        private System.Windows.Forms.TextBox EnemyHealthOpaZoom_textBox;
+        private System.Windows.Forms.TextBox EnemyHealthOpa_textBox;
+        private System.Windows.Forms.TextBox EnemyIconOpaZoom_textBox;
+        private System.Windows.Forms.TextBox EnemyIconOpa_textBox;
+        private System.Windows.Forms.TextBox EnamyScale_textBox;
+        private System.Windows.Forms.TextBox EnemySize_textBox;
+        private System.Windows.Forms.TextBox FriendInfoOpaZoom_textBox;
+        private System.Windows.Forms.TextBox FriendInfoOpa_textBox;
+        private System.Windows.Forms.TextBox FriendHealthOpaZoom_textBox;
+        private System.Windows.Forms.TextBox FriendHealthOpa_textBox;
+        private System.Windows.Forms.TextBox FriendIconOpaZoom_textBox;
+        private System.Windows.Forms.TextBox FriendIconOpa_textBox;
+        private System.Windows.Forms.TextBox FriendScale_textBox;
+        private System.Windows.Forms.TextBox FriendSize_textBox;
         private System.Windows.Forms.Label label37;
         private System.Windows.Forms.Label label42;
         private System.Windows.Forms.Label label41;
@@ -2185,6 +2321,18 @@
         private System.Windows.Forms.Label label69;
         private System.Windows.Forms.Label label70;
         private System.Windows.Forms.Label label71;
+        private System.Windows.Forms.Button DefaultGeneral_button;
+        private System.Windows.Forms.Button SaveGeneral_button;
+        private System.Windows.Forms.Button DefaultMap_button;
+        private System.Windows.Forms.Button SaveMap_button;
+        private System.Windows.Forms.Button DefaultHit_button;
+        private System.Windows.Forms.Button SaveHit_button;
+        private System.Windows.Forms.Button DefaultCommon_button;
+        private System.Windows.Forms.Button SaveCommon_button;
+        private System.Windows.Forms.Button DefaultEnemy_button;
+        private System.Windows.Forms.Button SaveEnemy_button;
+        private System.Windows.Forms.Button DefaultFriend_button;
+        private System.Windows.Forms.Button SaveFriend_button;
 
 
     }
