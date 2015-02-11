@@ -191,5 +191,149 @@ namespace BF4HUDEditor
         {
             FriendInfoOpaZoom_textBox.Text = "" + FriendInfoOpaZoom_trackBar.Value;
         }
+
+        private void HUDSize_textBox_TextChanged(object sender, EventArgs e)
+        {
+            int parsedValue;
+            if (int.TryParse(HUDSize_textBox.Text, out parsedValue))
+            {
+                if (Convert.ToInt16(HUDSize_textBox.Text) >= 0 && Convert.ToInt16(HUDSize_textBox.Text) <= 100)
+                {
+                    HUDSize_trackBar.Value = Convert.ToInt16(HUDSize_textBox.Text);
+                }
+            }      
+        }
+
+        private void InvOpa_textBox_TextChanged(object sender, EventArgs e)
+        {
+            int parsedValue;
+            if (int.TryParse(InvOpa_textBox.Text, out parsedValue))
+            {
+                if (Convert.ToInt16(InvOpa_textBox.Text) >= 0 && Convert.ToInt16(InvOpa_textBox.Text) <= 100)
+                {
+                    InvOpa_trackBar.Value = Convert.ToInt16(InvOpa_textBox.Text);
+                }
+            }
+        }
+
+        private void StatusOpa_textBox_TextChanged(object sender, EventArgs e)
+        {
+            int parsedValue;
+            if (int.TryParse(StatusOpa_textBox.Text, out parsedValue))
+            {
+                if (Convert.ToInt16(StatusOpa_textBox.Text) >= 0 && Convert.ToInt16(StatusOpa_textBox.Text) <= 100)
+                {
+                    StatusOpa_trackBar.Value = Convert.ToInt16(StatusOpa_textBox.Text);
+                }
+            } 
+        }
+
+        private void OccuOpa_textBox_TextChanged(object sender, EventArgs e)
+        {
+            int parsedValue;
+            if (int.TryParse(OccuOpa_textBox.Text, out parsedValue))
+            {
+                if (Convert.ToInt16(OccuOpa_textBox.Text) >= 0 && Convert.ToInt16(OccuOpa_textBox.Text) <= 100)
+                {
+                    OccuOpa_trackBar.Value = Convert.ToInt16(OccuOpa_textBox.Text);
+                }
+            }
+        }
+
+        private void KillLogOpa_textBox_TextChanged(object sender, EventArgs e)
+        {
+            int parsedValue;
+            if (int.TryParse(KillLogOpa_textBox.Text, out parsedValue))
+            {
+                if (Convert.ToInt16(KillLogOpa_textBox.Text) >= 0 && Convert.ToInt16(KillLogOpa_textBox.Text) <= 100)
+                {
+                    KillLogOpa_trackBar.Value = Convert.ToInt16(KillLogOpa_textBox.Text);
+                }
+            }
+        }
+
+        private void MiscOpa_textBox_TextChanged(object sender, EventArgs e)
+        {
+            int parsedValue;
+            if (int.TryParse(MiscOpa_textBox.Text, out parsedValue))
+            {
+                if (Convert.ToInt16(MiscOpa_textBox.Text) >= 0 && Convert.ToInt16(MiscOpa_textBox.Text) <= 100)
+                {
+                    MiscOpa_trackBar.Value = Convert.ToInt16(MiscOpa_textBox.Text);
+                }
+            }
+        }
+
+        private void MapSize_textBox_TextChanged(object sender, EventArgs e)
+        {
+            int parsedValue;
+            if (int.TryParse(MapSize_textBox.Text, out parsedValue))
+            {
+                if (Convert.ToInt16(MapSize_textBox.Text) >= 70 && Convert.ToInt16(MapSize_textBox.Text) <= 200)
+                {
+                    MapSize_trackBar.Value = Convert.ToInt16(MapSize_textBox.Text);
+                }
+            }
+        }
+
+        private void MapBackOpa_textBox_TextChanged(object sender, EventArgs e)
+        {
+            int parsedValue;
+            if (int.TryParse(MapBackOpa_textBox.Text, out parsedValue))
+            {
+                if (Convert.ToInt16(MapBackOpa_textBox.Text) >= 0 && Convert.ToInt16(MapBackOpa_textBox.Text) <= 100)
+                {
+                    MapBackOpa_trackBar.Value = Convert.ToInt16(MapBackOpa_textBox.Text);
+                }
+            }
+        }
+
+        private void MapIconOpa_textBox_TextChanged(object sender, EventArgs e)
+        {
+            int parsedValue;
+            if (int.TryParse(MapIconOpa_textBox.Text, out parsedValue))
+            {
+                if (Convert.ToInt16(MapIconOpa_textBox.Text) >= 0 && Convert.ToInt16(MapIconOpa_textBox.Text) <= 100)
+                {
+                    MapIconOpa_trackBar.Value = Convert.ToInt16(MapIconOpa_textBox.Text);
+                }
+            }
+        }
+
+        private void MapIconSize_textBox_TextChanged(object sender, EventArgs e)
+        {
+            int parsedValue;
+            if (int.TryParse(MapIconSize_textBox.Text, out parsedValue))
+            {
+                if (Convert.ToInt16(MapIconSize_textBox.Text) >= 50 && Convert.ToInt16(MapIconSize_textBox.Text) <= 150)
+                {
+                    MapIconSize_trackBar.Value = Convert.ToInt16(MapIconSize_textBox.Text);
+                }
+            }
+        }
+
+        private void HitSize_textBox_TextChanged(object sender, EventArgs e)
+        {
+            int parsedValue;
+            if (int.TryParse(HitSize_textBox.Text, out parsedValue))
+            {
+                if (Convert.ToInt16(HitSize_textBox.Text) >= 50 && Convert.ToInt16(HitSize_textBox.Text) <= 150)
+                {
+                    HitSize_trackBar.Value = Convert.ToInt16(HitSize_textBox.Text);
+                }
+            }
+        }
+
+        private void HitOpa_textBox_TextChanged(object sender, EventArgs e)
+        {
+            int parsedValue;
+            if (int.TryParse(HitOpa_textBox.Text, out parsedValue))
+            {
+                if (Convert.ToInt16(HitOpa_textBox.Text) >= 0 && Convert.ToInt16(HitOpa_textBox.Text) <= 100)
+                {
+                    HitOpa_trackBar.Value = Convert.ToInt16(HitOpa_textBox.Text);
+                }
+            }
+        }
     }
 }

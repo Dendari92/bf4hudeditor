@@ -395,6 +395,7 @@
             this.MiscOpa_textBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.MiscOpa_textBox.Size = new System.Drawing.Size(25, 13);
             this.MiscOpa_textBox.TabIndex = 17;
+            this.MiscOpa_textBox.TextChanged += new System.EventHandler(this.MiscOpa_textBox_TextChanged);
             // 
             // KillLogOpa_textBox
             // 
@@ -405,6 +406,7 @@
             this.KillLogOpa_textBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.KillLogOpa_textBox.Size = new System.Drawing.Size(25, 13);
             this.KillLogOpa_textBox.TabIndex = 16;
+            this.KillLogOpa_textBox.TextChanged += new System.EventHandler(this.KillLogOpa_textBox_TextChanged);
             // 
             // OccuOpa_textBox
             // 
@@ -415,6 +417,7 @@
             this.OccuOpa_textBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.OccuOpa_textBox.Size = new System.Drawing.Size(25, 13);
             this.OccuOpa_textBox.TabIndex = 15;
+            this.OccuOpa_textBox.TextChanged += new System.EventHandler(this.OccuOpa_textBox_TextChanged);
             // 
             // StatusOpa_textBox
             // 
@@ -425,6 +428,7 @@
             this.StatusOpa_textBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.StatusOpa_textBox.Size = new System.Drawing.Size(25, 13);
             this.StatusOpa_textBox.TabIndex = 14;
+            this.StatusOpa_textBox.TextChanged += new System.EventHandler(this.StatusOpa_textBox_TextChanged);
             // 
             // InvOpa_textBox
             // 
@@ -435,6 +439,7 @@
             this.InvOpa_textBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.InvOpa_textBox.Size = new System.Drawing.Size(25, 13);
             this.InvOpa_textBox.TabIndex = 13;
+            this.InvOpa_textBox.TextChanged += new System.EventHandler(this.InvOpa_textBox_TextChanged);
             // 
             // HUDSize_textBox
             // 
@@ -445,6 +450,7 @@
             this.HUDSize_textBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.HUDSize_textBox.Size = new System.Drawing.Size(25, 13);
             this.HUDSize_textBox.TabIndex = 12;
+            this.HUDSize_textBox.TextChanged += new System.EventHandler(this.HUDSize_textBox_TextChanged);
             // 
             // label1
             // 
@@ -682,6 +688,7 @@
             this.MapIconSize_textBox.Name = "MapIconSize_textBox";
             this.MapIconSize_textBox.Size = new System.Drawing.Size(25, 13);
             this.MapIconSize_textBox.TabIndex = 21;
+            this.MapIconSize_textBox.TextChanged += new System.EventHandler(this.MapIconSize_textBox_TextChanged);
             // 
             // MapIconOpa_textBox
             // 
@@ -691,6 +698,7 @@
             this.MapIconOpa_textBox.Name = "MapIconOpa_textBox";
             this.MapIconOpa_textBox.Size = new System.Drawing.Size(25, 13);
             this.MapIconOpa_textBox.TabIndex = 20;
+            this.MapIconOpa_textBox.TextChanged += new System.EventHandler(this.MapIconOpa_textBox_TextChanged);
             // 
             // MapBackOpa_textBox
             // 
@@ -700,6 +708,7 @@
             this.MapBackOpa_textBox.Name = "MapBackOpa_textBox";
             this.MapBackOpa_textBox.Size = new System.Drawing.Size(25, 13);
             this.MapBackOpa_textBox.TabIndex = 19;
+            this.MapBackOpa_textBox.TextChanged += new System.EventHandler(this.MapBackOpa_textBox_TextChanged);
             // 
             // MapSize_textBox
             // 
@@ -709,6 +718,7 @@
             this.MapSize_textBox.Name = "MapSize_textBox";
             this.MapSize_textBox.Size = new System.Drawing.Size(25, 13);
             this.MapSize_textBox.TabIndex = 18;
+            this.MapSize_textBox.TextChanged += new System.EventHandler(this.MapSize_textBox_TextChanged);
             // 
             // MapRotate_checkBox
             // 
@@ -923,6 +933,7 @@
             this.HitOpa_textBox.Name = "HitOpa_textBox";
             this.HitOpa_textBox.Size = new System.Drawing.Size(25, 13);
             this.HitOpa_textBox.TabIndex = 19;
+            this.HitOpa_textBox.TextChanged += new System.EventHandler(this.HitOpa_textBox_TextChanged);
             // 
             // HitSize_textBox
             // 
@@ -932,6 +943,7 @@
             this.HitSize_textBox.Name = "HitSize_textBox";
             this.HitSize_textBox.Size = new System.Drawing.Size(25, 13);
             this.HitSize_textBox.TabIndex = 18;
+            this.HitSize_textBox.TextChanged += new System.EventHandler(this.HitSize_textBox_TextChanged);
             // 
             // DmgBasedShape_checkBox
             // 
