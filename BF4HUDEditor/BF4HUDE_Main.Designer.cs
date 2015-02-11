@@ -28,9 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.DefaultGeneral_button = new System.Windows.Forms.Button();
+            this.SaveGeneral_button = new System.Windows.Forms.Button();
             this.label42 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
@@ -57,6 +60,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.DefaultMap_button = new System.Windows.Forms.Button();
+            this.SaveMap_button = new System.Windows.Forms.Button();
             this.label45 = new System.Windows.Forms.Label();
             this.label46 = new System.Windows.Forms.Label();
             this.label43 = new System.Windows.Forms.Label();
@@ -79,6 +84,8 @@
             this.label12 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.DefaultHit_button = new System.Windows.Forms.Button();
+            this.SaveHit_button = new System.Windows.Forms.Button();
             this.label47 = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
             this.HitOpa_textBox = new System.Windows.Forms.TextBox();
@@ -90,6 +97,8 @@
             this.HitOpa_trackBar = new System.Windows.Forms.TrackBar();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.DefaultCommon_button = new System.Windows.Forms.Button();
+            this.SaveCommon_button = new System.Windows.Forms.Button();
             this.label56 = new System.Windows.Forms.Label();
             this.label53 = new System.Windows.Forms.Label();
             this.label54 = new System.Windows.Forms.Label();
@@ -120,6 +129,8 @@
             this.label19 = new System.Windows.Forms.Label();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.DefaultEnemy_button = new System.Windows.Forms.Button();
+            this.SaveEnemy_button = new System.Windows.Forms.Button();
             this.label62 = new System.Windows.Forms.Label();
             this.label63 = new System.Windows.Forms.Label();
             this.label60 = new System.Windows.Forms.Label();
@@ -134,7 +145,7 @@
             this.EnemyHealthOpa_textBox = new System.Windows.Forms.TextBox();
             this.EnemyIconOpaZoom_textBox = new System.Windows.Forms.TextBox();
             this.EnemyIconOpa_textBox = new System.Windows.Forms.TextBox();
-            this.EnamyScale_textBox = new System.Windows.Forms.TextBox();
+            this.EnemyScale_textBox = new System.Windows.Forms.TextBox();
             this.EnemySize_textBox = new System.Windows.Forms.TextBox();
             this.FieldUpArmorIcon_checkBox = new System.Windows.Forms.CheckBox();
             this.EnemyInfoOpaZoom_trackBar = new System.Windows.Forms.TrackBar();
@@ -147,7 +158,7 @@
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.EnemyHealthOpa_trackBar = new System.Windows.Forms.TrackBar();
-            this.EnamyScale_trackBar = new System.Windows.Forms.TrackBar();
+            this.EnemyScale_trackBar = new System.Windows.Forms.TrackBar();
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.EnemyIconOpaZoom_trackBar = new System.Windows.Forms.TrackBar();
@@ -155,6 +166,8 @@
             this.label27 = new System.Windows.Forms.Label();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.DefaultFriend_button = new System.Windows.Forms.Button();
+            this.SaveFriend_button = new System.Windows.Forms.Button();
             this.label64 = new System.Windows.Forms.Label();
             this.label65 = new System.Windows.Forms.Label();
             this.label66 = new System.Windows.Forms.Label();
@@ -187,19 +200,9 @@
             this.FriendIconOpaZoom_trackBar = new System.Windows.Forms.TrackBar();
             this.FriendIconOpa_trackBar = new System.Windows.Forms.TrackBar();
             this.label36 = new System.Windows.Forms.Label();
-            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.SaveGeneral_button = new System.Windows.Forms.Button();
-            this.DefaultGeneral_button = new System.Windows.Forms.Button();
-            this.DefaultMap_button = new System.Windows.Forms.Button();
-            this.SaveMap_button = new System.Windows.Forms.Button();
-            this.DefaultHit_button = new System.Windows.Forms.Button();
-            this.SaveHit_button = new System.Windows.Forms.Button();
-            this.DefaultCommon_button = new System.Windows.Forms.Button();
-            this.SaveCommon_button = new System.Windows.Forms.Button();
-            this.DefaultEnemy_button = new System.Windows.Forms.Button();
-            this.SaveEnemy_button = new System.Windows.Forms.Button();
-            this.DefaultFriend_button = new System.Windows.Forms.Button();
-            this.SaveFriend_button = new System.Windows.Forms.Button();
+            this.statusStrip = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -235,7 +238,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.EnemyHealthOpaZoom_trackBar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.EnemySize_trackBar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.EnemyHealthOpa_trackBar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.EnamyScale_trackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EnemyScale_trackBar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.EnemyIconOpaZoom_trackBar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.EnemyIconOpa_trackBar)).BeginInit();
             this.tabPage6.SuspendLayout();
@@ -248,6 +251,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.FriendScale_trackBar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.FriendIconOpaZoom_trackBar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.FriendIconOpa_trackBar)).BeginInit();
+            this.statusStrip.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -274,7 +278,6 @@
             this.tabPage1.Size = new System.Drawing.Size(306, 468);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "General";
-            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
             // 
             // groupBox1
             // 
@@ -310,7 +313,24 @@
             this.groupBox1.TabIndex = 13;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "General Settings";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // DefaultGeneral_button
+            // 
+            this.DefaultGeneral_button.Location = new System.Drawing.Point(182, 427);
+            this.DefaultGeneral_button.Name = "DefaultGeneral_button";
+            this.DefaultGeneral_button.Size = new System.Drawing.Size(50, 23);
+            this.DefaultGeneral_button.TabIndex = 25;
+            this.DefaultGeneral_button.Text = "Default";
+            this.DefaultGeneral_button.UseVisualStyleBackColor = true;
+            // 
+            // SaveGeneral_button
+            // 
+            this.SaveGeneral_button.Location = new System.Drawing.Point(238, 427);
+            this.SaveGeneral_button.Name = "SaveGeneral_button";
+            this.SaveGeneral_button.Size = new System.Drawing.Size(50, 23);
+            this.SaveGeneral_button.TabIndex = 24;
+            this.SaveGeneral_button.Text = "Save";
+            this.SaveGeneral_button.UseVisualStyleBackColor = true;
             // 
             // label42
             // 
@@ -445,6 +465,8 @@
             this.MiscOpa_trackBar.TabIndex = 11;
             this.MiscOpa_trackBar.TickFrequency = 10;
             this.MiscOpa_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.toolTip.SetToolTip(this.MiscOpa_trackBar, "Visibility of various HUD elements (e.g. big map).");
+            this.MiscOpa_trackBar.Scroll += new System.EventHandler(this.MiscOpa_trackBar_Scroll);
             // 
             // HUDSize_trackBar
             // 
@@ -456,6 +478,8 @@
             this.HUDSize_trackBar.TabIndex = 1;
             this.HUDSize_trackBar.TickFrequency = 10;
             this.HUDSize_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.toolTip.SetToolTip(this.HUDSize_trackBar, "Size of various HUD elements when in high resolution mode.");
+            this.HUDSize_trackBar.Scroll += new System.EventHandler(this.HUDSize_trackBar_Scroll);
             // 
             // label6
             // 
@@ -485,6 +509,8 @@
             this.KillLogOpa_trackBar.TabIndex = 9;
             this.KillLogOpa_trackBar.TickFrequency = 10;
             this.KillLogOpa_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.toolTip.SetToolTip(this.KillLogOpa_trackBar, "Visibility of the kill log on the top right of the screen.");
+            this.KillLogOpa_trackBar.Scroll += new System.EventHandler(this.KillLogOpa_trackBar_Scroll);
             // 
             // InvOpa_trackBar
             // 
@@ -496,6 +522,8 @@
             this.InvOpa_trackBar.TabIndex = 3;
             this.InvOpa_trackBar.TickFrequency = 10;
             this.InvOpa_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.toolTip.SetToolTip(this.InvOpa_trackBar, "Visibility of the inventory on the bottom center of the screen.");
+            this.InvOpa_trackBar.Scroll += new System.EventHandler(this.InvOpa_trackBar_Scroll);
             // 
             // label5
             // 
@@ -525,6 +553,8 @@
             this.OccuOpa_trackBar.TabIndex = 7;
             this.OccuOpa_trackBar.TickFrequency = 10;
             this.OccuOpa_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.toolTip.SetToolTip(this.OccuOpa_trackBar, "Visibility of the vehicle occupant right next to the player status.");
+            this.OccuOpa_trackBar.Scroll += new System.EventHandler(this.OccuOpa_trackBar_Scroll);
             // 
             // StatusOpa_trackBar
             // 
@@ -536,6 +566,8 @@
             this.StatusOpa_trackBar.TabIndex = 5;
             this.StatusOpa_trackBar.TickFrequency = 10;
             this.StatusOpa_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.toolTip.SetToolTip(this.StatusOpa_trackBar, "Visibility of the player status on the bottom right of the screen.");
+            this.StatusOpa_trackBar.Scroll += new System.EventHandler(this.StatusOpa_trackBar_Scroll);
             // 
             // label4
             // 
@@ -556,7 +588,6 @@
             this.tabPage2.Size = new System.Drawing.Size(306, 468);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Minimap";
-            this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
             // 
             // groupBox2
             // 
@@ -588,6 +619,24 @@
             this.groupBox2.TabIndex = 14;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Minimap Settings";
+            // 
+            // DefaultMap_button
+            // 
+            this.DefaultMap_button.Location = new System.Drawing.Point(182, 427);
+            this.DefaultMap_button.Name = "DefaultMap_button";
+            this.DefaultMap_button.Size = new System.Drawing.Size(50, 23);
+            this.DefaultMap_button.TabIndex = 27;
+            this.DefaultMap_button.Text = "Default";
+            this.DefaultMap_button.UseVisualStyleBackColor = true;
+            // 
+            // SaveMap_button
+            // 
+            this.SaveMap_button.Location = new System.Drawing.Point(238, 427);
+            this.SaveMap_button.Name = "SaveMap_button";
+            this.SaveMap_button.Size = new System.Drawing.Size(50, 23);
+            this.SaveMap_button.TabIndex = 26;
+            this.SaveMap_button.Text = "Save";
+            this.SaveMap_button.UseVisualStyleBackColor = true;
             // 
             // label45
             // 
@@ -669,6 +718,7 @@
             this.MapRotate_checkBox.Size = new System.Drawing.Size(100, 17);
             this.MapRotate_checkBox.TabIndex = 17;
             this.MapRotate_checkBox.Text = "Minimap Rotate";
+            this.toolTip.SetToolTip(this.MapRotate_checkBox, "Rotate minimap with the player.");
             this.MapRotate_checkBox.UseVisualStyleBackColor = true;
             // 
             // IconAutoScale_checkBox
@@ -679,6 +729,7 @@
             this.IconAutoScale_checkBox.Size = new System.Drawing.Size(107, 17);
             this.IconAutoScale_checkBox.TabIndex = 16;
             this.IconAutoScale_checkBox.Text = "Icons Auto Scale";
+            this.toolTip.SetToolTip(this.IconAutoScale_checkBox, "Scale minimap\'s icons automatically.");
             this.IconAutoScale_checkBox.UseVisualStyleBackColor = true;
             // 
             // MapDefaultScale_comboBox
@@ -694,6 +745,7 @@
             this.MapDefaultScale_comboBox.Name = "MapDefaultScale_comboBox";
             this.MapDefaultScale_comboBox.Size = new System.Drawing.Size(104, 21);
             this.MapDefaultScale_comboBox.TabIndex = 9;
+            this.toolTip.SetToolTip(this.MapDefaultScale_comboBox, "Default scale of the minimap.");
             // 
             // label8
             // 
@@ -703,7 +755,6 @@
             this.label8.Size = new System.Drawing.Size(113, 13);
             this.label8.TabIndex = 8;
             this.label8.Text = "Minimap Default Scale";
-            this.label8.Click += new System.EventHandler(this.label8_Click_1);
             // 
             // label7
             // 
@@ -713,7 +764,6 @@
             this.label7.Size = new System.Drawing.Size(69, 13);
             this.label7.TabIndex = 0;
             this.label7.Text = "Minimap Size";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // MapSize_trackBar
             // 
@@ -726,7 +776,9 @@
             this.MapSize_trackBar.TabIndex = 1;
             this.MapSize_trackBar.TickFrequency = 13;
             this.MapSize_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.toolTip.SetToolTip(this.MapSize_trackBar, "Size of the minimap on the bottom left of the screen.");
             this.MapSize_trackBar.Value = 70;
+            this.MapSize_trackBar.Scroll += new System.EventHandler(this.MapSize_trackBar_Scroll);
             // 
             // label9
             // 
@@ -747,6 +799,8 @@
             this.MapBackOpa_trackBar.TabIndex = 3;
             this.MapBackOpa_trackBar.TickFrequency = 10;
             this.MapBackOpa_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.toolTip.SetToolTip(this.MapBackOpa_trackBar, "Visibility of the minimap\'s background.");
+            this.MapBackOpa_trackBar.Scroll += new System.EventHandler(this.MapBackOpa_trackBar_Scroll);
             // 
             // label11
             // 
@@ -768,8 +822,9 @@
             this.MapIconSize_trackBar.TabIndex = 7;
             this.MapIconSize_trackBar.TickFrequency = 10;
             this.MapIconSize_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.toolTip.SetToolTip(this.MapIconSize_trackBar, "Size of the minimap\'s icons.");
             this.MapIconSize_trackBar.Value = 50;
-            this.MapIconSize_trackBar.Scroll += new System.EventHandler(this.trackBar11_Scroll);
+            this.MapIconSize_trackBar.Scroll += new System.EventHandler(this.MapIconSize_trackBar_Scroll);
             // 
             // MapIconOpa_trackBar
             // 
@@ -781,6 +836,8 @@
             this.MapIconOpa_trackBar.TabIndex = 5;
             this.MapIconOpa_trackBar.TickFrequency = 10;
             this.MapIconOpa_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.toolTip.SetToolTip(this.MapIconOpa_trackBar, "Visibility of the minimap\'s icons.");
+            this.MapIconOpa_trackBar.Scroll += new System.EventHandler(this.MapIconOpa_trackBar_Scroll);
             // 
             // label12
             // 
@@ -801,7 +858,6 @@
             this.tabPage3.Size = new System.Drawing.Size(306, 468);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Hit Indicator";
-            this.tabPage3.Click += new System.EventHandler(this.tabPage3_Click);
             // 
             // groupBox3
             // 
@@ -822,7 +878,24 @@
             this.groupBox3.TabIndex = 15;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Hit Indicator Settings";
-            this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
+            // 
+            // DefaultHit_button
+            // 
+            this.DefaultHit_button.Location = new System.Drawing.Point(182, 427);
+            this.DefaultHit_button.Name = "DefaultHit_button";
+            this.DefaultHit_button.Size = new System.Drawing.Size(50, 23);
+            this.DefaultHit_button.TabIndex = 27;
+            this.DefaultHit_button.Text = "Default";
+            this.DefaultHit_button.UseVisualStyleBackColor = true;
+            // 
+            // SaveHit_button
+            // 
+            this.SaveHit_button.Location = new System.Drawing.Point(238, 427);
+            this.SaveHit_button.Name = "SaveHit_button";
+            this.SaveHit_button.Size = new System.Drawing.Size(50, 23);
+            this.SaveHit_button.TabIndex = 26;
+            this.SaveHit_button.Text = "Save";
+            this.SaveHit_button.UseVisualStyleBackColor = true;
             // 
             // label47
             // 
@@ -868,6 +941,7 @@
             this.DmgBasedShape_checkBox.Size = new System.Drawing.Size(133, 17);
             this.DmgBasedShape_checkBox.TabIndex = 16;
             this.DmgBasedShape_checkBox.Text = "Damage Based Shape";
+            this.toolTip.SetToolTip(this.DmgBasedShape_checkBox, "Shape hit indicator based on where you hit the enemy (head, body or legs).");
             this.DmgBasedShape_checkBox.UseVisualStyleBackColor = true;
             // 
             // label13
@@ -890,7 +964,9 @@
             this.HitSize_trackBar.TabIndex = 1;
             this.HitSize_trackBar.TickFrequency = 10;
             this.HitSize_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.toolTip.SetToolTip(this.HitSize_trackBar, "Size of the hit indicator.");
             this.HitSize_trackBar.Value = 50;
+            this.HitSize_trackBar.Scroll += new System.EventHandler(this.HitSize_trackBar_Scroll);
             // 
             // label14
             // 
@@ -911,7 +987,8 @@
             this.HitOpa_trackBar.TabIndex = 3;
             this.HitOpa_trackBar.TickFrequency = 10;
             this.HitOpa_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
-            this.HitOpa_trackBar.Scroll += new System.EventHandler(this.trackBar9_Scroll_1);
+            this.toolTip.SetToolTip(this.HitOpa_trackBar, "Visibility of the hit indicator.");
+            this.HitOpa_trackBar.Scroll += new System.EventHandler(this.HitOpa_trackBar_Scroll);
             // 
             // tabPage4
             // 
@@ -923,7 +1000,6 @@
             this.tabPage4.Size = new System.Drawing.Size(306, 468);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Common";
-            this.tabPage4.Click += new System.EventHandler(this.tabPage4_Click);
             // 
             // groupBox4
             // 
@@ -963,6 +1039,24 @@
             this.groupBox4.TabIndex = 14;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Common HUD World Icons Settings";
+            // 
+            // DefaultCommon_button
+            // 
+            this.DefaultCommon_button.Location = new System.Drawing.Point(182, 427);
+            this.DefaultCommon_button.Name = "DefaultCommon_button";
+            this.DefaultCommon_button.Size = new System.Drawing.Size(50, 23);
+            this.DefaultCommon_button.TabIndex = 33;
+            this.DefaultCommon_button.Text = "Default";
+            this.DefaultCommon_button.UseVisualStyleBackColor = true;
+            // 
+            // SaveCommon_button
+            // 
+            this.SaveCommon_button.Location = new System.Drawing.Point(238, 427);
+            this.SaveCommon_button.Name = "SaveCommon_button";
+            this.SaveCommon_button.Size = new System.Drawing.Size(50, 23);
+            this.SaveCommon_button.TabIndex = 32;
+            this.SaveCommon_button.Text = "Save";
+            this.SaveCommon_button.UseVisualStyleBackColor = true;
             // 
             // label56
             // 
@@ -1100,6 +1194,8 @@
             this.CommonGadgetOpaZoom_trackBar.TabIndex = 13;
             this.CommonGadgetOpaZoom_trackBar.TickFrequency = 10;
             this.CommonGadgetOpaZoom_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.toolTip.SetToolTip(this.CommonGadgetOpaZoom_trackBar, "Visibility of the gadgets icons (e.g. health/ammo packs/bags) when in zoom.");
+            this.CommonGadgetOpaZoom_trackBar.Scroll += new System.EventHandler(this.CommonGadgetOpaZoom_trackBar_Scroll);
             // 
             // label20
             // 
@@ -1129,7 +1225,8 @@
             this.CommonPickupOpaZoom_trackBar.TabIndex = 11;
             this.CommonPickupOpaZoom_trackBar.TickFrequency = 10;
             this.CommonPickupOpaZoom_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
-            this.CommonPickupOpaZoom_trackBar.Scroll += new System.EventHandler(this.trackBar13_Scroll);
+            this.toolTip.SetToolTip(this.CommonPickupOpaZoom_trackBar, "Visibility of the pickups icons when in zoom.");
+            this.CommonPickupOpaZoom_trackBar.Scroll += new System.EventHandler(this.CommonPickupOpaZoom_trackBar_Scroll);
             // 
             // CommonSize_trackBar
             // 
@@ -1142,7 +1239,9 @@
             this.CommonSize_trackBar.TabIndex = 1;
             this.CommonSize_trackBar.TickFrequency = 8;
             this.CommonSize_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.toolTip.SetToolTip(this.CommonSize_trackBar, "Size of common HUD elements (objectives, pickups, etc.).");
             this.CommonSize_trackBar.Value = 60;
+            this.CommonSize_trackBar.Scroll += new System.EventHandler(this.CommonSize_trackBar_Scroll);
             // 
             // label15
             // 
@@ -1161,7 +1260,6 @@
             this.label16.Size = new System.Drawing.Size(104, 13);
             this.label16.TabIndex = 2;
             this.label16.Text = "Scale With Distance";
-            this.label16.Click += new System.EventHandler(this.label16_Click);
             // 
             // CommonInterOpaZoom_trackBar
             // 
@@ -1173,6 +1271,8 @@
             this.CommonInterOpaZoom_trackBar.TabIndex = 9;
             this.CommonInterOpaZoom_trackBar.TickFrequency = 10;
             this.CommonInterOpaZoom_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.toolTip.SetToolTip(this.CommonInterOpaZoom_trackBar, "Visibility of the interaction icons when in zoom.");
+            this.CommonInterOpaZoom_trackBar.Scroll += new System.EventHandler(this.CommonInterOpaZoom_trackBar_Scroll);
             // 
             // CommonScale_trackBar
             // 
@@ -1184,6 +1284,9 @@
             this.CommonScale_trackBar.TabIndex = 3;
             this.CommonScale_trackBar.TickFrequency = 10;
             this.CommonScale_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.toolTip.SetToolTip(this.CommonScale_trackBar, "Scale down the common HUD elements with the distance.\r\nHigher value means less vi" +
+        "sible icons at distance.");
+            this.CommonScale_trackBar.Scroll += new System.EventHandler(this.CommonScale_trackBar_Scroll);
             // 
             // label17
             // 
@@ -1202,7 +1305,6 @@
             this.label18.Size = new System.Drawing.Size(72, 13);
             this.label18.TabIndex = 4;
             this.label18.Text = "Icons Opacity";
-            this.label18.Click += new System.EventHandler(this.label18_Click);
             // 
             // CommonObjOpaZoom_trackBar
             // 
@@ -1214,6 +1316,8 @@
             this.CommonObjOpaZoom_trackBar.TabIndex = 7;
             this.CommonObjOpaZoom_trackBar.TickFrequency = 10;
             this.CommonObjOpaZoom_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.toolTip.SetToolTip(this.CommonObjOpaZoom_trackBar, "Visibility of the objectives markers when in zoom.");
+            this.CommonObjOpaZoom_trackBar.Scroll += new System.EventHandler(this.CommonObjOpaZoom_trackBar_Scroll);
             // 
             // CommonIconOpa_trackBar
             // 
@@ -1225,6 +1329,8 @@
             this.CommonIconOpa_trackBar.TabIndex = 5;
             this.CommonIconOpa_trackBar.TickFrequency = 10;
             this.CommonIconOpa_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.toolTip.SetToolTip(this.CommonIconOpa_trackBar, "Visibility of common HUD elements when not in zoom.");
+            this.CommonIconOpa_trackBar.Scroll += new System.EventHandler(this.CommonIconOpa_trackBar_Scroll);
             // 
             // label19
             // 
@@ -1264,7 +1370,7 @@
             this.groupBox5.Controls.Add(this.EnemyHealthOpa_textBox);
             this.groupBox5.Controls.Add(this.EnemyIconOpaZoom_textBox);
             this.groupBox5.Controls.Add(this.EnemyIconOpa_textBox);
-            this.groupBox5.Controls.Add(this.EnamyScale_textBox);
+            this.groupBox5.Controls.Add(this.EnemyScale_textBox);
             this.groupBox5.Controls.Add(this.EnemySize_textBox);
             this.groupBox5.Controls.Add(this.FieldUpArmorIcon_checkBox);
             this.groupBox5.Controls.Add(this.EnemyInfoOpaZoom_trackBar);
@@ -1277,7 +1383,7 @@
             this.groupBox5.Controls.Add(this.label23);
             this.groupBox5.Controls.Add(this.label24);
             this.groupBox5.Controls.Add(this.EnemyHealthOpa_trackBar);
-            this.groupBox5.Controls.Add(this.EnamyScale_trackBar);
+            this.groupBox5.Controls.Add(this.EnemyScale_trackBar);
             this.groupBox5.Controls.Add(this.label25);
             this.groupBox5.Controls.Add(this.label26);
             this.groupBox5.Controls.Add(this.EnemyIconOpaZoom_trackBar);
@@ -1289,7 +1395,24 @@
             this.groupBox5.TabIndex = 15;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Enemy HUD World Icons Settings";
-            this.groupBox5.Enter += new System.EventHandler(this.groupBox5_Enter);
+            // 
+            // DefaultEnemy_button
+            // 
+            this.DefaultEnemy_button.Location = new System.Drawing.Point(182, 427);
+            this.DefaultEnemy_button.Name = "DefaultEnemy_button";
+            this.DefaultEnemy_button.Size = new System.Drawing.Size(50, 23);
+            this.DefaultEnemy_button.TabIndex = 42;
+            this.DefaultEnemy_button.Text = "Default";
+            this.DefaultEnemy_button.UseVisualStyleBackColor = true;
+            // 
+            // SaveEnemy_button
+            // 
+            this.SaveEnemy_button.Location = new System.Drawing.Point(238, 427);
+            this.SaveEnemy_button.Name = "SaveEnemy_button";
+            this.SaveEnemy_button.Size = new System.Drawing.Size(50, 23);
+            this.SaveEnemy_button.TabIndex = 41;
+            this.SaveEnemy_button.Text = "Save";
+            this.SaveEnemy_button.UseVisualStyleBackColor = true;
             // 
             // label62
             // 
@@ -1417,14 +1540,14 @@
             this.EnemyIconOpa_textBox.Size = new System.Drawing.Size(25, 13);
             this.EnemyIconOpa_textBox.TabIndex = 27;
             // 
-            // EnamyScale_textBox
+            // EnemyScale_textBox
             // 
-            this.EnamyScale_textBox.BackColor = System.Drawing.SystemColors.Control;
-            this.EnamyScale_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.EnamyScale_textBox.Location = new System.Drawing.Point(229, 84);
-            this.EnamyScale_textBox.Name = "EnamyScale_textBox";
-            this.EnamyScale_textBox.Size = new System.Drawing.Size(25, 13);
-            this.EnamyScale_textBox.TabIndex = 26;
+            this.EnemyScale_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.EnemyScale_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.EnemyScale_textBox.Location = new System.Drawing.Point(229, 84);
+            this.EnemyScale_textBox.Name = "EnemyScale_textBox";
+            this.EnemyScale_textBox.Size = new System.Drawing.Size(25, 13);
+            this.EnemyScale_textBox.TabIndex = 26;
             // 
             // EnemySize_textBox
             // 
@@ -1443,6 +1566,7 @@
             this.FieldUpArmorIcon_checkBox.Size = new System.Drawing.Size(146, 17);
             this.FieldUpArmorIcon_checkBox.TabIndex = 16;
             this.FieldUpArmorIcon_checkBox.Text = "Field Upgrade Armor Icon";
+            this.toolTip.SetToolTip(this.FieldUpArmorIcon_checkBox, "Display a \"shield\" icon if the spotted enemy has the \"Armor\" perk.");
             this.FieldUpArmorIcon_checkBox.UseVisualStyleBackColor = true;
             // 
             // EnemyInfoOpaZoom_trackBar
@@ -1455,6 +1579,8 @@
             this.EnemyInfoOpaZoom_trackBar.TabIndex = 15;
             this.EnemyInfoOpaZoom_trackBar.TickFrequency = 10;
             this.EnemyInfoOpaZoom_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.toolTip.SetToolTip(this.EnemyInfoOpaZoom_trackBar, "Visibility of the enemy info (e.g. name, distance) when in zoom.");
+            this.EnemyInfoOpaZoom_trackBar.Scroll += new System.EventHandler(this.EnemyInfoOpaZoom_trackBar_Scroll);
             // 
             // label28
             // 
@@ -1475,6 +1601,8 @@
             this.EnemyInfoOpa_trackBar.TabIndex = 13;
             this.EnemyInfoOpa_trackBar.TickFrequency = 10;
             this.EnemyInfoOpa_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.toolTip.SetToolTip(this.EnemyInfoOpa_trackBar, "Visibility of the enemy info (e.g. name, distance) when not in zoom.");
+            this.EnemyInfoOpa_trackBar.Scroll += new System.EventHandler(this.EnemyInfoOpa_trackBar_Scroll);
             // 
             // label21
             // 
@@ -1504,6 +1632,8 @@
             this.EnemyHealthOpaZoom_trackBar.TabIndex = 11;
             this.EnemyHealthOpaZoom_trackBar.TickFrequency = 10;
             this.EnemyHealthOpaZoom_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.toolTip.SetToolTip(this.EnemyHealthOpaZoom_trackBar, "Visibility of the enemy health when in zoom.");
+            this.EnemyHealthOpaZoom_trackBar.Scroll += new System.EventHandler(this.EnemyHealthOpaZoom_trackBar_Scroll);
             // 
             // EnemySize_trackBar
             // 
@@ -1516,7 +1646,9 @@
             this.EnemySize_trackBar.TabIndex = 1;
             this.EnemySize_trackBar.TickFrequency = 8;
             this.EnemySize_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.toolTip.SetToolTip(this.EnemySize_trackBar, "Size of the enemy HUD elements.");
             this.EnemySize_trackBar.Value = 60;
+            this.EnemySize_trackBar.Scroll += new System.EventHandler(this.EnemySize_trackBar_Scroll);
             // 
             // label23
             // 
@@ -1526,7 +1658,6 @@
             this.label23.Size = new System.Drawing.Size(107, 13);
             this.label23.TabIndex = 10;
             this.label23.Text = "Health Opacity Zoom";
-            this.label23.Click += new System.EventHandler(this.label23_Click);
             // 
             // label24
             // 
@@ -1547,17 +1678,22 @@
             this.EnemyHealthOpa_trackBar.TabIndex = 9;
             this.EnemyHealthOpa_trackBar.TickFrequency = 10;
             this.EnemyHealthOpa_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.toolTip.SetToolTip(this.EnemyHealthOpa_trackBar, "Visibility of the enemy health when not in zoom.");
+            this.EnemyHealthOpa_trackBar.Scroll += new System.EventHandler(this.EnemyHealthOpa_trackBar_Scroll);
             // 
-            // EnamyScale_trackBar
+            // EnemyScale_trackBar
             // 
-            this.EnamyScale_trackBar.LargeChange = 10;
-            this.EnamyScale_trackBar.Location = new System.Drawing.Point(119, 70);
-            this.EnamyScale_trackBar.Maximum = 100;
-            this.EnamyScale_trackBar.Name = "EnamyScale_trackBar";
-            this.EnamyScale_trackBar.Size = new System.Drawing.Size(104, 45);
-            this.EnamyScale_trackBar.TabIndex = 3;
-            this.EnamyScale_trackBar.TickFrequency = 10;
-            this.EnamyScale_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.EnemyScale_trackBar.LargeChange = 10;
+            this.EnemyScale_trackBar.Location = new System.Drawing.Point(119, 70);
+            this.EnemyScale_trackBar.Maximum = 100;
+            this.EnemyScale_trackBar.Name = "EnemyScale_trackBar";
+            this.EnemyScale_trackBar.Size = new System.Drawing.Size(104, 45);
+            this.EnemyScale_trackBar.TabIndex = 3;
+            this.EnemyScale_trackBar.TickFrequency = 10;
+            this.EnemyScale_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.toolTip.SetToolTip(this.EnemyScale_trackBar, "Scale down the enemy HUD elements with the distance.\r\nHigher value means less vis" +
+        "ible icons at distance.");
+            this.EnemyScale_trackBar.Scroll += new System.EventHandler(this.EnemyScale_trackBar_Scroll);
             // 
             // label25
             // 
@@ -1567,7 +1703,6 @@
             this.label25.Size = new System.Drawing.Size(77, 13);
             this.label25.TabIndex = 8;
             this.label25.Text = "Health Opacity";
-            this.label25.Click += new System.EventHandler(this.label25_Click);
             // 
             // label26
             // 
@@ -1588,6 +1723,8 @@
             this.EnemyIconOpaZoom_trackBar.TabIndex = 7;
             this.EnemyIconOpaZoom_trackBar.TickFrequency = 10;
             this.EnemyIconOpaZoom_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.toolTip.SetToolTip(this.EnemyIconOpaZoom_trackBar, "Visibility of the enemy icons when in zoom.");
+            this.EnemyIconOpaZoom_trackBar.Scroll += new System.EventHandler(this.EnemyIconOpaZoom_trackBar_Scroll);
             // 
             // EnemyIconOpa_trackBar
             // 
@@ -1599,6 +1736,8 @@
             this.EnemyIconOpa_trackBar.TabIndex = 5;
             this.EnemyIconOpa_trackBar.TickFrequency = 10;
             this.EnemyIconOpa_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.toolTip.SetToolTip(this.EnemyIconOpa_trackBar, "Visibility of the enemy icons when not in zoom.");
+            this.EnemyIconOpa_trackBar.Scroll += new System.EventHandler(this.EnemyIconOpa_trackBar_Scroll);
             // 
             // label27
             // 
@@ -1662,6 +1801,24 @@
             this.groupBox6.TabIndex = 16;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Friend HUD World Icons Settings";
+            // 
+            // DefaultFriend_button
+            // 
+            this.DefaultFriend_button.Location = new System.Drawing.Point(182, 427);
+            this.DefaultFriend_button.Name = "DefaultFriend_button";
+            this.DefaultFriend_button.Size = new System.Drawing.Size(50, 23);
+            this.DefaultFriend_button.TabIndex = 50;
+            this.DefaultFriend_button.Text = "Default";
+            this.DefaultFriend_button.UseVisualStyleBackColor = true;
+            // 
+            // SaveFriend_button
+            // 
+            this.SaveFriend_button.Location = new System.Drawing.Point(238, 427);
+            this.SaveFriend_button.Name = "SaveFriend_button";
+            this.SaveFriend_button.Size = new System.Drawing.Size(50, 23);
+            this.SaveFriend_button.TabIndex = 49;
+            this.SaveFriend_button.Text = "Save";
+            this.SaveFriend_button.UseVisualStyleBackColor = true;
             // 
             // label64
             // 
@@ -1817,6 +1974,8 @@
             this.FriendInfoOpaZoom_trackBar.TabIndex = 15;
             this.FriendInfoOpaZoom_trackBar.TickFrequency = 10;
             this.FriendInfoOpaZoom_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.toolTip.SetToolTip(this.FriendInfoOpaZoom_trackBar, "Visibility of the friendly info (e.g. name, distance) when in zoom.");
+            this.FriendInfoOpaZoom_trackBar.Scroll += new System.EventHandler(this.FriendInfoOpaZoom_trackBar_Scroll);
             // 
             // label29
             // 
@@ -1837,6 +1996,8 @@
             this.FriendInfoOpa_trackBar.TabIndex = 13;
             this.FriendInfoOpa_trackBar.TickFrequency = 10;
             this.FriendInfoOpa_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.toolTip.SetToolTip(this.FriendInfoOpa_trackBar, "Visibility of the friendly info (e.g. name, distance) when not in zoom.");
+            this.FriendInfoOpa_trackBar.Scroll += new System.EventHandler(this.FriendInfoOpa_trackBar_Scroll);
             // 
             // label30
             // 
@@ -1866,6 +2027,8 @@
             this.FriendHealthOpaZoom_trackBar.TabIndex = 11;
             this.FriendHealthOpaZoom_trackBar.TickFrequency = 10;
             this.FriendHealthOpaZoom_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.toolTip.SetToolTip(this.FriendHealthOpaZoom_trackBar, "Visibility of the friendly health or revive icon when in zoom.");
+            this.FriendHealthOpaZoom_trackBar.Scroll += new System.EventHandler(this.FriendHealthOpaZoom_trackBar_Scroll);
             // 
             // FriendSize_trackBar
             // 
@@ -1878,7 +2041,9 @@
             this.FriendSize_trackBar.TabIndex = 1;
             this.FriendSize_trackBar.TickFrequency = 8;
             this.FriendSize_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.toolTip.SetToolTip(this.FriendSize_trackBar, "Size of the friendly HUD elements.");
             this.FriendSize_trackBar.Value = 60;
+            this.FriendSize_trackBar.Scroll += new System.EventHandler(this.FriendSize_trackBar_Scroll);
             // 
             // label32
             // 
@@ -1908,6 +2073,8 @@
             this.FriendHealthOpa_trackBar.TabIndex = 9;
             this.FriendHealthOpa_trackBar.TickFrequency = 10;
             this.FriendHealthOpa_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.toolTip.SetToolTip(this.FriendHealthOpa_trackBar, "Visibility of the friendly health or revive icon when not in zoom.");
+            this.FriendHealthOpa_trackBar.Scroll += new System.EventHandler(this.FriendHealthOpa_trackBar_Scroll);
             // 
             // FriendScale_trackBar
             // 
@@ -1919,6 +2086,9 @@
             this.FriendScale_trackBar.TabIndex = 3;
             this.FriendScale_trackBar.TickFrequency = 10;
             this.FriendScale_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.toolTip.SetToolTip(this.FriendScale_trackBar, "Scale down the friendly HUD elements with the distance.\r\nHigher value means less " +
+        "visible icons at distance.");
+            this.FriendScale_trackBar.Scroll += new System.EventHandler(this.FriendScale_trackBar_Scroll);
             // 
             // label34
             // 
@@ -1948,6 +2118,8 @@
             this.FriendIconOpaZoom_trackBar.TabIndex = 7;
             this.FriendIconOpaZoom_trackBar.TickFrequency = 10;
             this.FriendIconOpaZoom_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.toolTip.SetToolTip(this.FriendIconOpaZoom_trackBar, "Visibility of the friendly icons when in zoom.");
+            this.FriendIconOpaZoom_trackBar.Scroll += new System.EventHandler(this.FriendIconOpaZoom_trackBar_Scroll);
             // 
             // FriendIconOpa_trackBar
             // 
@@ -1959,6 +2131,8 @@
             this.FriendIconOpa_trackBar.TabIndex = 5;
             this.FriendIconOpa_trackBar.TickFrequency = 10;
             this.FriendIconOpa_trackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.toolTip.SetToolTip(this.FriendIconOpa_trackBar, "Visibility of the friendly icons when not in zoom.");
+            this.FriendIconOpa_trackBar.Scroll += new System.EventHandler(this.FriendIconOpa_trackBar_Scroll);
             // 
             // label36
             // 
@@ -1969,128 +2143,28 @@
             this.label36.TabIndex = 6;
             this.label36.Text = "Icons Opacity Zoom";
             // 
-            // statusStrip1
+            // statusStrip
             // 
-            this.statusStrip1.Location = new System.Drawing.Point(0, 495);
-            this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(312, 22);
-            this.statusStrip1.TabIndex = 1;
-            this.statusStrip1.Text = "statusStrip1";
+            this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel});
+            this.statusStrip.Location = new System.Drawing.Point(0, 495);
+            this.statusStrip.Name = "statusStrip";
+            this.statusStrip.Size = new System.Drawing.Size(312, 22);
+            this.statusStrip.TabIndex = 1;
+            this.statusStrip.Text = "statusStrip1";
             // 
-            // SaveGeneral_button
+            // toolStripStatusLabel
             // 
-            this.SaveGeneral_button.Location = new System.Drawing.Point(238, 427);
-            this.SaveGeneral_button.Name = "SaveGeneral_button";
-            this.SaveGeneral_button.Size = new System.Drawing.Size(50, 23);
-            this.SaveGeneral_button.TabIndex = 24;
-            this.SaveGeneral_button.Text = "Save";
-            this.SaveGeneral_button.UseVisualStyleBackColor = true;
-            // 
-            // DefaultGeneral_button
-            // 
-            this.DefaultGeneral_button.Location = new System.Drawing.Point(182, 427);
-            this.DefaultGeneral_button.Name = "DefaultGeneral_button";
-            this.DefaultGeneral_button.Size = new System.Drawing.Size(50, 23);
-            this.DefaultGeneral_button.TabIndex = 25;
-            this.DefaultGeneral_button.Text = "Default";
-            this.DefaultGeneral_button.UseVisualStyleBackColor = true;
-            // 
-            // DefaultMap_button
-            // 
-            this.DefaultMap_button.Location = new System.Drawing.Point(182, 427);
-            this.DefaultMap_button.Name = "DefaultMap_button";
-            this.DefaultMap_button.Size = new System.Drawing.Size(50, 23);
-            this.DefaultMap_button.TabIndex = 27;
-            this.DefaultMap_button.Text = "Default";
-            this.DefaultMap_button.UseVisualStyleBackColor = true;
-            // 
-            // SaveMap_button
-            // 
-            this.SaveMap_button.Location = new System.Drawing.Point(238, 427);
-            this.SaveMap_button.Name = "SaveMap_button";
-            this.SaveMap_button.Size = new System.Drawing.Size(50, 23);
-            this.SaveMap_button.TabIndex = 26;
-            this.SaveMap_button.Text = "Save";
-            this.SaveMap_button.UseVisualStyleBackColor = true;
-            // 
-            // DefaultHit_button
-            // 
-            this.DefaultHit_button.Location = new System.Drawing.Point(182, 427);
-            this.DefaultHit_button.Name = "DefaultHit_button";
-            this.DefaultHit_button.Size = new System.Drawing.Size(50, 23);
-            this.DefaultHit_button.TabIndex = 27;
-            this.DefaultHit_button.Text = "Default";
-            this.DefaultHit_button.UseVisualStyleBackColor = true;
-            // 
-            // SaveHit_button
-            // 
-            this.SaveHit_button.Location = new System.Drawing.Point(238, 427);
-            this.SaveHit_button.Name = "SaveHit_button";
-            this.SaveHit_button.Size = new System.Drawing.Size(50, 23);
-            this.SaveHit_button.TabIndex = 26;
-            this.SaveHit_button.Text = "Save";
-            this.SaveHit_button.UseVisualStyleBackColor = true;
-            // 
-            // DefaultCommon_button
-            // 
-            this.DefaultCommon_button.Location = new System.Drawing.Point(182, 427);
-            this.DefaultCommon_button.Name = "DefaultCommon_button";
-            this.DefaultCommon_button.Size = new System.Drawing.Size(50, 23);
-            this.DefaultCommon_button.TabIndex = 33;
-            this.DefaultCommon_button.Text = "Default";
-            this.DefaultCommon_button.UseVisualStyleBackColor = true;
-            // 
-            // SaveCommon_button
-            // 
-            this.SaveCommon_button.Location = new System.Drawing.Point(238, 427);
-            this.SaveCommon_button.Name = "SaveCommon_button";
-            this.SaveCommon_button.Size = new System.Drawing.Size(50, 23);
-            this.SaveCommon_button.TabIndex = 32;
-            this.SaveCommon_button.Text = "Save";
-            this.SaveCommon_button.UseVisualStyleBackColor = true;
-            // 
-            // DefaultEnemy_button
-            // 
-            this.DefaultEnemy_button.Location = new System.Drawing.Point(182, 427);
-            this.DefaultEnemy_button.Name = "DefaultEnemy_button";
-            this.DefaultEnemy_button.Size = new System.Drawing.Size(50, 23);
-            this.DefaultEnemy_button.TabIndex = 42;
-            this.DefaultEnemy_button.Text = "Default";
-            this.DefaultEnemy_button.UseVisualStyleBackColor = true;
-            // 
-            // SaveEnemy_button
-            // 
-            this.SaveEnemy_button.Location = new System.Drawing.Point(238, 427);
-            this.SaveEnemy_button.Name = "SaveEnemy_button";
-            this.SaveEnemy_button.Size = new System.Drawing.Size(50, 23);
-            this.SaveEnemy_button.TabIndex = 41;
-            this.SaveEnemy_button.Text = "Save";
-            this.SaveEnemy_button.UseVisualStyleBackColor = true;
-            // 
-            // DefaultFriend_button
-            // 
-            this.DefaultFriend_button.Location = new System.Drawing.Point(182, 427);
-            this.DefaultFriend_button.Name = "DefaultFriend_button";
-            this.DefaultFriend_button.Size = new System.Drawing.Size(50, 23);
-            this.DefaultFriend_button.TabIndex = 50;
-            this.DefaultFriend_button.Text = "Default";
-            this.DefaultFriend_button.UseVisualStyleBackColor = true;
-            // 
-            // SaveFriend_button
-            // 
-            this.SaveFriend_button.Location = new System.Drawing.Point(238, 427);
-            this.SaveFriend_button.Name = "SaveFriend_button";
-            this.SaveFriend_button.Size = new System.Drawing.Size(50, 23);
-            this.SaveFriend_button.TabIndex = 49;
-            this.SaveFriend_button.Text = "Save";
-            this.SaveFriend_button.UseVisualStyleBackColor = true;
+            this.toolStripStatusLabel.Name = "toolStripStatusLabel";
+            this.toolStripStatusLabel.Size = new System.Drawing.Size(39, 17);
+            this.toolStripStatusLabel.Text = "Ready";
             // 
             // BF4HUDE_Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(312, 517);
-            this.Controls.Add(this.statusStrip1);
+            this.Controls.Add(this.statusStrip);
             this.Controls.Add(this.tabControl1);
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(328, 556);
@@ -2099,7 +2173,6 @@
             this.Name = "BF4HUDE_Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BF4HUDE Main";
-            this.Load += new System.EventHandler(this.BF4HUDE_Main_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
@@ -2140,7 +2213,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.EnemyHealthOpaZoom_trackBar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.EnemySize_trackBar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.EnemyHealthOpa_trackBar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.EnamyScale_trackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EnemyScale_trackBar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.EnemyIconOpaZoom_trackBar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.EnemyIconOpa_trackBar)).EndInit();
             this.tabPage6.ResumeLayout(false);
@@ -2154,6 +2227,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.FriendScale_trackBar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.FriendIconOpaZoom_trackBar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.FriendIconOpa_trackBar)).EndInit();
+            this.statusStrip.ResumeLayout(false);
+            this.statusStrip.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2177,7 +2252,7 @@
         private System.Windows.Forms.TrackBar StatusOpa_trackBar;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.StatusStrip statusStrip;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.TabPage tabPage5;
@@ -2225,7 +2300,7 @@
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.TrackBar EnemyHealthOpa_trackBar;
-        private System.Windows.Forms.TrackBar EnamyScale_trackBar;
+        private System.Windows.Forms.TrackBar EnemyScale_trackBar;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.TrackBar EnemyIconOpaZoom_trackBar;
@@ -2276,7 +2351,7 @@
         private System.Windows.Forms.TextBox EnemyHealthOpa_textBox;
         private System.Windows.Forms.TextBox EnemyIconOpaZoom_textBox;
         private System.Windows.Forms.TextBox EnemyIconOpa_textBox;
-        private System.Windows.Forms.TextBox EnamyScale_textBox;
+        private System.Windows.Forms.TextBox EnemyScale_textBox;
         private System.Windows.Forms.TextBox EnemySize_textBox;
         private System.Windows.Forms.TextBox FriendInfoOpaZoom_textBox;
         private System.Windows.Forms.TextBox FriendInfoOpa_textBox;
@@ -2333,6 +2408,8 @@
         private System.Windows.Forms.Button SaveEnemy_button;
         private System.Windows.Forms.Button DefaultFriend_button;
         private System.Windows.Forms.Button SaveFriend_button;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel;
+        private System.Windows.Forms.ToolTip toolTip;
 
 
     }

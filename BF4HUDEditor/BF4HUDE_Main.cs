@@ -17,107 +17,179 @@ namespace BF4HUDEditor
             InitializeComponent();
         }
 
-        private void trackBar2_Scroll(object sender, EventArgs e)
+        private void HUDSize_trackBar_Scroll(object sender, EventArgs e)
         {
-
+            HUDSize_textBox.Text = "" + HUDSize_trackBar.Value;
         }
 
-        private void trackBar1_Scroll(object sender, EventArgs e)
+        private void InvOpa_trackBar_Scroll(object sender, EventArgs e)
         {
-
+            InvOpa_textBox.Text = "" + InvOpa_trackBar.Value;
         }
 
-        private void BF4HUDE_Main_Load(object sender, EventArgs e)
+        private void StatusOpa_trackBar_Scroll(object sender, EventArgs e)
         {
-
+            StatusOpa_textBox.Text = "" + StatusOpa_trackBar.Value;
         }
 
-        private void tabPage1_Click(object sender, EventArgs e)
+        private void OccuOpa_trackBar_Scroll(object sender, EventArgs e)
         {
-
+            OccuOpa_textBox.Text = "" + OccuOpa_trackBar.Value;
         }
 
-        private void tabPage3_Click(object sender, EventArgs e)
+        private void KillLogOpa_trackBar_Scroll(object sender, EventArgs e)
         {
-
+            KillLogOpa_textBox.Text = "" + KillLogOpa_trackBar.Value;
         }
 
-        private void label7_Click(object sender, EventArgs e)
+        private void MiscOpa_trackBar_Scroll(object sender, EventArgs e)
         {
-
+            MiscOpa_textBox.Text = "" + MiscOpa_trackBar.Value;
         }
 
-        private void trackBar9_Scroll(object sender, EventArgs e)
+        private void MapSize_trackBar_Scroll(object sender, EventArgs e)
         {
-                    }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-                    }
-
-        private void label8_Click_1(object sender, EventArgs e)
-        {
-
+            MapSize_textBox.Text = "" + MapSize_trackBar.Value;
         }
 
-        private void tabPage2_Click(object sender, EventArgs e)
+        private void MapBackOpa_trackBar_Scroll(object sender, EventArgs e)
         {
-
+            MapBackOpa_textBox.Text = "" + MapBackOpa_trackBar.Value;
         }
 
-        private void trackBar11_Scroll(object sender, EventArgs e)
+        private void MapIconOpa_trackBar_Scroll(object sender, EventArgs e)
         {
-
+            MapIconOpa_textBox.Text = "" + MapIconOpa_trackBar.Value;
         }
 
-        private void label16_Click(object sender, EventArgs e)
+        private void MapIconSize_trackBar_Scroll(object sender, EventArgs e)
         {
-
+            MapIconSize_textBox.Text = "" + MapIconSize_trackBar.Value;
         }
 
-        private void tabPage4_Click(object sender, EventArgs e)
+        private void HitSize_trackBar_Scroll(object sender, EventArgs e)
         {
-
+            HitSize_textBox.Text = "" + HitSize_trackBar.Value;
         }
 
-        private void label18_Click(object sender, EventArgs e)
+        private void HitOpa_trackBar_Scroll(object sender, EventArgs e)
         {
-
+            HitOpa_textBox.Text = "" + HitOpa_trackBar.Value;
         }
 
-        private void trackBar13_Scroll(object sender, EventArgs e)
+        private void CommonSize_trackBar_Scroll(object sender, EventArgs e)
         {
-
+            CommonSize_textBox.Text = "" + CommonSize_trackBar.Value;
         }
 
-        private void label25_Click(object sender, EventArgs e)
+        private void CommonScale_trackBar_Scroll(object sender, EventArgs e)
         {
-
+            CommonScale_textBox.Text = "" + CommonScale_trackBar.Value;
         }
 
-        private void label23_Click(object sender, EventArgs e)
+        private void CommonIconOpa_trackBar_Scroll(object sender, EventArgs e)
         {
-
+            CommonIconOpa_textBox.Text = "" + CommonIconOpa_trackBar.Value;
         }
 
-        private void groupBox3_Enter(object sender, EventArgs e)
+        private void CommonObjOpaZoom_trackBar_Scroll(object sender, EventArgs e)
         {
-
+            CommonObjOpaZoom_textBox.Text = "" + CommonObjOpaZoom_trackBar.Value;
         }
 
-        private void groupBox5_Enter(object sender, EventArgs e)
+        private void CommonInterOpaZoom_trackBar_Scroll(object sender, EventArgs e)
         {
-
+            CommonInterOpaZoom_textBox.Text = "" + CommonInterOpaZoom_trackBar.Value;
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
+        private void CommonPickupOpaZoom_trackBar_Scroll(object sender, EventArgs e)
         {
-
+            CommonPickupOpaZoom_textBox.Text = "" + CommonPickupOpaZoom_trackBar.Value;
         }
 
-        private void trackBar9_Scroll_1(object sender, EventArgs e)
+        private void CommonGadgetOpaZoom_trackBar_Scroll(object sender, EventArgs e)
         {
+            CommonGadgetOpaZoom_textBox.Text = "" + CommonGadgetOpaZoom_trackBar.Value;
+        }
 
+        private void EnemySize_trackBar_Scroll(object sender, EventArgs e)
+        {
+            EnemySize_textBox.Text = "" + EnemySize_trackBar.Value;
+        }
+
+        private void EnemyScale_trackBar_Scroll(object sender, EventArgs e)
+        {
+            EnemyScale_textBox.Text = "" + EnemyScale_trackBar.Value;
+        }
+
+        private void EnemyIconOpa_trackBar_Scroll(object sender, EventArgs e)
+        {
+            EnemyInfoOpa_textBox.Text = "" + EnemyInfoOpa_trackBar.Value;
+        }
+
+        private void EnemyIconOpaZoom_trackBar_Scroll(object sender, EventArgs e)
+        {
+            EnemyIconOpaZoom_textBox.Text = "" + EnemyIconOpaZoom_trackBar.Value;
+        }
+
+        private void EnemyHealthOpa_trackBar_Scroll(object sender, EventArgs e)
+        {
+            EnemyHealthOpa_textBox.Text = "" + EnemyHealthOpa_trackBar.Value;
+        }
+
+        private void EnemyHealthOpaZoom_trackBar_Scroll(object sender, EventArgs e)
+        {
+            EnemyHealthOpaZoom_textBox.Text = "" + EnemyHealthOpaZoom_trackBar.Value;
+        }
+
+        private void EnemyInfoOpa_trackBar_Scroll(object sender, EventArgs e)
+        {
+            EnemyInfoOpa_textBox.Text = "" + EnemyInfoOpa_trackBar.Value;
+        }
+
+        private void EnemyInfoOpaZoom_trackBar_Scroll(object sender, EventArgs e)
+        {
+            EnemyInfoOpaZoom_textBox.Text = "" + EnemyInfoOpaZoom_trackBar.Value;
+        }
+
+        private void FriendSize_trackBar_Scroll(object sender, EventArgs e)
+        {
+            FriendSize_textBox.Text = "" + FriendSize_trackBar.Value;
+        }
+
+        private void FriendScale_trackBar_Scroll(object sender, EventArgs e)
+        {
+            FriendScale_textBox.Text = "" + FriendScale_trackBar.Value;
+        }
+
+        private void FriendIconOpa_trackBar_Scroll(object sender, EventArgs e)
+        {
+            FriendIconOpa_textBox.Text = "" + FriendIconOpa_trackBar.Value;
+        }
+
+        private void FriendIconOpaZoom_trackBar_Scroll(object sender, EventArgs e)
+        {
+            FriendIconOpaZoom_textBox.Text = "" + FriendIconOpaZoom_trackBar.Value;
+        }
+
+        private void FriendHealthOpa_trackBar_Scroll(object sender, EventArgs e)
+        {
+            FriendHealthOpa_textBox.Text = "" + FriendHealthOpa_trackBar.Value;
+        }
+
+        private void FriendHealthOpaZoom_trackBar_Scroll(object sender, EventArgs e)
+        {
+            FriendHealthOpaZoom_textBox.Text = "" + FriendHealthOpaZoom_trackBar.Value;
+        }
+
+        private void FriendInfoOpa_trackBar_Scroll(object sender, EventArgs e)
+        {
+            FriendInfoOpa_textBox.Text = "" + FriendInfoOpa_trackBar.Value;
+        }
+
+        private void FriendInfoOpaZoom_trackBar_Scroll(object sender, EventArgs e)
+        {
+            FriendInfoOpaZoom_textBox.Text = "" + FriendInfoOpaZoom_trackBar.Value;
         }
     }
 }
