@@ -1141,6 +1141,7 @@
             this.CommonGadgetOpaZoom_textBox.Name = "CommonGadgetOpaZoom_textBox";
             this.CommonGadgetOpaZoom_textBox.Size = new System.Drawing.Size(25, 13);
             this.CommonGadgetOpaZoom_textBox.TabIndex = 24;
+            this.CommonGadgetOpaZoom_textBox.TextChanged += new System.EventHandler(this.CommonGadgetOpaZoom_textBox_TextChanged);
             // 
             // CommonPickupOpaZoom_textBox
             // 
@@ -1150,6 +1151,7 @@
             this.CommonPickupOpaZoom_textBox.Name = "CommonPickupOpaZoom_textBox";
             this.CommonPickupOpaZoom_textBox.Size = new System.Drawing.Size(25, 13);
             this.CommonPickupOpaZoom_textBox.TabIndex = 23;
+            this.CommonPickupOpaZoom_textBox.TextChanged += new System.EventHandler(this.CommonPickupOpaZoom_textBox_TextChanged);
             // 
             // CommonInterOpaZoom_textBox
             // 
@@ -1159,6 +1161,7 @@
             this.CommonInterOpaZoom_textBox.Name = "CommonInterOpaZoom_textBox";
             this.CommonInterOpaZoom_textBox.Size = new System.Drawing.Size(25, 13);
             this.CommonInterOpaZoom_textBox.TabIndex = 22;
+            this.CommonInterOpaZoom_textBox.TextChanged += new System.EventHandler(this.CommonInterOpaZoom_textBox_TextChanged);
             // 
             // CommonObjOpaZoom_textBox
             // 
@@ -1168,6 +1171,7 @@
             this.CommonObjOpaZoom_textBox.Name = "CommonObjOpaZoom_textBox";
             this.CommonObjOpaZoom_textBox.Size = new System.Drawing.Size(25, 13);
             this.CommonObjOpaZoom_textBox.TabIndex = 21;
+            this.CommonObjOpaZoom_textBox.TextChanged += new System.EventHandler(this.CommonObjOpaZoom_textBox_TextChanged);
             // 
             // CommonIconOpa_textBox
             // 
@@ -1177,6 +1181,7 @@
             this.CommonIconOpa_textBox.Name = "CommonIconOpa_textBox";
             this.CommonIconOpa_textBox.Size = new System.Drawing.Size(25, 13);
             this.CommonIconOpa_textBox.TabIndex = 20;
+            this.CommonIconOpa_textBox.TextChanged += new System.EventHandler(this.CommonIconOpa_textBox_TextChanged);
             // 
             // CommonScale_textBox
             // 
@@ -1186,6 +1191,7 @@
             this.CommonScale_textBox.Name = "CommonScale_textBox";
             this.CommonScale_textBox.Size = new System.Drawing.Size(25, 13);
             this.CommonScale_textBox.TabIndex = 19;
+            this.CommonScale_textBox.TextChanged += new System.EventHandler(this.CommonScale_textBox_TextChanged);
             // 
             // CommonSize_textBox
             // 
@@ -1195,6 +1201,7 @@
             this.CommonSize_textBox.Name = "CommonSize_textBox";
             this.CommonSize_textBox.Size = new System.Drawing.Size(25, 13);
             this.CommonSize_textBox.TabIndex = 18;
+            this.CommonSize_textBox.TextChanged += new System.EventHandler(this.CommonSize_textBox_TextChanged);
             // 
             // CommonGadgetOpaZoom_trackBar
             // 
@@ -1506,6 +1513,7 @@
             this.EnemyInfoOpaZoom_textBox.Name = "EnemyInfoOpaZoom_textBox";
             this.EnemyInfoOpaZoom_textBox.Size = new System.Drawing.Size(25, 13);
             this.EnemyInfoOpaZoom_textBox.TabIndex = 32;
+            this.EnemyInfoOpaZoom_textBox.TextChanged += new System.EventHandler(this.EnemyInfoOpaZoom_textBox_TextChanged);
             // 
             // EnemyInfoOpa_textBox
             // 
@@ -1515,6 +1523,7 @@
             this.EnemyInfoOpa_textBox.Name = "EnemyInfoOpa_textBox";
             this.EnemyInfoOpa_textBox.Size = new System.Drawing.Size(25, 13);
             this.EnemyInfoOpa_textBox.TabIndex = 31;
+            this.EnemyInfoOpa_textBox.TextChanged += new System.EventHandler(this.EnemyInfoOpa_textBox_TextChanged);
             // 
             // EnemyHealthOpaZoom_textBox
             // 
@@ -1524,6 +1533,7 @@
             this.EnemyHealthOpaZoom_textBox.Name = "EnemyHealthOpaZoom_textBox";
             this.EnemyHealthOpaZoom_textBox.Size = new System.Drawing.Size(25, 13);
             this.EnemyHealthOpaZoom_textBox.TabIndex = 30;
+            this.EnemyHealthOpaZoom_textBox.TextChanged += new System.EventHandler(this.EnemyHealthOpaZoom_textBox_TextChanged);
             // 
             // EnemyHealthOpa_textBox
             // 
@@ -1533,6 +1543,7 @@
             this.EnemyHealthOpa_textBox.Name = "EnemyHealthOpa_textBox";
             this.EnemyHealthOpa_textBox.Size = new System.Drawing.Size(25, 13);
             this.EnemyHealthOpa_textBox.TabIndex = 29;
+            this.EnemyHealthOpa_textBox.TextChanged += new System.EventHandler(this.EnemyHealthOpa_textBox_TextChanged);
             // 
             // EnemyIconOpaZoom_textBox
             // 
@@ -1542,6 +1553,7 @@
             this.EnemyIconOpaZoom_textBox.Name = "EnemyIconOpaZoom_textBox";
             this.EnemyIconOpaZoom_textBox.Size = new System.Drawing.Size(25, 13);
             this.EnemyIconOpaZoom_textBox.TabIndex = 28;
+            this.EnemyIconOpaZoom_textBox.TextChanged += new System.EventHandler(this.EnemyIconOpaZoom_textBox_TextChanged);
             // 
             // EnemyIconOpa_textBox
             // 
@@ -1551,6 +1563,7 @@
             this.EnemyIconOpa_textBox.Name = "EnemyIconOpa_textBox";
             this.EnemyIconOpa_textBox.Size = new System.Drawing.Size(25, 13);
             this.EnemyIconOpa_textBox.TabIndex = 27;
+            this.EnemyIconOpa_textBox.TextChanged += new System.EventHandler(this.EnemyIconOpa_textBox_TextChanged);
             // 
             // EnemyScale_textBox
             // 
@@ -1560,6 +1573,7 @@
             this.EnemyScale_textBox.Name = "EnemyScale_textBox";
             this.EnemyScale_textBox.Size = new System.Drawing.Size(25, 13);
             this.EnemyScale_textBox.TabIndex = 26;
+            this.EnemyScale_textBox.TextChanged += new System.EventHandler(this.EnemyScale_textBox_TextChanged);
             // 
             // EnemySize_textBox
             // 
@@ -1569,6 +1583,7 @@
             this.EnemySize_textBox.Name = "EnemySize_textBox";
             this.EnemySize_textBox.Size = new System.Drawing.Size(25, 13);
             this.EnemySize_textBox.TabIndex = 25;
+            this.EnemySize_textBox.TextChanged += new System.EventHandler(this.EnemySize_textBox_TextChanged);
             // 
             // FieldUpArmorIcon_checkBox
             // 
@@ -1912,6 +1927,7 @@
             this.FriendInfoOpaZoom_textBox.Name = "FriendInfoOpaZoom_textBox";
             this.FriendInfoOpaZoom_textBox.Size = new System.Drawing.Size(25, 13);
             this.FriendInfoOpaZoom_textBox.TabIndex = 40;
+            this.FriendInfoOpaZoom_textBox.TextChanged += new System.EventHandler(this.FriendInfoOpaZoom_textBox_TextChanged);
             // 
             // FriendInfoOpa_textBox
             // 
@@ -1921,6 +1937,7 @@
             this.FriendInfoOpa_textBox.Name = "FriendInfoOpa_textBox";
             this.FriendInfoOpa_textBox.Size = new System.Drawing.Size(25, 13);
             this.FriendInfoOpa_textBox.TabIndex = 39;
+            this.FriendInfoOpa_textBox.TextChanged += new System.EventHandler(this.FriendInfoOpa_textBox_TextChanged);
             // 
             // FriendHealthOpaZoom_textBox
             // 
@@ -1930,6 +1947,7 @@
             this.FriendHealthOpaZoom_textBox.Name = "FriendHealthOpaZoom_textBox";
             this.FriendHealthOpaZoom_textBox.Size = new System.Drawing.Size(25, 13);
             this.FriendHealthOpaZoom_textBox.TabIndex = 38;
+            this.FriendHealthOpaZoom_textBox.TextChanged += new System.EventHandler(this.FriendHealthOpaZoom_textBox_TextChanged);
             // 
             // FriendHealthOpa_textBox
             // 
@@ -1939,6 +1957,7 @@
             this.FriendHealthOpa_textBox.Name = "FriendHealthOpa_textBox";
             this.FriendHealthOpa_textBox.Size = new System.Drawing.Size(25, 13);
             this.FriendHealthOpa_textBox.TabIndex = 37;
+            this.FriendHealthOpa_textBox.TextChanged += new System.EventHandler(this.FriendHealthOpa_textBox_TextChanged);
             // 
             // FriendIconOpaZoom_textBox
             // 
@@ -1948,6 +1967,7 @@
             this.FriendIconOpaZoom_textBox.Name = "FriendIconOpaZoom_textBox";
             this.FriendIconOpaZoom_textBox.Size = new System.Drawing.Size(25, 13);
             this.FriendIconOpaZoom_textBox.TabIndex = 36;
+            this.FriendIconOpaZoom_textBox.TextChanged += new System.EventHandler(this.FriendIconOpaZoom_textBox_TextChanged);
             // 
             // FriendIconOpa_textBox
             // 
@@ -1957,6 +1977,7 @@
             this.FriendIconOpa_textBox.Name = "FriendIconOpa_textBox";
             this.FriendIconOpa_textBox.Size = new System.Drawing.Size(25, 13);
             this.FriendIconOpa_textBox.TabIndex = 35;
+            this.FriendIconOpa_textBox.TextChanged += new System.EventHandler(this.FriendIconOpa_textBox_TextChanged);
             // 
             // FriendScale_textBox
             // 
@@ -1966,6 +1987,7 @@
             this.FriendScale_textBox.Name = "FriendScale_textBox";
             this.FriendScale_textBox.Size = new System.Drawing.Size(25, 13);
             this.FriendScale_textBox.TabIndex = 34;
+            this.FriendScale_textBox.TextChanged += new System.EventHandler(this.FriendScale_textBox_TextChanged);
             // 
             // FriendSize_textBox
             // 
@@ -1975,6 +1997,7 @@
             this.FriendSize_textBox.Name = "FriendSize_textBox";
             this.FriendSize_textBox.Size = new System.Drawing.Size(25, 13);
             this.FriendSize_textBox.TabIndex = 33;
+            this.FriendSize_textBox.TextChanged += new System.EventHandler(this.FriendSize_textBox_TextChanged);
             // 
             // FriendInfoOpaZoom_trackBar
             // 
